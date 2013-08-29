@@ -69,6 +69,6 @@ class BarangayGeographicalsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def barangay_geographical_params
-      params.require(:barangay_geographical).permit(:tag, :name, :description, :date_info_gathered, :land_area, :agricultural_area, :terrain, :ecosystem, :distance_from_town_proper, :means_of_transportation)
+      params.require(:barangay_geographical).permit(:tag, :name, :description, :date_info_gathered, :land_area, :agricultural_area, :terrain, :ecosystem, :distance_from_town_proper, :means_of_transportation, :barangay_id)
     end
 end

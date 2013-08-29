@@ -4,6 +4,7 @@
   <thead>
     <tr>
       <th>Tag</th>
+      <th>Barangay</th>
       <th>Name</th>
       <th>Description</th>
       <th>Date info gathered</th>
@@ -23,6 +24,7 @@
     <% @barangay_geographicals.each do |barangay_geographical| %>
       <tr>
         <td><%= barangay_geographical.tag %></td>
+        <td><%= barangay_geographical.barangay.name %></td>
         <td><%= barangay_geographical.name %></td>
         <td><%= barangay_geographical.description %></td>
         <td><%= barangay_geographical.date_info_gathered %></td>
