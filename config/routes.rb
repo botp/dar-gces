@@ -1,4 +1,8 @@
 Dar::Application.routes.draw do
+  resources :municipalities
+
+  resources :provinces
+
   resources :regions
 
   # The priority is based upon order of creation: first created -> highest priority.
