@@ -20,7 +20,7 @@
     <% @barangay_politicals.each do |barangay_political| %>
       <tr>
         <td><%= barangay_political.tag %></td>
-        <td><%= barangay_political.barangay_id %></td>
+        <td><%= barangay_political.barangay.name %></td>
         <td><%= barangay_political.name %></td>
         <td><%= barangay_political.description %></td>
         <td><%= barangay_political.date_info_gathered %></td>

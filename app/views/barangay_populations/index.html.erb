@@ -1,0 +1,47 @@
+<h1>Listing barangay_populations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Barangay</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Date info gathered</th>
+      <th>Arb male</th>
+      <th>Arb female</th>
+      <th>Non arb male</th>
+      <th>Non arb female</th>
+      <th>Arb household</th>
+      <th>Non arb household</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangay_populations.each do |barangay_population| %>
+      <tr>
+        <td><%= barangay_population.tag %></td>
+        <td><%= barangay_population.barangay.name %></td>
+        <td><%= barangay_population.name %></td>
+        <td><%= barangay_population.description %></td>
+        <td><%= barangay_population.date_info_gathered %></td>
+        <td><%= barangay_population.arb_male %></td>
+        <td><%= barangay_population.arb_female %></td>
+        <td><%= barangay_population.non_arb_male %></td>
+        <td><%= barangay_population.non_arb_female %></td>
+        <td><%= barangay_population.arb_household %></td>
+        <td><%= barangay_population.non_arb_household %></td>
+        <td><%= link_to 'Show', barangay_population %></td>
+        <td><%= link_to 'Edit', edit_barangay_population_path(barangay_population) %></td>
+        <td><%= link_to 'Destroy', barangay_population, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Barangay population', new_barangay_population_path %>

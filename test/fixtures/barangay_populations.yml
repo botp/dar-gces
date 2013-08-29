@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tag: MyString
+  barangay_id: 1
+  name: MyString
+  description: MyText
+  date_info_gathered: 2013-08-30
+  arb_male: 1
+  arb_female: 1
+  non_arb_male: 1
+  non_arb_female: 1
+  arb_household: 1
+  non_arb_household: 1
+
+two:
+  tag: MyString
+  barangay_id: 1
+  name: MyString
+  description: MyText
+  date_info_gathered: 2013-08-30
+  arb_male: 1
+  arb_female: 1
+  non_arb_male: 1
+  non_arb_female: 1
+  arb_household: 1
+  non_arb_household: 1

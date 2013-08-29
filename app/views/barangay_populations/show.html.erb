@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @barangay_population.tag %>
+</p>
+
+<p>
+  <strong>Barangay:</strong>
+  <%= @barangay_population.barangay_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @barangay_population.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @barangay_population.description %>
+</p>
+
+<p>
+  <strong>Date info gathered:</strong>
+  <%= @barangay_population.date_info_gathered %>
+</p>
+
+<p>
+  <strong>Arb male:</strong>
+  <%= @barangay_population.arb_male %>
+</p>
+
+<p>
+  <strong>Arb female:</strong>
+  <%= @barangay_population.arb_female %>
+</p>
+
+<p>
+  <strong>Non arb male:</strong>
+  <%= @barangay_population.non_arb_male %>
+</p>
+
+<p>
+  <strong>Non arb female:</strong>
+  <%= @barangay_population.non_arb_female %>
+</p>
+
+<p>
+  <strong>Arb household:</strong>
+  <%= @barangay_population.arb_household %>
+</p>
+
+<p>
+  <strong>Non arb household:</strong>
+  <%= @barangay_population.non_arb_household %>
+</p>
+
+<%= link_to 'Edit', edit_barangay_population_path(@barangay_population) %> |
+<%= link_to 'Back', barangay_populations_path %>

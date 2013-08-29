@@ -16,8 +16,7 @@
     <%= f.text_field :tag %>
   </div>
   <div class="field">
-    <%= f.label :barangay_id %><br>
-    <%= f.number_field :barangay_id %>
+  <label for="barangay_political_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
   </div>
   <div class="field">
     <%= f.label :name %><br>
