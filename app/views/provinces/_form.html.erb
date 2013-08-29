@@ -27,7 +27,7 @@
     <!-- <%= f.select :region_id,options_from_collection_for_select( @regions, "id", "name", @province.region_id )%> -->
 
   <label for="province_region_id">Region:</label>
-  <%= f.collection_select :region_id, Region.find(:all), :id, :name, :prompt => "Select a Region" %>
+  <%= f.collection_select :region_id, Region.all, :id, :name, :prompt => "Select a Region" %>
 
   </div>
   <div class="actions">
