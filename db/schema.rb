@@ -11,10 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130829044803) do
+ActiveRecord::Schema.define(version: 20130829114509) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "barangay_geographicals", force: true do |t|
+    t.string   "tag"
+    t.string   "name"
+    t.text     "description"
+    t.date     "date_info_gathered"
+    t.decimal  "land_area"
+    t.decimal  "agricultural_area"
+    t.string   "terrain"
+    t.string   "ecosystem"
+    t.decimal  "distance_from_town_proper"
+    t.decimal  "means_of_transportation"
+    t.integer  "barangay_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "barangays", force: true do |t|
     t.string   "tag"
