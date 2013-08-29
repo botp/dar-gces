@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  barangay_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  date_confirmed: 2013-08-30
+  lad_scope: 9.99
+  working_scope: 9.99
+  vos: 9.99
+  ca: 9.99
+  vlt: 9.99
+  gol: 9.99
+  remarks: MyString
+  lad_male_arb: 1
+  lad_female_arb: 1
+  leasehold_scope: 9.99
+  leasehold_accomplishment: 9.99
+  remarks2: MyString
+  lh_male_arb: 1
+  lh_female_arb: 1
+
+two:
+  barangay_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  date_confirmed: 2013-08-30
+  lad_scope: 9.99
+  working_scope: 9.99
+  vos: 9.99
+  ca: 9.99
+  vlt: 9.99
+  gol: 9.99
+  remarks: MyString
+  lad_male_arb: 1
+  lad_female_arb: 1
+  leasehold_scope: 9.99
+  leasehold_accomplishment: 9.99
+  remarks2: MyString
+  lh_male_arb: 1
+  lh_female_arb: 1

@@ -1,0 +1,92 @@
+<%= form_for(@barangay_lti_status) do |f| %>
+  <% if @barangay_lti_status.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_lti_status.errors.count, "error") %> prohibited this barangay_lti_status from being saved:</h2>
+
+      <ul>
+      <% @barangay_lti_status.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <label for="barangay_lti_status_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
+  </div>
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :date_confirmed %><br>
+    <%= f.date_select :date_confirmed %>
+  </div>
+  <div class="field">
+    <%= f.label :lad_scope %><br>
+    <%= f.text_field :lad_scope %>
+  </div>
+  <div class="field">
+    <%= f.label :working_scope %><br>
+    <%= f.text_field :working_scope %>
+  </div>
+  <div class="field">
+    <%= f.label :vos %><br>
+    <%= f.text_field :vos %>
+  </div>
+  <div class="field">
+    <%= f.label :ca %><br>
+    <%= f.text_field :ca %>
+  </div>
+  <div class="field">
+    <%= f.label :vlt %><br>
+    <%= f.text_field :vlt %>
+  </div>
+  <div class="field">
+    <%= f.label :gol %><br>
+    <%= f.text_field :gol %>
+  </div>
+  <div class="field">
+    <%= f.label :remarks %><br>
+    <%= f.text_field :remarks %>
+  </div>
+  <div class="field">
+    <%= f.label :lad_male_arb %><br>
+    <%= f.number_field :lad_male_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :lad_female_arb %><br>
+    <%= f.number_field :lad_female_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :leasehold_scope %><br>
+    <%= f.text_field :leasehold_scope %>
+  </div>
+  <div class="field">
+    <%= f.label :leasehold_accomplishment %><br>
+    <%= f.text_field :leasehold_accomplishment %>
+  </div>
+  <div class="field">
+    <%= f.label :remarks2 %><br>
+    <%= f.text_field :remarks2 %>
+  </div>
+  <div class="field">
+    <%= f.label :lh_male_arb %><br>
+    <%= f.number_field :lh_male_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :lh_female_arb %><br>
+    <%= f.number_field :lh_female_arb %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

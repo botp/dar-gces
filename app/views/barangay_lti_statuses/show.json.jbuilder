@@ -1,0 +1,1 @@
+json.extract! @barangay_lti_status, :barangay_id, :tag, :name, :description, :date_confirmed, :lad_scope, :working_scope, :vos, :ca, :vlt, :gol, :remarks, :lad_male_arb, :lad_female_arb, :leasehold_scope, :leasehold_accomplishment, :remarks2, :lh_male_arb, :lh_female_arb, :created_at, :updated_at

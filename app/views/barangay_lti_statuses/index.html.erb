@@ -1,0 +1,63 @@
+<h1>Listing barangay_lti_statuses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Barangay</th>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Date confirmed</th>
+      <th>Lad scope</th>
+      <th>Working scope</th>
+      <th>Vos</th>
+      <th>Ca</th>
+      <th>Vlt</th>
+      <th>Gol</th>
+      <th>Remarks</th>
+      <th>Lad male arb</th>
+      <th>Lad female arb</th>
+      <th>Leasehold scope</th>
+      <th>Leasehold accomplishment</th>
+      <th>Remarks2</th>
+      <th>Lh male arb</th>
+      <th>Lh female arb</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangay_lti_statuses.each do |barangay_lti_status| %>
+      <tr>
+        <td><%= barangay_lti_status.barangay.name %></td>
+        <td><%= barangay_lti_status.tag %></td>
+        <td><%= barangay_lti_status.name %></td>
+        <td><%= barangay_lti_status.description %></td>
+        <td><%= barangay_lti_status.date_confirmed %></td>
+        <td><%= barangay_lti_status.lad_scope %></td>
+        <td><%= barangay_lti_status.working_scope %></td>
+        <td><%= barangay_lti_status.vos %></td>
+        <td><%= barangay_lti_status.ca %></td>
+        <td><%= barangay_lti_status.vlt %></td>
+        <td><%= barangay_lti_status.gol %></td>
+        <td><%= barangay_lti_status.remarks %></td>
+        <td><%= barangay_lti_status.lad_male_arb %></td>
+        <td><%= barangay_lti_status.lad_female_arb %></td>
+        <td><%= barangay_lti_status.leasehold_scope %></td>
+        <td><%= barangay_lti_status.leasehold_accomplishment %></td>
+        <td><%= barangay_lti_status.remarks2 %></td>
+        <td><%= barangay_lti_status.lh_male_arb %></td>
+        <td><%= barangay_lti_status.lh_female_arb %></td>
+        <td><%= link_to 'Show', barangay_lti_status %></td>
+        <td><%= link_to 'Edit', edit_barangay_lti_status_path(barangay_lti_status) %></td>
+        <td><%= link_to 'Destroy', barangay_lti_status, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Barangay lti status', new_barangay_lti_status_path %>

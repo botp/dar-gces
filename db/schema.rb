@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130829165518) do
+ActiveRecord::Schema.define(version: 20130829173713) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -54,6 +54,30 @@ ActiveRecord::Schema.define(version: 20130829165518) do
     t.decimal  "distance_from_town_proper"
     t.string   "means_of_transportation"
     t.integer  "barangay_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "barangay_lti_statuses", force: true do |t|
+    t.integer  "barangay_id"
+    t.string   "tag"
+    t.string   "name"
+    t.text     "description"
+    t.date     "date_confirmed"
+    t.decimal  "lad_scope"
+    t.decimal  "working_scope"
+    t.decimal  "vos"
+    t.decimal  "ca"
+    t.decimal  "vlt"
+    t.decimal  "gol"
+    t.string   "remarks"
+    t.integer  "lad_male_arb"
+    t.integer  "lad_female_arb"
+    t.decimal  "leasehold_scope"
+    t.decimal  "leasehold_accomplishment"
+    t.string   "remarks2"
+    t.integer  "lh_male_arb"
+    t.integer  "lh_female_arb"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

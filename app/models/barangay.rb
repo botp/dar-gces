@@ -4,5 +4,5 @@ class Barangay < ActiveRecord::Base
   has_many :barangay_politicals
   has_many :barangay_populations
   has_one :arc_barangay
-  
+  has_many :barangay_lti_statuses
 end
