@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :barangays
+
   resources :municipalities
 
   resources :provinces
