@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @arc.tag %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @arc.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @arc.description %>
+</p>
+
+<p>
+  <strong>Date confirmed:</strong>
+  <%= @arc.date_confirmed %>
+</p>
+
+<p>
+  <strong>Classification:</strong>
+  <%= @arc.classification %>
+</p>
+
+<p>
+  <strong>Arc profiled:</strong>
+  <%= @arc.arc_profiled %>
+</p>
+
+<p>
+  <strong>Dev plan available:</strong>
+  <%= @arc.dev_plan_available %>
+</p>
+
+<p>
+  <strong>Dev plan mainstream:</strong>
+  <%= @arc.dev_plan_mainstream %>
+</p>
+
+<p>
+  <strong>Alda rating:</strong>
+  <%= @arc.alda_rating %>
+</p>
+
+<p>
+  <strong>Faps coverage:</strong>
+  <%= @arc.faps_coverage %>
+</p>
+
+<%= link_to 'Edit', edit_arc_path(@arc) %> |
+<%= link_to 'Back', arcs_path %>

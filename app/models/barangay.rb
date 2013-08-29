@@ -3,4 +3,6 @@ class Barangay < ActiveRecord::Base
   has_many :barangay_geographicals
   has_many :barangay_politicals
   has_many :barangay_populations
+  has_one :arc_barangay
+  
 end

@@ -1,0 +1,45 @@
+<h1>Listing arcs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Date confirmed</th>
+      <th>Classification</th>
+      <th>Arc profiled</th>
+      <th>Dev plan available</th>
+      <th>Dev plan mainstream</th>
+      <th>Alda rating</th>
+      <th>Faps coverage</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @arcs.each do |arc| %>
+      <tr>
+        <td><%= arc.tag %></td>
+        <td><%= arc.name %></td>
+        <td><%= arc.description %></td>
+        <td><%= arc.date_confirmed %></td>
+        <td><%= arc.classification %></td>
+        <td><%= arc.arc_profiled %></td>
+        <td><%= arc.dev_plan_available %></td>
+        <td><%= arc.dev_plan_mainstream %></td>
+        <td><%= arc.alda_rating %></td>
+        <td><%= arc.faps_coverage %></td>
+        <td><%= link_to 'Show', arc %></td>
+        <td><%= link_to 'Edit', edit_arc_path(arc) %></td>
+        <td><%= link_to 'Destroy', arc, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Arc', new_arc_path %>

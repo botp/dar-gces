@@ -1,0 +1,39 @@
+<%= form_for(@arc_barangay) do |f| %>
+  <% if @arc_barangay.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@arc_barangay.errors.count, "error") %> prohibited this arc_barangay from being saved:</h2>
+
+      <ul>
+      <% @arc_barangay.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <label for="arc_barangay_arc_id">ARC:</label>  <%= f.collection_select :arc_id, Arc.all, :id, :name, :prompt => "Select an ARC " %>
+  </div>
+  <div class="field">
+    <label for="arc_barangay_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
+  </div>
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :date_confirmed %><br>
+    <%= f.date_select :date_confirmed %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

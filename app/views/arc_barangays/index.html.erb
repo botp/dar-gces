@@ -1,0 +1,37 @@
+<h1>Listing arc_barangays</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Arc</th>
+      <th>Barangay</th>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Date confirmed</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @arc_barangays.each do |arc_barangay| %>
+      <tr>
+        <td><%= arc_barangay.arc.name %></td>
+        <td><%= arc_barangay.barangay.name %></td>
+        <td><%= arc_barangay.tag %></td>
+        <td><%= arc_barangay.name %></td>
+        <td><%= arc_barangay.description %></td>
+        <td><%= arc_barangay.date_confirmed %></td>
+        <td><%= link_to 'Show', arc_barangay %></td>
+        <td><%= link_to 'Edit', edit_arc_barangay_path(arc_barangay) %></td>
+        <td><%= link_to 'Destroy', arc_barangay, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Arc barangay', new_arc_barangay_path %>

@@ -1,0 +1,57 @@
+<%= form_for(@arc) do |f| %>
+  <% if @arc.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@arc.errors.count, "error") %> prohibited this arc from being saved:</h2>
+
+      <ul>
+      <% @arc.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :date_confirmed %><br>
+    <%= f.date_select :date_confirmed %>
+  </div>
+  <div class="field">
+    <%= f.label :classification %><br>
+    <%= f.text_field :classification %>
+  </div>
+  <div class="field">
+    <%= f.label :arc_profiled %><br>
+    <%= f.check_box :arc_profiled %>
+  </div>
+  <div class="field">
+    <%= f.label :dev_plan_available %><br>
+    <%= f.check_box :dev_plan_available %>
+  </div>
+  <div class="field">
+    <%= f.label :dev_plan_mainstream %><br>
+    <%= f.check_box :dev_plan_mainstream %>
+  </div>
+  <div class="field">
+    <%= f.label :alda_rating %><br>
+    <%= f.number_field :alda_rating %>
+  </div>
+  <div class="field">
+    <%= f.label :faps_coverage %><br>
+    <%= f.text_field :faps_coverage %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

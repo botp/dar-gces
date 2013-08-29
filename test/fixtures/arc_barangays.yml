@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  arc_id: 1
+  barangay_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  date_confirmed: 2013-08-30
+
+two:
+  arc_id: 1
+  barangay_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  date_confirmed: 2013-08-30

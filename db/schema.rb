@@ -11,10 +11,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130829160148) do
+ActiveRecord::Schema.define(version: 20130829165518) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "arc_barangays", force: true do |t|
+    t.integer  "arc_id"
+    t.integer  "barangay_id"
+    t.string   "tag"
+    t.string   "name"
+    t.text     "description"
+    t.date     "date_confirmed"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "arcs", force: true do |t|
+    t.string   "tag"
+    t.string   "name"
+    t.text     "description"
+    t.date     "date_confirmed"
+    t.string   "classification"
+    t.boolean  "arc_profiled"
+    t.boolean  "dev_plan_available"
+    t.boolean  "dev_plan_mainstream"
+    t.integer  "alda_rating"
+    t.string   "faps_coverage"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "barangay_geographicals", force: true do |t|
     t.string   "tag"

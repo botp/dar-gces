@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tag: MyString
+  name: MyString
+  description: MyText
+  date_confirmed: 2013-08-30
+  classification: MyString
+  arc_profiled: false
+  dev_plan_available: false
+  dev_plan_mainstream: false
+  alda_rating: 1
+  faps_coverage: MyString
+
+two:
+  tag: MyString
+  name: MyString
+  description: MyText
+  date_confirmed: 2013-08-30
+  classification: MyString
+  arc_profiled: false
+  dev_plan_available: false
+  dev_plan_mainstream: false
+  alda_rating: 1
+  faps_coverage: MyString

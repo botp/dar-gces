@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Arc:</strong>
+  <%= @arc_barangay.arc_id %>
+</p>
+
+<p>
+  <strong>Barangay:</strong>
+  <%= @arc_barangay.barangay_id %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @arc_barangay.tag %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @arc_barangay.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @arc_barangay.description %>
+</p>
+
+<p>
+  <strong>Date confirmed:</strong>
+  <%= @arc_barangay.date_confirmed %>
+</p>
+
+<%= link_to 'Edit', edit_arc_barangay_path(@arc_barangay) %> |
+<%= link_to 'Back', arc_barangays_path %>
