@@ -25,7 +25,7 @@
   </div>
   <div class="field">
   <label for="municipality_province_id">Province:</label>
-  <%= f.collection_select :province_id, Province.find(:all), :id, :name, :prompt => "Select a Province " %>
+  <%= f.collection_select :province_id, Province.all, :id, :name, :prompt => "Select a Province " %>
   </div>
 
   <div class="actions">
