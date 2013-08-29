@@ -1,5 +1,6 @@
 class ProvincesController < ApplicationController
   before_action :set_province, only: [:show, :edit, :update, :destroy]
+  
 
   # GET /provinces
   # GET /provinces.json
@@ -15,10 +16,12 @@ class ProvincesController < ApplicationController
   # GET /provinces/new
   def new
     @province = Province.new
+    @regions = Region.all
   end
 
   # GET /provinces/1/edit
   def edit
+    @regions = Region.all
   end
 
   # POST /provinces
@@ -69,6 +72,6 @@ class ProvincesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def province_params
-      params.require(:province).permit(:tag, :name, :description)
+      params.require(:province).permit(:tag, :name, :description, :region_id)
     end
 end
