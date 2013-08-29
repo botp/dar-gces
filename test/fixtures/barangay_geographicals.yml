@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tag: MyString
+  name: MyString
+  description: MyText
+  date_info_gathered: 2013-08-29
+  land_area: 9.99
+  agricultural_area: 9.99
+  terrain: MyString
+  ecosystem: MyString
+  distance_from_town_proper: 9.99
+  means_of_transportation: 9.99
+
+two:
+  tag: MyString
+  name: MyString
+  description: MyText
+  date_info_gathered: 2013-08-29
+  land_area: 9.99
+  agricultural_area: 9.99
+  terrain: MyString
+  ecosystem: MyString
+  distance_from_town_proper: 9.99
+  means_of_transportation: 9.99

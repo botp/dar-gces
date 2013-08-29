@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @barangay_geographical.tag %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @barangay_geographical.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @barangay_geographical.description %>
+</p>
+
+<p>
+  <strong>Date info gathered:</strong>
+  <%= @barangay_geographical.date_info_gathered %>
+</p>
+
+<p>
+  <strong>Land area:</strong>
+  <%= @barangay_geographical.land_area %>
+</p>
+
+<p>
+  <strong>Agricultural area:</strong>
+  <%= @barangay_geographical.agricultural_area %>
+</p>
+
+<p>
+  <strong>Terrain:</strong>
+  <%= @barangay_geographical.terrain %>
+</p>
+
+<p>
+  <strong>Ecosystem:</strong>
+  <%= @barangay_geographical.ecosystem %>
+</p>
+
+<p>
+  <strong>Distance from town proper:</strong>
+  <%= @barangay_geographical.distance_from_town_proper %>
+</p>
+
+<p>
+  <strong>Means of transportation:</strong>
+  <%= @barangay_geographical.means_of_transportation %>
+</p>
+
+<%= link_to 'Edit', edit_barangay_geographical_path(@barangay_geographical) %> |
+<%= link_to 'Back', barangay_geographicals_path %>

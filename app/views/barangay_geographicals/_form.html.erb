@@ -1,0 +1,57 @@
+<%= form_for(@barangay_geographical) do |f| %>
+  <% if @barangay_geographical.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_geographical.errors.count, "error") %> prohibited this barangay_geographical from being saved:</h2>
+
+      <ul>
+      <% @barangay_geographical.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :date_info_gathered %><br>
+    <%= f.date_select :date_info_gathered %>
+  </div>
+  <div class="field">
+    <%= f.label :land_area %><br>
+    <%= f.text_field :land_area %>
+  </div>
+  <div class="field">
+    <%= f.label :agricultural_area %><br>
+    <%= f.text_field :agricultural_area %>
+  </div>
+  <div class="field">
+    <%= f.label :terrain %><br>
+    <%= f.text_field :terrain %>
+  </div>
+  <div class="field">
+    <%= f.label :ecosystem %><br>
+    <%= f.text_field :ecosystem %>
+  </div>
+  <div class="field">
+    <%= f.label :distance_from_town_proper %><br>
+    <%= f.text_field :distance_from_town_proper %>
+  </div>
+  <div class="field">
+    <%= f.label :means_of_transportation %><br>
+    <%= f.text_field :means_of_transportation %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
