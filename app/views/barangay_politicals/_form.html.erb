@@ -1,0 +1,45 @@
+<%= form_for(@barangay_political) do |f| %>
+  <% if @barangay_political.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_political.errors.count, "error") %> prohibited this barangay_political from being saved:</h2>
+
+      <ul>
+      <% @barangay_political.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :barangay_id %><br>
+    <%= f.number_field :barangay_id %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :date_info_gathered %><br>
+    <%= f.date_select :date_info_gathered %>
+  </div>
+  <div class="field">
+    <%= f.label :barangay_chairman %><br>
+    <%= f.text_field :barangay_chairman %>
+  </div>
+  <div class="field">
+    <%= f.label :barc_chairman %><br>
+    <%= f.text_field :barc_chairman %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :barangay_politicals
+
   resources :barangay_geographicals
 
   resources :barangays

@@ -1,0 +1,39 @@
+<h1>Listing barangay_politicals</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Barangay</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Date info gathered</th>
+      <th>Barangay chairman</th>
+      <th>Barc chairman</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangay_politicals.each do |barangay_political| %>
+      <tr>
+        <td><%= barangay_political.tag %></td>
+        <td><%= barangay_political.barangay_id %></td>
+        <td><%= barangay_political.name %></td>
+        <td><%= barangay_political.description %></td>
+        <td><%= barangay_political.date_info_gathered %></td>
+        <td><%= barangay_political.barangay_chairman %></td>
+        <td><%= barangay_political.barc_chairman %></td>
+        <td><%= link_to 'Show', barangay_political %></td>
+        <td><%= link_to 'Edit', edit_barangay_political_path(barangay_political) %></td>
+        <td><%= link_to 'Destroy', barangay_political, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Barangay political', new_barangay_political_path %>

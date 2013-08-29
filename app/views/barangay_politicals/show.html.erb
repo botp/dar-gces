@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @barangay_political.tag %>
+</p>
+
+<p>
+  <strong>Barangay:</strong>
+  <%= @barangay_political.barangay_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @barangay_political.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @barangay_political.description %>
+</p>
+
+<p>
+  <strong>Date info gathered:</strong>
+  <%= @barangay_political.date_info_gathered %>
+</p>
+
+<p>
+  <strong>Barangay chairman:</strong>
+  <%= @barangay_political.barangay_chairman %>
+</p>
+
+<p>
+  <strong>Barc chairman:</strong>
+  <%= @barangay_political.barc_chairman %>
+</p>
+
+<%= link_to 'Edit', edit_barangay_political_path(@barangay_political) %> |
+<%= link_to 'Back', barangay_politicals_path %>

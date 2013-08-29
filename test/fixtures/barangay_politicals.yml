@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tag: MyString
+  barangay_id: 1
+  name: MyString
+  description: MyText
+  date_info_gathered: 2013-08-29
+  barangay_chairman: MyString
+  barc_chairman: MyString
+
+two:
+  tag: MyString
+  barangay_id: 1
+  name: MyString
+  description: MyText
+  date_info_gathered: 2013-08-29
+  barangay_chairman: MyString
+  barc_chairman: MyString
