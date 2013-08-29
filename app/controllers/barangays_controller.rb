@@ -69,6 +69,6 @@ class BarangaysController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def barangay_params
-      params.require(:barangay).permit(:tag, :name, :description)
+      params.require(:barangay).permit(:tag, :name, :description, :municipality_id)
     end
 end

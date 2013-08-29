@@ -23,6 +23,11 @@
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
+  <div class="field">
+  <label for="barangay_municipality_id">Municipality:</label>
+  <%= f.collection_select :municipality_id, Municipality.find(:all), :id, :name, :prompt => "Select a Municipality " %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
