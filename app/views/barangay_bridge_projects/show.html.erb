@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @barangay_bridge_project.tag %>
+</p>
+
+<p>
+  <strong>Barangay:</strong>
+  <%= @barangay_bridge_project.barangay_id %>
+</p>
+
+<p>
+  <strong>Name of bridge project:</strong>
+  <%= @barangay_bridge_project.name_of_bridge_project %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @barangay_bridge_project.location %>
+</p>
+
+<p>
+  <strong>Type of project:</strong>
+  <%= @barangay_bridge_project.type_of_project %>
+</p>
+
+<p>
+  <strong>Project length:</strong>
+  <%= @barangay_bridge_project.project_length %>
+</p>
+
+<p>
+  <strong>Project length provided:</strong>
+  <%= @barangay_bridge_project.project_length_provided %>
+</p>
+
+<p>
+  <strong>Percentage completion:</strong>
+  <%= @barangay_bridge_project.percentage_completion %>
+</p>
+
+<p>
+  <strong>Date project started:</strong>
+  <%= @barangay_bridge_project.date_project_started %>
+</p>
+
+<p>
+  <strong>Date project ended:</strong>
+  <%= @barangay_bridge_project.date_project_ended %>
+</p>
+
+<p>
+  <strong>Date completed:</strong>
+  <%= @barangay_bridge_project.date_completed %>
+</p>
+
+<p>
+  <strong>Project status:</strong>
+  <%= @barangay_bridge_project.project_status %>
+</p>
+
+<%= link_to 'Edit', edit_barangay_bridge_project_path(@barangay_bridge_project) %> |
+<%= link_to 'Back', barangay_bridge_projects_path %>

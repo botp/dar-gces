@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :barangay_bridge_projects
+
   resources :barangay_fmr_projects
 
   resources :barangay_trainings
