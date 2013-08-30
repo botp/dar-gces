@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tag: MyString
+  barangay_id: 1
+  training_title: MyString
+  description: MyText
+  source_of_funds: MyString
+  amount: 9.99
+  conducted_by: MyString
+  date_conducted: 2013-08-30
+  particpants_male_arb: 1
+  participants_male_non_arb: 1
+  participants_female_arb: 1
+  participants_female_non_arb: 1
+
+two:
+  tag: MyString
+  barangay_id: 1
+  training_title: MyString
+  description: MyText
+  source_of_funds: MyString
+  amount: 9.99
+  conducted_by: MyString
+  date_conducted: 2013-08-30
+  particpants_male_arb: 1
+  participants_male_non_arb: 1
+  participants_female_arb: 1
+  participants_female_non_arb: 1

@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :barangay_trainings
+
   resources :faps_coverages
 
   resources :arc_types

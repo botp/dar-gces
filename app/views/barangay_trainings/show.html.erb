@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @barangay_training.tag %>
+</p>
+
+<p>
+  <strong>Barangay:</strong>
+  <%= @barangay_training.barangay_id %>
+</p>
+
+<p>
+  <strong>Training title:</strong>
+  <%= @barangay_training.training_title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @barangay_training.description %>
+</p>
+
+<p>
+  <strong>Source of funds:</strong>
+  <%= @barangay_training.source_of_funds %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @barangay_training.amount %>
+</p>
+
+<p>
+  <strong>Conducted by:</strong>
+  <%= @barangay_training.conducted_by %>
+</p>
+
+<p>
+  <strong>Date conducted:</strong>
+  <%= @barangay_training.date_conducted %>
+</p>
+
+<p>
+  <strong>Particpants male arb:</strong>
+  <%= @barangay_training.particpants_male_arb %>
+</p>
+
+<p>
+  <strong>Participants male non arb:</strong>
+  <%= @barangay_training.participants_male_non_arb %>
+</p>
+
+<p>
+  <strong>Participants female arb:</strong>
+  <%= @barangay_training.participants_female_arb %>
+</p>
+
+<p>
+  <strong>Participants female non arb:</strong>
+  <%= @barangay_training.participants_female_non_arb %>
+</p>
+
+<%= link_to 'Edit', edit_barangay_training_path(@barangay_training) %> |
+<%= link_to 'Back', barangay_trainings_path %>

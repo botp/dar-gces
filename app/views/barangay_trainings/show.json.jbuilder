@@ -1,0 +1,1 @@
+json.extract! @barangay_training, :tag, :barangay_id, :training_title, :description, :source_of_funds, :amount, :conducted_by, :date_conducted, :particpants_male_arb, :participants_male_non_arb, :participants_female_arb, :participants_female_non_arb, :created_at, :updated_at

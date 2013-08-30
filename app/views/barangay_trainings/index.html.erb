@@ -1,0 +1,49 @@
+<h1>Listing barangay_trainings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Barangay</th>
+      <th>Training title</th>
+      <th>Description</th>
+      <th>Source of funds</th>
+      <th>Amount</th>
+      <th>Conducted by</th>
+      <th>Date conducted</th>
+      <th>Particpants male arb</th>
+      <th>Participants male non arb</th>
+      <th>Participants female arb</th>
+      <th>Participants female non arb</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangay_trainings.each do |barangay_training| %>
+      <tr>
+        <td><%= barangay_training.tag %></td>
+        <td><%= barangay_training.barangay.name %></td>
+        <td><%= barangay_training.training_title %></td>
+        <td><%= barangay_training.description %></td>
+        <td><%= barangay_training.source_of_funds %></td>
+        <td><%= barangay_training.amount %></td>
+        <td><%= barangay_training.conducted_by %></td>
+        <td><%= barangay_training.date_conducted %></td>
+        <td><%= barangay_training.particpants_male_arb %></td>
+        <td><%= barangay_training.participants_male_non_arb %></td>
+        <td><%= barangay_training.participants_female_arb %></td>
+        <td><%= barangay_training.participants_female_non_arb %></td>
+        <td><%= link_to 'Show', barangay_training %></td>
+        <td><%= link_to 'Edit', edit_barangay_training_path(barangay_training) %></td>
+        <td><%= link_to 'Destroy', barangay_training, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Barangay training', new_barangay_training_path %>

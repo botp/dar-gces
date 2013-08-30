@@ -1,0 +1,2 @@
+module BarangayTrainingsHelper
+end

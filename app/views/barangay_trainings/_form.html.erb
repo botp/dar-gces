@@ -1,0 +1,64 @@
+<%= form_for(@barangay_training) do |f| %>
+  <% if @barangay_training.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_training.errors.count, "error") %> prohibited this barangay_training from being saved:</h2>
+
+      <ul>
+      <% @barangay_training.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <label for="barangay_training_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
+  </div>
+  <div class="field">
+    <%= f.label :training_title %><br>
+    <%= f.text_field :training_title %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :source_of_funds %><br>
+    <%= f.text_field :source_of_funds %>
+  </div>
+  <div class="field">
+    <%= f.label :amount %><br>
+    <%= f.text_field :amount %>
+  </div>
+  <div class="field">
+    <%= f.label :conducted_by %><br>
+    <%= f.text_field :conducted_by %>
+  </div>
+  <div class="field">
+    <%= f.label :date_conducted %><br>
+    <%= f.date_select :date_conducted %>
+  </div>
+  <div class="field">
+    <%= f.label :particpants_male_arb %><br>
+    <%= f.number_field :particpants_male_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :participants_male_non_arb %><br>
+    <%= f.number_field :participants_male_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :participants_female_arb %><br>
+    <%= f.number_field :participants_female_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :participants_female_non_arb %><br>
+    <%= f.number_field :participants_female_non_arb %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
