@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :faps_coverages
+
   resources :arc_types
 
   resources :congressional_districts

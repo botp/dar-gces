@@ -1,0 +1,29 @@
+<h1>Listing faps_coverages</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @faps_coverages.each do |faps_coverage| %>
+      <tr>
+        <td><%= faps_coverage.name %></td>
+        <td><%= faps_coverage.description %></td>
+        <td><%= link_to 'Show', faps_coverage %></td>
+        <td><%= link_to 'Edit', edit_faps_coverage_path(faps_coverage) %></td>
+        <td><%= link_to 'Destroy', faps_coverage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Faps coverage', new_faps_coverage_path %>
