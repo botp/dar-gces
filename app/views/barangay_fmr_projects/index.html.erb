@@ -1,0 +1,49 @@
+<h1>Listing barangay_fmr_projects</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Barangay</th>
+      <th>Name of fmr project</th>
+      <th>Location</th>
+      <th>Type of project</th>
+      <th>Project length</th>
+      <th>Project length provided</th>
+      <th>Percentage completion</th>
+      <th>Date project started</th>
+      <th>Date project ended</th>
+      <th>Date completed</th>
+      <th>Project status</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangay_fmr_projects.each do |barangay_fmr_project| %>
+      <tr>
+        <td><%= barangay_fmr_project.tag %></td>
+        <td><%= barangay_fmr_project.barangay.name %></td>
+        <td><%= barangay_fmr_project.name_of_fmr_project %></td>
+        <td><%= barangay_fmr_project.location %></td>
+        <td><%= barangay_fmr_project.type_of_project %></td>
+        <td><%= barangay_fmr_project.project_length %></td>
+        <td><%= barangay_fmr_project.project_length_provided %></td>
+        <td><%= barangay_fmr_project.percentage_completion %></td>
+        <td><%= barangay_fmr_project.date_project_started %></td>
+        <td><%= barangay_fmr_project.date_project_ended %></td>
+        <td><%= barangay_fmr_project.date_completed %></td>
+        <td><%= barangay_fmr_project.project_status %></td>
+        <td><%= link_to 'Show', barangay_fmr_project %></td>
+        <td><%= link_to 'Edit', edit_barangay_fmr_project_path(barangay_fmr_project) %></td>
+        <td><%= link_to 'Destroy', barangay_fmr_project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Barangay fmr project', new_barangay_fmr_project_path %>

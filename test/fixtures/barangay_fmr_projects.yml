@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tag: MyString
+  barangay_id: 1
+  name_of_fmr_project: MyString
+  location: MyString
+  type_of_project: MyString
+  project_length: 9.99
+  project_length_provided: 9.99
+  percentage_completion: 9.99
+  date_project_started: 2013-08-30
+  date_project_ended: 2013-08-30
+  date_completed: 2013-08-30
+  project_status: MyString
+
+two:
+  tag: MyString
+  barangay_id: 1
+  name_of_fmr_project: MyString
+  location: MyString
+  type_of_project: MyString
+  project_length: 9.99
+  project_length_provided: 9.99
+  percentage_completion: 9.99
+  date_project_started: 2013-08-30
+  date_project_ended: 2013-08-30
+  date_completed: 2013-08-30
+  project_status: MyString

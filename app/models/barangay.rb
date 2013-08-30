@@ -6,5 +6,6 @@ class Barangay < ActiveRecord::Base
   has_one :arc_barangay
   has_many :barangay_lti_statuses
   has_many :barangay_trainings
+  has_many :barangay_fmr_projects
 
 end

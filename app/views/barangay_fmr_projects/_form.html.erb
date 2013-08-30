@@ -1,0 +1,64 @@
+<%= form_for(@barangay_fmr_project) do |f| %>
+  <% if @barangay_fmr_project.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_fmr_project.errors.count, "error") %> prohibited this barangay_fmr_project from being saved:</h2>
+
+      <ul>
+      <% @barangay_fmr_project.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <label for="barangay_fmr_project_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
+  </div>
+  <div class="field">
+    <%= f.label :name_of_fmr_project %><br>
+    <%= f.text_field :name_of_fmr_project %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br>
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :type_of_project %><br>
+    <%= f.text_field :type_of_project %>
+  </div>
+  <div class="field">
+    <%= f.label :project_length %><br>
+    <%= f.text_field :project_length %>
+  </div>
+  <div class="field">
+    <%= f.label :project_length_provided %><br>
+    <%= f.text_field :project_length_provided %>
+  </div>
+  <div class="field">
+    <%= f.label :percentage_completion %><br>
+    <%= f.text_field :percentage_completion %>
+  </div>
+  <div class="field">
+    <%= f.label :date_project_started %><br>
+    <%= f.date_select :date_project_started %>
+  </div>
+  <div class="field">
+    <%= f.label :date_project_ended %><br>
+    <%= f.date_select :date_project_ended %>
+  </div>
+  <div class="field">
+    <%= f.label :date_completed %><br>
+    <%= f.date_select :date_completed %>
+  </div>
+  <div class="field">
+    <%= f.label :project_status %><br>
+    <%= f.text_field :project_status %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
