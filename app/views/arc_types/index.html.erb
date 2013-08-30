@@ -1,0 +1,29 @@
+<h1>Listing arc_types</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @arc_types.each do |arc_type| %>
+      <tr>
+        <td><%= arc_type.name %></td>
+        <td><%= arc_type.description %></td>
+        <td><%= link_to 'Show', arc_type %></td>
+        <td><%= link_to 'Edit', edit_arc_type_path(arc_type) %></td>
+        <td><%= link_to 'Destroy', arc_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Arc type', new_arc_type_path %>

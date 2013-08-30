@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @arc_type.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @arc_type.description %>
+</p>
+
+<%= link_to 'Edit', edit_arc_type_path(@arc_type) %> |
+<%= link_to 'Back', arc_types_path %>
