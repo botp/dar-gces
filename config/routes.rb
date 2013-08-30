@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :congressional_districts
+
   resources :barangay_lti_statuses
 
   resources :arc_barangays
