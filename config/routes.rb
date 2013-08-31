@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :ecosystem_typologies
+
   resources :other_service_typologies
 
   resources :recreation_service_typologies

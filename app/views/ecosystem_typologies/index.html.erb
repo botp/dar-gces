@@ -1,0 +1,29 @@
+<h1>Listing ecosystem_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ecosystem_typologies.each do |ecosystem_typology| %>
+      <tr>
+        <td><%= ecosystem_typology.name %></td>
+        <td><%= ecosystem_typology.description %></td>
+        <td><%= link_to 'Show', ecosystem_typology %></td>
+        <td><%= link_to 'Edit', edit_ecosystem_typology_path(ecosystem_typology) %></td>
+        <td><%= link_to 'Destroy', ecosystem_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ecosystem typology', new_ecosystem_typology_path %>

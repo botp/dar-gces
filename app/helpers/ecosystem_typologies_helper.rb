@@ -1,0 +1,2 @@
+module EcosystemTypologiesHelper
+end
