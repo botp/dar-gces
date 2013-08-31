@@ -1,0 +1,2 @@
+module MarketingAreaOutletTypologiesHelper
+end
