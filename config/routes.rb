@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :loan_status_typologies
+
   resources :credit_provider_typologies
 
   resources :loan_access_typologies

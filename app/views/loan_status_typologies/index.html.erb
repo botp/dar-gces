@@ -1,0 +1,29 @@
+<h1>Listing loan_status_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @loan_status_typologies.each do |loan_status_typology| %>
+      <tr>
+        <td><%= loan_status_typology.name %></td>
+        <td><%= loan_status_typology.description %></td>
+        <td><%= link_to 'Show', loan_status_typology %></td>
+        <td><%= link_to 'Edit', edit_loan_status_typology_path(loan_status_typology) %></td>
+        <td><%= link_to 'Destroy', loan_status_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Loan status typology', new_loan_status_typology_path %>

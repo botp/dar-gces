@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @loan_status_typology.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @loan_status_typology.description %>
+</p>
+
+<%= link_to 'Edit', edit_loan_status_typology_path(@loan_status_typology) %> |
+<%= link_to 'Back', loan_status_typologies_path %>
