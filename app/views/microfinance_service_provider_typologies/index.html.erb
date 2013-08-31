@@ -1,0 +1,29 @@
+<h1>Listing microfinance_service_provider_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @microfinance_service_provider_typologies.each do |microfinance_service_provider_typology| %>
+      <tr>
+        <td><%= microfinance_service_provider_typology.name %></td>
+        <td><%= microfinance_service_provider_typology.description %></td>
+        <td><%= link_to 'Show', microfinance_service_provider_typology %></td>
+        <td><%= link_to 'Edit', edit_microfinance_service_provider_typology_path(microfinance_service_provider_typology) %></td>
+        <td><%= link_to 'Destroy', microfinance_service_provider_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Microfinance service provider typology', new_microfinance_service_provider_typology_path %>
