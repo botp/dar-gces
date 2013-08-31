@@ -1,0 +1,2 @@
+module ManagedByTypologiesHelper
+end

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @managed_by_typology.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @managed_by_typology.description %>
+</p>
+
+<%= link_to 'Edit', edit_managed_by_typology_path(@managed_by_typology) %> |
+<%= link_to 'Back', managed_by_typologies_path %>

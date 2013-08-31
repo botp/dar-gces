@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :managed_by_typologies
+
   resources :agri_based_enterprise_typologies
 
   resources :marketing_outlet_typologies
