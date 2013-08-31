@@ -1,0 +1,2 @@
+module PostHarvestFacilityTypologiesHelper
+end

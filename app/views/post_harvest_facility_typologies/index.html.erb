@@ -1,0 +1,29 @@
+<h1>Listing post_harvest_facility_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @post_harvest_facility_typologies.each do |post_harvest_facility_typology| %>
+      <tr>
+        <td><%= post_harvest_facility_typology.name %></td>
+        <td><%= post_harvest_facility_typology.description %></td>
+        <td><%= link_to 'Show', post_harvest_facility_typology %></td>
+        <td><%= link_to 'Edit', edit_post_harvest_facility_typology_path(post_harvest_facility_typology) %></td>
+        <td><%= link_to 'Destroy', post_harvest_facility_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post harvest facility typology', new_post_harvest_facility_typology_path %>
