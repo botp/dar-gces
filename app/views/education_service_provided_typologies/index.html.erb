@@ -1,0 +1,29 @@
+<h1>Listing education_service_provided_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @education_service_provided_typologies.each do |education_service_provided_typology| %>
+      <tr>
+        <td><%= education_service_provided_typology.name %></td>
+        <td><%= education_service_provided_typology.description %></td>
+        <td><%= link_to 'Show', education_service_provided_typology %></td>
+        <td><%= link_to 'Edit', edit_education_service_provided_typology_path(education_service_provided_typology) %></td>
+        <td><%= link_to 'Destroy', education_service_provided_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Education service provided typology', new_education_service_provided_typology_path %>

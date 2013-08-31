@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :education_service_provided_typologies
+
   resources :power_supply_typologies
 
   resources :water_system_typologies
