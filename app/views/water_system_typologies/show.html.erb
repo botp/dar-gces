@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @water_system_typology.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @water_system_typology.description %>
+</p>
+
+<%= link_to 'Edit', edit_water_system_typology_path(@water_system_typology) %> |
+<%= link_to 'Back', water_system_typologies_path %>

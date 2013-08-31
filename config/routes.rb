@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :water_system_typologies
+
   resources :employment_statuses
 
   resources :districts

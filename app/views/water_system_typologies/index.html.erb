@@ -1,0 +1,29 @@
+<h1>Listing water_system_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @water_system_typologies.each do |water_system_typology| %>
+      <tr>
+        <td><%= water_system_typology.name %></td>
+        <td><%= water_system_typology.description %></td>
+        <td><%= link_to 'Show', water_system_typology %></td>
+        <td><%= link_to 'Edit', edit_water_system_typology_path(water_system_typology) %></td>
+        <td><%= link_to 'Destroy', water_system_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Water system typology', new_water_system_typology_path %>
