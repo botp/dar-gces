@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :employment_statuses
+
   resources :districts
 
   resources :marketing_area_outlet_typologies
