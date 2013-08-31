@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :irrigation_facility_typologies
+
   resources :bridge_project_typologies
 
   resources :fmr_project_typologies

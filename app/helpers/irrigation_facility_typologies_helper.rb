@@ -1,0 +1,2 @@
+module IrrigationFacilityTypologiesHelper
+end
