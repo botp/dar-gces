@@ -1,0 +1,29 @@
+<h1>Listing health_service_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @health_service_typologies.each do |health_service_typology| %>
+      <tr>
+        <td><%= health_service_typology.name %></td>
+        <td><%= health_service_typology.description %></td>
+        <td><%= link_to 'Show', health_service_typology %></td>
+        <td><%= link_to 'Edit', edit_health_service_typology_path(health_service_typology) %></td>
+        <td><%= link_to 'Destroy', health_service_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Health service typology', new_health_service_typology_path %>
