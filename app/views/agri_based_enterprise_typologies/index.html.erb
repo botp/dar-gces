@@ -1,0 +1,29 @@
+<h1>Listing agri_based_enterprise_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @agri_based_enterprise_typologies.each do |agri_based_enterprise_typology| %>
+      <tr>
+        <td><%= agri_based_enterprise_typology.name %></td>
+        <td><%= agri_based_enterprise_typology.description %></td>
+        <td><%= link_to 'Show', agri_based_enterprise_typology %></td>
+        <td><%= link_to 'Edit', edit_agri_based_enterprise_typology_path(agri_based_enterprise_typology) %></td>
+        <td><%= link_to 'Destroy', agri_based_enterprise_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Agri based enterprise typology', new_agri_based_enterprise_typology_path %>

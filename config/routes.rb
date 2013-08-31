@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :agri_based_enterprise_typologies
+
   resources :marketing_outlet_typologies
 
   resources :microfinance_service_provider_typologies
