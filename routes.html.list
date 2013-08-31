@@ -1,0 +1,21 @@
+
+    barangay_bridge_projects
+       barangay_fmr_projects
+          barangay_trainings
+       barangay_lti_statuses
+        barangay_populations
+      barangay_geographicals
+         barangay_politicals
+
+
+               arc_barangays
+                        arcs
+                   barangays
+              municipalities
+                   provinces
+                     regions
+
+
+     congressional_districts
+              faps_coverages
+                   arc_types

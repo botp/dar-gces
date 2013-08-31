@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @organization_typology.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @organization_typology.description %>
+</p>
+
+<%= link_to 'Edit', edit_organization_typology_path(@organization_typology) %> |
+<%= link_to 'Back', organization_typologies_path %>
