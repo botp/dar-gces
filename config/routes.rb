@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :power_supply_typologies
+
   resources :water_system_typologies
 
   resources :employment_statuses

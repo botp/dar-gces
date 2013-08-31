@@ -1,0 +1,29 @@
+<h1>Listing power_supply_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @power_supply_typologies.each do |power_supply_typology| %>
+      <tr>
+        <td><%= power_supply_typology.name %></td>
+        <td><%= power_supply_typology.description %></td>
+        <td><%= link_to 'Show', power_supply_typology %></td>
+        <td><%= link_to 'Edit', edit_power_supply_typology_path(power_supply_typology) %></td>
+        <td><%= link_to 'Destroy', power_supply_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Power supply typology', new_power_supply_typology_path %>

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @power_supply_typology.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @power_supply_typology.description %>
+</p>
+
+<%= link_to 'Edit', edit_power_supply_typology_path(@power_supply_typology) %> |
+<%= link_to 'Back', power_supply_typologies_path %>
