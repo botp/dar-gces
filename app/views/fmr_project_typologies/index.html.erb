@@ -1,0 +1,29 @@
+<h1>Listing fmr_project_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @fmr_project_typologies.each do |fmr_project_typology| %>
+      <tr>
+        <td><%= fmr_project_typology.name %></td>
+        <td><%= fmr_project_typology.description %></td>
+        <td><%= link_to 'Show', fmr_project_typology %></td>
+        <td><%= link_to 'Edit', edit_fmr_project_typology_path(fmr_project_typology) %></td>
+        <td><%= link_to 'Destroy', fmr_project_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Fmr project typology', new_fmr_project_typology_path %>

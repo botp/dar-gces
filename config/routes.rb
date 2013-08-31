@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :fmr_project_typologies
+
   resources :registering_agencies
 
   resources :organization_typologies
