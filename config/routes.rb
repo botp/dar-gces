@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :bridge_project_typologies
+
   resources :fmr_project_typologies
 
   resources :registering_agencies

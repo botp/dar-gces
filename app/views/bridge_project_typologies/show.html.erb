@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bridge_project_typology.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @bridge_project_typology.description %>
+</p>
+
+<%= link_to 'Edit', edit_bridge_project_typology_path(@bridge_project_typology) %> |
+<%= link_to 'Back', bridge_project_typologies_path %>
