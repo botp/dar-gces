@@ -1,0 +1,29 @@
+<h1>Listing credit_provider_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @credit_provider_typologies.each do |credit_provider_typology| %>
+      <tr>
+        <td><%= credit_provider_typology.name %></td>
+        <td><%= credit_provider_typology.description %></td>
+        <td><%= link_to 'Show', credit_provider_typology %></td>
+        <td><%= link_to 'Edit', edit_credit_provider_typology_path(credit_provider_typology) %></td>
+        <td><%= link_to 'Destroy', credit_provider_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Credit provider typology', new_credit_provider_typology_path %>

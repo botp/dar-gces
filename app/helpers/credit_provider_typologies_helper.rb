@@ -1,0 +1,2 @@
+module CreditProviderTypologiesHelper
+end
