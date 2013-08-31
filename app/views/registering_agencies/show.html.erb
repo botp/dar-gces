@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @registering_agency.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @registering_agency.description %>
+</p>
+
+<%= link_to 'Edit', edit_registering_agency_path(@registering_agency) %> |
+<%= link_to 'Back', registering_agencies_path %>

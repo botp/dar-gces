@@ -1,0 +1,29 @@
+<h1>Listing registering_agencies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @registering_agencies.each do |registering_agency| %>
+      <tr>
+        <td><%= registering_agency.name %></td>
+        <td><%= registering_agency.description %></td>
+        <td><%= link_to 'Show', registering_agency %></td>
+        <td><%= link_to 'Edit', edit_registering_agency_path(registering_agency) %></td>
+        <td><%= link_to 'Destroy', registering_agency, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Registering agency', new_registering_agency_path %>

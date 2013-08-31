@@ -1,0 +1,2 @@
+module RegisteringAgenciesHelper
+end
