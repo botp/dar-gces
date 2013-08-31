@@ -1,0 +1,29 @@
+<h1>Listing marketing_outlet_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @marketing_outlet_typologies.each do |marketing_outlet_typology| %>
+      <tr>
+        <td><%= marketing_outlet_typology.name %></td>
+        <td><%= marketing_outlet_typology.description %></td>
+        <td><%= link_to 'Show', marketing_outlet_typology %></td>
+        <td><%= link_to 'Edit', edit_marketing_outlet_typology_path(marketing_outlet_typology) %></td>
+        <td><%= link_to 'Destroy', marketing_outlet_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Marketing outlet typology', new_marketing_outlet_typology_path %>
