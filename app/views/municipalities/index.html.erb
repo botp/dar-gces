@@ -7,6 +7,7 @@
       <th>Name</th>
       <th>Description</th>
       <th>Province</th>
+      <th>District</th>
       <th></th>
       <th></th>
       <th></th>
@@ -20,6 +21,7 @@
         <td><%= municipality.name %></td>
         <td><%= municipality.description %></td>
         <td><%= municipality.province.name %></td>
+        <td><%= municipality.district.name %></td>
         
         <td><%= link_to 'Show', municipality %></td>
         <td><%= link_to 'Edit', edit_municipality_path(municipality) %></td>
