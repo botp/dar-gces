@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :other_service_typologies
+
   resources :recreation_service_typologies
 
   resources :health_service_typologies

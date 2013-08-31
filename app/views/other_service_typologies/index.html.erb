@@ -1,0 +1,29 @@
+<h1>Listing other_service_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @other_service_typologies.each do |other_service_typology| %>
+      <tr>
+        <td><%= other_service_typology.name %></td>
+        <td><%= other_service_typology.description %></td>
+        <td><%= link_to 'Show', other_service_typology %></td>
+        <td><%= link_to 'Edit', edit_other_service_typology_path(other_service_typology) %></td>
+        <td><%= link_to 'Destroy', other_service_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Other service typology', new_other_service_typology_path %>
