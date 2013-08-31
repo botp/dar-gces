@@ -1,10 +1,10 @@
-<%= form_for(@municipality) do |f| %>
-  <% if @municipality.errors.any? %>
+<%= form_for(@district) do |f| %>
+  <% if @district.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@municipality.errors.count, "error") %> prohibited this municipality from being saved:</h2>
+      <h2><%= pluralize(@district.errors.count, "error") %> prohibited this district from being saved:</h2>
 
       <ul>
-      <% @municipality.errors.full_messages.each do |msg| %>
+      <% @district.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
       <% end %>
       </ul>
@@ -12,14 +12,10 @@
   <% end %>
 
   <div class="field">
-  <label for="municipality_province_id">Province:</label>
+  <label for="district_province_id">Province:</label>
   <%= f.collection_select :province_id, Province.all, :id, :name, :prompt => "Select a Province " %>
   </div>
 
-  <div class="field">
-    <%= f.label :tag %><br>
-    <%= f.text_field :tag %>
-  </div>
   <div class="field">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
@@ -28,7 +24,6 @@
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
-
   <div class="actions">
     <%= f.submit %>
   </div>

@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :districts
+
   resources :marketing_area_outlet_typologies
 
   resources :managed_by_typologies
@@ -36,8 +38,6 @@ Dar::Application.routes.draw do
   resources :faps_coverages
 
   resources :arc_types
-
-  resources :congressional_districts
 
   resources :barangay_lti_statuses
 
