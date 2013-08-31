@@ -1,0 +1,29 @@
+<h1>Listing recreation_service_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @recreation_service_typologies.each do |recreation_service_typology| %>
+      <tr>
+        <td><%= recreation_service_typology.name %></td>
+        <td><%= recreation_service_typology.description %></td>
+        <td><%= link_to 'Show', recreation_service_typology %></td>
+        <td><%= link_to 'Edit', edit_recreation_service_typology_path(recreation_service_typology) %></td>
+        <td><%= link_to 'Destroy', recreation_service_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Recreation service typology', new_recreation_service_typology_path %>
