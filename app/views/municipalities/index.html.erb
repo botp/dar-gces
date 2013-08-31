@@ -6,8 +6,9 @@
       <th>Tag</th>
       <th>Name</th>
       <th>Description</th>
-      <th>Province</th>
+ 
       <th>District</th>
+      <th>Province</th>
       <th></th>
       <th></th>
       <th></th>
@@ -20,9 +21,10 @@
         <td><%= municipality.tag %></td>
         <td><%= municipality.name %></td>
         <td><%= municipality.description %></td>
-        <td><%= municipality.province.name %></td>
+  
         <td><%= municipality.district.name %></td>
-        
+        <td><%= municipality.district.province.name %></td>
+
         <td><%= link_to 'Show', municipality %></td>
         <td><%= link_to 'Edit', edit_municipality_path(municipality) %></td>
         <td><%= link_to 'Destroy', municipality, method: :delete, data: { confirm: 'Are you sure?' } %></td>

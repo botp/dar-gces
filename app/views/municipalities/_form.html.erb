@@ -11,11 +11,7 @@
     </div>
   <% end %>
 
-  <div class="field">
-  <label for="municipality_province_id">Province:</label>
-  <%= f.collection_select :province_id, Province.all, :id, :name, :prompt => "Select a Province " %>
-  </div>
-  
+   
   <div class="field">
   <label for="municipality_district_id">District:</label>
   <%= f.collection_select :district_id, District.all, :id, :name, :prompt => "Select a District" %>
