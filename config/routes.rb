@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :womens_desk_service_typologies
+
   resources :environmental_concern_typologies
 
   resources :natural_resource_typologies

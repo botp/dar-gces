@@ -1,0 +1,29 @@
+<h1>Listing womens_desk_service_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @womens_desk_service_typologies.each do |womens_desk_service_typology| %>
+      <tr>
+        <td><%= womens_desk_service_typology.name %></td>
+        <td><%= womens_desk_service_typology.description %></td>
+        <td><%= link_to 'Show', womens_desk_service_typology %></td>
+        <td><%= link_to 'Edit', edit_womens_desk_service_typology_path(womens_desk_service_typology) %></td>
+        <td><%= link_to 'Destroy', womens_desk_service_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Womens desk service typology', new_womens_desk_service_typology_path %>
