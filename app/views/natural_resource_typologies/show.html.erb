@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @natural_resource_typology.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @natural_resource_typology.description %>
+</p>
+
+<%= link_to 'Edit', edit_natural_resource_typology_path(@natural_resource_typology) %> |
+<%= link_to 'Back', natural_resource_typologies_path %>

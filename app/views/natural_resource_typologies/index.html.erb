@@ -1,0 +1,29 @@
+<h1>Listing natural_resource_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @natural_resource_typologies.each do |natural_resource_typology| %>
+      <tr>
+        <td><%= natural_resource_typology.name %></td>
+        <td><%= natural_resource_typology.description %></td>
+        <td><%= link_to 'Show', natural_resource_typology %></td>
+        <td><%= link_to 'Edit', edit_natural_resource_typology_path(natural_resource_typology) %></td>
+        <td><%= link_to 'Destroy', natural_resource_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Natural resource typology', new_natural_resource_typology_path %>
