@@ -1,0 +1,29 @@
+<h1>Listing womens_organization_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @womens_organization_typologies.each do |womens_organization_typology| %>
+      <tr>
+        <td><%= womens_organization_typology.name %></td>
+        <td><%= womens_organization_typology.description %></td>
+        <td><%= link_to 'Show', womens_organization_typology %></td>
+        <td><%= link_to 'Edit', edit_womens_organization_typology_path(womens_organization_typology) %></td>
+        <td><%= link_to 'Destroy', womens_organization_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Womens organization typology', new_womens_organization_typology_path %>

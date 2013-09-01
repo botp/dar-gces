@@ -1,0 +1,2 @@
+module WomensOrganizationTypologiesHelper
+end
