@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :farm_practice_typologies
+
   resources :ecosystem_typologies
 
   resources :other_service_typologies

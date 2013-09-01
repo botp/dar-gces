@@ -1,0 +1,29 @@
+<h1>Listing farm_practice_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @farm_practice_typologies.each do |farm_practice_typology| %>
+      <tr>
+        <td><%= farm_practice_typology.name %></td>
+        <td><%= farm_practice_typology.description %></td>
+        <td><%= link_to 'Show', farm_practice_typology %></td>
+        <td><%= link_to 'Edit', edit_farm_practice_typology_path(farm_practice_typology) %></td>
+        <td><%= link_to 'Destroy', farm_practice_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Farm practice typology', new_farm_practice_typology_path %>

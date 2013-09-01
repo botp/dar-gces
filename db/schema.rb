@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130831164138) do
+ActiveRecord::Schema.define(version: 20130901100642) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -191,12 +191,6 @@ ActiveRecord::Schema.define(version: 20130831164138) do
     t.datetime "updated_at"
   end
 
-  create_table "congressional_districs", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "congressional_districts", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -246,6 +240,13 @@ ActiveRecord::Schema.define(version: 20130831164138) do
     t.datetime "updated_at"
   end
 
+  create_table "farm_practice_typologies", force: true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "fmr_project_typologies", force: true do |t|
     t.string   "name"
     t.text     "description"
@@ -275,13 +276,6 @@ ActiveRecord::Schema.define(version: 20130831164138) do
   end
 
   create_table "loan_status_typologies", force: true do |t|
-    t.string   "name"
-    t.text     "description"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "maketing_outlet_typologies", force: true do |t|
     t.string   "name"
     t.text     "description"
     t.datetime "created_at"
