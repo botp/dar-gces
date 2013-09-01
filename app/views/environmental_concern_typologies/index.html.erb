@@ -1,0 +1,29 @@
+<h1>Listing environmental_concern_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @environmental_concern_typologies.each do |environmental_concern_typology| %>
+      <tr>
+        <td><%= environmental_concern_typology.name %></td>
+        <td><%= environmental_concern_typology.description %></td>
+        <td><%= link_to 'Show', environmental_concern_typology %></td>
+        <td><%= link_to 'Edit', edit_environmental_concern_typology_path(environmental_concern_typology) %></td>
+        <td><%= link_to 'Destroy', environmental_concern_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Environmental concern typology', new_environmental_concern_typology_path %>

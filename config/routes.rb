@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :environmental_concern_typologies
+
   resources :natural_resource_typologies
 
   resources :farm_practice_typologies

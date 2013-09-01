@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @environmental_concern_typology.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @environmental_concern_typology.description %>
+</p>
+
+<%= link_to 'Edit', edit_environmental_concern_typology_path(@environmental_concern_typology) %> |
+<%= link_to 'Back', environmental_concern_typologies_path %>

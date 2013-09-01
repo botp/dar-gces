@@ -1,0 +1,2 @@
+module EnvironmentalConcernTypologiesHelper
+end
