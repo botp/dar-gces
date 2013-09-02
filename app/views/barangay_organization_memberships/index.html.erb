@@ -1,0 +1,91 @@
+<h1>Listing barangay_organization_memberships</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Barangay organization</th>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Date confirmed</th>
+      <th>Count male arb</th>
+      <th>Count male non arb</th>
+      <th>Count female arb</th>
+      <th>Count female non arb</th>
+      <th>Count bod official male arb</th>
+      <th>Count bod official male non arb</th>
+      <th>Count bod official female arb</th>
+      <th>Count bod official female non arb</th>
+      <th>Count municipal level rep male arb</th>
+      <th>Count municipal level rep male non arb</th>
+      <th>Count municipal level rep female arb</th>
+      <th>Count municipal level rep female non arb</th>
+      <th>Count provincial level rep male arb</th>
+      <th>Count provincial level rep male non arb</th>
+      <th>Count provincial level rep female arb</th>
+      <th>Count provincial level rep female non arb</th>
+      <th>Oma rating</th>
+      <th>Organizational status</th>
+      <th>With sustainability</th>
+      <th>Type of meetings</th>
+      <th>Frequency</th>
+      <th>Capital buildup</th>
+      <th>Capital count of members contributing</th>
+      <th>Savings</th>
+      <th>Savings count of members contributing</th>
+      <th>Assets</th>
+      <th>Liabilities</th>
+      <th>Service provided</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangay_organization_memberships.each do |barangay_organization_membership| %>
+      <tr>
+        <td><%= barangay_organization_membership.barangay_organization_id %></td>
+        <td><%= barangay_organization_membership.tag %></td>
+        <td><%= barangay_organization_membership.name %></td>
+        <td><%= barangay_organization_membership.description %></td>
+        <td><%= barangay_organization_membership.date_confirmed %></td>
+        <td><%= barangay_organization_membership.count_male_arb %></td>
+        <td><%= barangay_organization_membership.count_male_non_arb %></td>
+        <td><%= barangay_organization_membership.count_female_arb %></td>
+        <td><%= barangay_organization_membership.count_female_non_arb %></td>
+        <td><%= barangay_organization_membership.count_bod_official_male_arb %></td>
+        <td><%= barangay_organization_membership.count_bod_official_male_non_arb %></td>
+        <td><%= barangay_organization_membership.count_bod_official_female_arb %></td>
+        <td><%= barangay_organization_membership.count_bod_official_female_non_arb %></td>
+        <td><%= barangay_organization_membership.count_municipal_level_rep_male_arb %></td>
+        <td><%= barangay_organization_membership.count_municipal_level_rep_male_non_arb %></td>
+        <td><%= barangay_organization_membership.count_municipal_level_rep_female_arb %></td>
+        <td><%= barangay_organization_membership.count_municipal_level_rep_female_non_arb %></td>
+        <td><%= barangay_organization_membership.count_provincial_level_rep_male_arb %></td>
+        <td><%= barangay_organization_membership.count_provincial_level_rep_male_non_arb %></td>
+        <td><%= barangay_organization_membership.count_provincial_level_rep_female_arb %></td>
+        <td><%= barangay_organization_membership.count_provincial_level_rep_female_non_arb %></td>
+        <td><%= barangay_organization_membership.oma_rating %></td>
+        <td><%= barangay_organization_membership.organizational_status %></td>
+        <td><%= barangay_organization_membership.with_sustainability %></td>
+        <td><%= barangay_organization_membership.type_of_meetings %></td>
+        <td><%= barangay_organization_membership.frequency %></td>
+        <td><%= barangay_organization_membership.capital_buildup %></td>
+        <td><%= barangay_organization_membership.capital_count_of_members_contributing %></td>
+        <td><%= barangay_organization_membership.savings %></td>
+        <td><%= barangay_organization_membership.savings_count_of_members_contributing %></td>
+        <td><%= barangay_organization_membership.assets %></td>
+        <td><%= barangay_organization_membership.liabilities %></td>
+        <td><%= barangay_organization_membership.service_provided %></td>
+        <td><%= link_to 'Show', barangay_organization_membership %></td>
+        <td><%= link_to 'Edit', edit_barangay_organization_membership_path(barangay_organization_membership) %></td>
+        <td><%= link_to 'Destroy', barangay_organization_membership, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Barangay organization membership', new_barangay_organization_membership_path %>

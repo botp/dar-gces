@@ -1,0 +1,155 @@
+<%= form_for(@barangay_organization_membership) do |f| %>
+  <% if @barangay_organization_membership.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_organization_membership.errors.count, "error") %> prohibited this barangay_organization_membership from being saved:</h2>
+
+      <ul>
+      <% @barangay_organization_membership.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <!-- <div class="field">
+    <%= f.label :barangay_organization_id %><br>
+    <%= f.number_field :barangay_organization_id %>
+  </div> 
+  -->
+ <div class="field">
+    <label for="barangay_organization_membership_barangay_organization_id">Barangay Organization:</label>  <%= f.collection_select :barangay_organization_id, BarangayOrganization.all, :id, :name, :prompt => "Select a Barangay Organization" %>
+  </div>
+
+
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :date_confirmed %><br>
+    <%= f.date_select :date_confirmed %>
+  </div>
+  <div class="field">
+    <%= f.label :count_male_arb %><br>
+    <%= f.number_field :count_male_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_male_non_arb %><br>
+    <%= f.number_field :count_male_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_female_arb %><br>
+    <%= f.number_field :count_female_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_female_non_arb %><br>
+    <%= f.number_field :count_female_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_bod_official_male_arb %><br>
+    <%= f.number_field :count_bod_official_male_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_bod_official_male_non_arb %><br>
+    <%= f.number_field :count_bod_official_male_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_bod_official_female_arb %><br>
+    <%= f.number_field :count_bod_official_female_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_bod_official_female_non_arb %><br>
+    <%= f.number_field :count_bod_official_female_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_municipal_level_rep_male_arb %><br>
+    <%= f.number_field :count_municipal_level_rep_male_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_municipal_level_rep_male_non_arb %><br>
+    <%= f.number_field :count_municipal_level_rep_male_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_municipal_level_rep_female_arb %><br>
+    <%= f.number_field :count_municipal_level_rep_female_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_municipal_level_rep_female_non_arb %><br>
+    <%= f.number_field :count_municipal_level_rep_female_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_provincial_level_rep_male_arb %><br>
+    <%= f.number_field :count_provincial_level_rep_male_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_provincial_level_rep_male_non_arb %><br>
+    <%= f.number_field :count_provincial_level_rep_male_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_provincial_level_rep_female_arb %><br>
+    <%= f.number_field :count_provincial_level_rep_female_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :count_provincial_level_rep_female_non_arb %><br>
+    <%= f.number_field :count_provincial_level_rep_female_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :oma_rating %><br>
+    <%= f.text_field :oma_rating %>
+  </div>
+  <div class="field">
+    <%= f.label :organizational_status %><br>
+    <%= f.check_box :organizational_status %>
+  </div>
+  <div class="field">
+    <%= f.label :with_sustainability %><br>
+    <%= f.check_box :with_sustainability %>
+  </div>
+  <div class="field">
+    <%= f.label :type_of_meetings %><br>
+    <%= f.text_field :type_of_meetings %>
+  </div>
+  <div class="field">
+    <%= f.label :frequency %><br>
+    <%= f.text_field :frequency %>
+  </div>
+  <div class="field">
+    <%= f.label :capital_buildup %><br>
+    <%= f.number_field :capital_buildup %>
+  </div>
+  <div class="field">
+    <%= f.label :capital_count_of_members_contributing %><br>
+    <%= f.number_field :capital_count_of_members_contributing %>
+  </div>
+  <div class="field">
+    <%= f.label :savings %><br>
+    <%= f.number_field :savings %>
+  </div>
+  <div class="field">
+    <%= f.label :savings_count_of_members_contributing %><br>
+    <%= f.number_field :savings_count_of_members_contributing %>
+  </div>
+  <div class="field">
+    <%= f.label :assets %><br>
+    <%= f.number_field :assets %>
+  </div>
+  <div class="field">
+    <%= f.label :liabilities %><br>
+    <%= f.number_field :liabilities %>
+  </div>
+  <div class="field">
+    <%= f.label :service_provided %><br>
+    <%= f.text_field :service_provided %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

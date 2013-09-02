@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130901151911) do
+ActiveRecord::Schema.define(version: 20130902111150) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -126,6 +126,44 @@ ActiveRecord::Schema.define(version: 20130901151911) do
     t.string   "remarks2"
     t.integer  "lh_male_arb"
     t.integer  "lh_female_arb"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "barangay_organization_memberships", force: true do |t|
+    t.integer  "barangay_organization_id"
+    t.string   "tag"
+    t.string   "name"
+    t.text     "description"
+    t.date     "date_confirmed"
+    t.integer  "count_male_arb"
+    t.integer  "count_male_non_arb"
+    t.integer  "count_female_arb"
+    t.integer  "count_female_non_arb"
+    t.integer  "count_bod_official_male_arb"
+    t.integer  "count_bod_official_male_non_arb"
+    t.integer  "count_bod_official_female_arb"
+    t.integer  "count_bod_official_female_non_arb"
+    t.integer  "count_municipal_level_rep_male_arb"
+    t.integer  "count_municipal_level_rep_male_non_arb"
+    t.integer  "count_municipal_level_rep_female_arb"
+    t.integer  "count_municipal_level_rep_female_non_arb"
+    t.integer  "count_provincial_level_rep_male_arb"
+    t.integer  "count_provincial_level_rep_male_non_arb"
+    t.integer  "count_provincial_level_rep_female_arb"
+    t.integer  "count_provincial_level_rep_female_non_arb"
+    t.string   "oma_rating"
+    t.boolean  "organizational_status"
+    t.boolean  "with_sustainability"
+    t.string   "type_of_meetings"
+    t.string   "frequency"
+    t.integer  "capital_buildup"
+    t.integer  "capital_count_of_members_contributing"
+    t.integer  "savings"
+    t.integer  "savings_count_of_members_contributing"
+    t.integer  "assets"
+    t.integer  "liabilities"
+    t.string   "service_provided"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

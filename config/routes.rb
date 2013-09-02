@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :barangay_organization_memberships
+
   resources :barangay_organizations
 
   resources :womens_organization_typologies
