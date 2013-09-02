@@ -8,5 +8,6 @@ class Barangay < ActiveRecord::Base
   has_many :barangay_trainings
   has_many :barangay_fmr_projects
   has_many :barangay_bridge_projects
+  has_many :barangay_organizations
 
 end

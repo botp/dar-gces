@@ -1,0 +1,50 @@
+<h1>Listing barangay_organizations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Barangay</th>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Location</th>
+      <th>Name of chairman</th>
+      <th>Year organized</th>
+      <th>Organization type</th>
+      <th>Registering agency</th>
+      <th>Year registered</th>
+      <th>Registration number</th>
+      <th>Date confirmed</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangay_organizations.each do |barangay_organization| %>
+      <tr>
+        <td><%= barangay_organization.barangay_id %></td>
+        <td><%= barangay_organization.tag %></td>
+        <td><%= barangay_organization.name %></td>
+        <td><%= barangay_organization.description %></td>
+        <td><%= barangay_organization.location %></td>
+        <td><%= barangay_organization.name_of_chairman %></td>
+        <td><%= barangay_organization.year_organized %></td>
+        <td><%= barangay_organization.organization_typology.name %></td>
+        <td><%= barangay_organization.registering_agency.name %></td>
+        <td><%= barangay_organization.year_registered %></td>
+        <td><%= barangay_organization.registration_number %></td>
+        <td><%= barangay_organization.date_confirmed %></td>
+        
+        <td><%= link_to 'Show', barangay_organization %></td>
+        <td><%= link_to 'Edit', edit_barangay_organization_path(barangay_organization) %></td>
+        <td><%= link_to 'Destroy', barangay_organization, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Barangay organization', new_barangay_organization_path %>

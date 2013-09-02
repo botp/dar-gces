@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Barangay:</strong>
+  <%= @barangay_organization.barangay_id %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @barangay_organization.tag %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @barangay_organization.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @barangay_organization.description %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @barangay_organization.location %>
+</p>
+
+<p>
+  <strong>Name of chairman:</strong>
+  <%= @barangay_organization.name_of_chairman %>
+</p>
+
+<p>
+  <strong>Year organized:</strong>
+  <%= @barangay_organization.year_organized %>
+</p>
+
+<p>
+  <strong>Organization typology:</strong>
+  <%= @barangay_organization.organization_typology_id %>
+</p>
+
+<p>
+  <strong>Registering agency:</strong>
+  <%= @barangay_organization.registering_agency_id %>
+</p>
+
+<p>
+  <strong>Year registered:</strong>
+  <%= @barangay_organization.year_registered %>
+</p>
+
+<p>
+  <strong>Registration number:</strong>
+  <%= @barangay_organization.registration_number %>
+</p>
+
+<p>
+  <strong>Date confirmed:</strong>
+  <%= @barangay_organization.date_confirmed %>
+</p>
+
+<%= link_to 'Edit', edit_barangay_organization_path(@barangay_organization) %> |
+<%= link_to 'Back', barangay_organizations_path %>

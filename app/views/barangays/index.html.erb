@@ -7,6 +7,7 @@
       <th>Name</th>
       <th>Description</th>
       <th>Municipality</th>
+      <th>District</th>
       <th>Province</th>
       <th></th>
       <th></th>
@@ -21,7 +22,9 @@
         <td><%= barangay.name %></td>
         <td><%= barangay.description %></td>
         <td><%= barangay.municipality.name %></td>
-        <td><%= barangay.municipality.province.name %></td>
+        <td><%= barangay.municipality.district.name %></td>
+        <td><%= barangay.municipality.district.province.name %></td>
+        
         <td><%= link_to 'Show', barangay %></td>
         <td><%= link_to 'Edit', edit_barangay_path(barangay) %></td>
         <td><%= link_to 'Destroy', barangay, method: :delete, data: { confirm: 'Are you sure?' } %></td>

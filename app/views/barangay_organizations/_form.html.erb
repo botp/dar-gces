@@ -1,0 +1,66 @@
+<%= form_for(@barangay_organization) do |f| %>
+  <% if @barangay_organization.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_organization.errors.count, "error") %> prohibited this barangay_organization from being saved:</h2>
+
+      <ul>
+      <% @barangay_organization.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+ <div class="field">
+    <label for="barangay_organization_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
+  </div>
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br>
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :name_of_chairman %><br>
+    <%= f.text_field :name_of_chairman %>
+  </div>
+  <div class="field">
+    <%= f.label :year_organized %><br>
+    <%= f.number_field :year_organized %>
+  </div>
+
+  <div class="field">
+    <label for="barangay_organization_typology_id">Type of Organization:</label>  <%= f.collection_select :organization_typology_id, OrganizationTypology.all, :id, :name, :prompt => "Select a Type of Organization" %>
+  </div>
+
+
+  <div class="field">
+    <label for="barangay_organization_registering_agency_id">Registering Agency:</label>  <%= f.collection_select :registering_agency_id, RegisteringAgency.all, :id, :name, :prompt => "Select a Registering Agency" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :year_registered %><br>
+    <%= f.number_field :year_registered %>
+  </div>
+  <div class="field">
+    <%= f.label :registration_number %><br>
+    <%= f.text_field :registration_number %>
+  </div>
+  <div class="field">
+    <%= f.label :date_confirmed %><br>
+    <%= f.date_select :date_confirmed %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

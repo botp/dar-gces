@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  barangay_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  location: MyString
+  name_of_chairman: MyString
+  year_organized: 1
+  organization_typology_id: 1
+  registering_agency_id: 1
+  year_registered: 1
+  registration_number: MyString
+  date_confirmed: 2013-09-01
+
+two:
+  barangay_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  location: MyString
+  name_of_chairman: MyString
+  year_organized: 1
+  organization_typology_id: 1
+  registering_agency_id: 1
+  year_registered: 1
+  registration_number: MyString
+  date_confirmed: 2013-09-01
