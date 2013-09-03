@@ -61,6 +61,13 @@ class BarangayFmrProjectsController < ApplicationController
     end
   end
 
+  
+  def get_project_completion
+    v = self.barangay_fmr_project_completions.last
+    v && v.percentage_completion || 0
+  end
+  
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_barangay_fmr_project
