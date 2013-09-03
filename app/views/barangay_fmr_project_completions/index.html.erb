@@ -20,7 +20,7 @@
   <tbody>
     <% @barangay_fmr_project_completions.each do |barangay_fmr_project_completion| %>
       <tr>
-        <td><%= barangay_fmr_project_completion.barangay_fmr_project_id %></td>
+        <td><%= barangay_fmr_project_completion.barangay_fmr_project.name_of_fmr_project %></td>
         <td><%= barangay_fmr_project_completion.tag %></td>
         <td><%= barangay_fmr_project_completion.name %></td>
         <td><%= barangay_fmr_project_completion.description %></td>

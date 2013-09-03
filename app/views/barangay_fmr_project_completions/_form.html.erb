@@ -11,10 +11,11 @@
     </div>
   <% end %>
 
+
   <div class="field">
-    <%= f.label :barangay_fmr_project_id %><br>
-    <%= f.number_field :barangay_fmr_project_id %>
+    <label for="barangay_fmr_project_completion_barangay_fmr_project_id">Barangay FMR Project:</label>  <%= f.collection_select :barangay_fmr_project_id, BarangayFmrProject.all, :id, :name_of_fmr_project, :prompt => "Select a Barangay FMR Project " %>
   </div>
+
   <div class="field">
     <%= f.label :tag %><br>
     <%= f.text_field :tag %>
