@@ -18,6 +18,12 @@
   <div class="field">
     <label for="barangay_fmr_project_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
   </div>
+  
+  <div class="field">
+    <label for="barangay_fmr_project_fmr_project_typology_id">Type of FMR Project:</label>  <%= f.collection_select :fmr_project_typology_id, FmrProjectTypology.all, :id, :name, :prompt => "Select a Type of FMR Project" %>
+  </div>
+
+
   <div class="field">
     <%= f.label :name_of_fmr_project %><br>
     <%= f.text_field :name_of_fmr_project %>
@@ -25,10 +31,6 @@
   <div class="field">
     <%= f.label :location %><br>
     <%= f.text_field :location %>
-  </div>
-  <div class="field">
-    <%= f.label :type_of_project %><br>
-    <%= f.text_field :type_of_project %>
   </div>
   <div class="field">
     <%= f.label :project_length %><br>
