@@ -1,0 +1,29 @@
+<h1>Listing irrigation_project_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @irrigation_project_typologies.each do |irrigation_project_typology| %>
+      <tr>
+        <td><%= irrigation_project_typology.name %></td>
+        <td><%= irrigation_project_typology.description %></td>
+        <td><%= link_to 'Show', irrigation_project_typology %></td>
+        <td><%= link_to 'Edit', edit_irrigation_project_typology_path(irrigation_project_typology) %></td>
+        <td><%= link_to 'Destroy', irrigation_project_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Irrigation project typology', new_irrigation_project_typology_path %>

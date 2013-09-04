@@ -1,0 +1,2 @@
+module IrrigationProjectTypologiesHelper
+end
