@@ -53,8 +53,6 @@ Dar::Application.routes.draw do
 
   resources :post_harvest_facility_typologies
 
-  resources :irrigation_facility_typologies
-
   resources :bridge_project_typologies
 
   resources :fmr_project_typologies
