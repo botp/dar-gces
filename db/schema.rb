@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130904080331) do
+ActiveRecord::Schema.define(version: 20130904084859) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -74,7 +74,6 @@ ActiveRecord::Schema.define(version: 20130904080331) do
     t.integer  "barangay_id"
     t.string   "name_of_bridge_project"
     t.string   "location"
-    t.string   "type_of_project"
     t.decimal  "project_length"
     t.decimal  "project_length_provided"
     t.date     "date_project_started"
@@ -83,6 +82,7 @@ ActiveRecord::Schema.define(version: 20130904080331) do
     t.string   "project_status"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "bridge_project_typology_id"
   end
 
   create_table "barangay_fmr_project_completions", force: true do |t|
