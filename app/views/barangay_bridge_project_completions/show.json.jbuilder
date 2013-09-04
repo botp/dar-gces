@@ -1,0 +1,1 @@
+json.extract! @barangay_bridge_project_completion, :barangay_bridge_project_id, :tag, :name, :description, :percentage_completion, :date_confirmed, :user_id, :datetime_edited, :created_at, :updated_at

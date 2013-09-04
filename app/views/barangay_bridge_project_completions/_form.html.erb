@@ -1,0 +1,49 @@
+<%= form_for(@barangay_bridge_project_completion) do |f| %>
+  <% if @barangay_bridge_project_completion.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_bridge_project_completion.errors.count, "error") %> prohibited this barangay_bridge_project_completion from being saved:</h2>
+
+      <ul>
+      <% @barangay_bridge_project_completion.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <label for="barangay_bridge_project_completion_barangay_bridge_project_id">Barangay Bridge Project:</label>  <%= f.collection_select :barangay_bridge_project_id, BarangayBridgeProject.all, :id, :name_of_bridge_project, :prompt => "Select a Barangay Bridge Project " %>
+  </div>
+
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :percentage_completion %><br>
+    <%= f.number_field :percentage_completion %>
+  </div>
+  <div class="field">
+    <%= f.label :date_confirmed %><br>
+    <%= f.date_select :date_confirmed %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.number_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :datetime_edited %><br>
+    <%= f.datetime_select :datetime_edited %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

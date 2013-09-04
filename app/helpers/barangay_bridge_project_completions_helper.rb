@@ -1,0 +1,2 @@
+module BarangayBridgeProjectCompletionsHelper
+end
