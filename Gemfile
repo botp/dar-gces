@@ -53,3 +53,6 @@ end
 
 #gem "thin"
 
+# group :development do
+gem "schema_to_scaffold"
+#end
