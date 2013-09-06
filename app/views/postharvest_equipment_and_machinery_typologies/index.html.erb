@@ -1,0 +1,29 @@
+<h1>Listing postharvest_equipment_and_machinery_typologies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @postharvest_equipment_and_machinery_typologies.each do |postharvest_equipment_and_machinery_typology| %>
+      <tr>
+        <td><%= postharvest_equipment_and_machinery_typology.name %></td>
+        <td><%= postharvest_equipment_and_machinery_typology.description %></td>
+        <td><%= link_to 'Show', postharvest_equipment_and_machinery_typology %></td>
+        <td><%= link_to 'Edit', edit_postharvest_equipment_and_machinery_typology_path(postharvest_equipment_and_machinery_typology) %></td>
+        <td><%= link_to 'Destroy', postharvest_equipment_and_machinery_typology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Postharvest equipment and machinery typology', new_postharvest_equipment_and_machinery_typology_path %>

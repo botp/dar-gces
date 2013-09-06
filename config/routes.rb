@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :postharvest_equipment_and_machinery_typologies
+
   resources :barangay_irrigation_project_completions
 
   resources :barangay_irrigation_projects
