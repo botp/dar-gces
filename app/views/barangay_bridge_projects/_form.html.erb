@@ -12,15 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :tag %><br>
-    <%= f.text_field :tag %>
-  </div>
-  <div class="field">
     <label for="barangay_bridge_project_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
   </div>
 
   <div class="field">
     <label for="barangay_bridge_project_bridge_project_typology_id">Type of Bridge Project:</label>  <%= f.collection_select :bridge_project_typology_id, BridgeProjectTypology.all, :id, :name, :prompt => "Select a Type of Bridge Project" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
   </div>
 
   <div class="field">

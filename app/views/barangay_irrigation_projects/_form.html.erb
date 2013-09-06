@@ -12,13 +12,13 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :barangay_id %><br>
-    <%= f.number_field :barangay_id %>
+    <label for="barangay_irrigation_project_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay" %>
   </div>
+
   <div class="field">
-    <%= f.label :irrigation_project_typology_id %><br>
-    <%= f.number_field :irrigation_project_typology_id %>
+    <label for="barangay_irrigation_project_irrigation_project_typology_id">Type of Irrigation Project:</label>  <%= f.collection_select :irrigation_project_typology_id, IrrigationProjectTypology.all, :id, :name, :prompt => "Select a Type of Irrigation Project" %>
   </div>
+
   <div class="field">
     <%= f.label :tag %><br>
     <%= f.text_field :tag %>

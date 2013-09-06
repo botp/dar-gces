@@ -28,8 +28,8 @@
   <tbody>
     <% @barangay_irrigation_projects.each do |barangay_irrigation_project| %>
       <tr>
-        <td><%= barangay_irrigation_project.barangay_id %></td>
-        <td><%= barangay_irrigation_project.irrigation_project_typology_id %></td>
+        <td><%= barangay_irrigation_project.barangay.name %></td>
+        <td><%= barangay_irrigation_project.irrigation_project_typology.name %></td>
         <td><%= barangay_irrigation_project.tag %></td>
         <td><%= barangay_irrigation_project.name_of_irrigation_project %></td>
         <td><%= barangay_irrigation_project.location %></td>

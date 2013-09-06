@@ -11,10 +11,15 @@
     </div>
   <% end %>
 
+
   <div class="field">
-    <%= f.label :barangay_irrigation_project_id %><br>
-    <%= f.number_field :barangay_irrigation_project_id %>
+    <label for="barangay_irrigation_project_completion_barangay_irrigation_project_id">Barangay Irrigation Project:</label>  <%= f.collection_select :barangay_irrigation_project_id, BarangayIrrigationProject.all, :id, :name_of_irrigation_project, :prompt => "Select a Barangay Irrigation Project " %>
   </div>
+
+  <div class="field">
+    <label for="barangay_irrigation_project_irrigation_project_typology_id">Type of Irrigation Project:</label>  <%= f.collection_select :irrigation_project_typology_id, IrrigationProjectTypology.all, :id, :name, :prompt => "Select a Type of Irrigation Project" %>
+  </div>
+
   <div class="field">
     <%= f.label :tag %><br>
     <%= f.text_field :tag %>
@@ -26,10 +31,6 @@
   <div class="field">
     <%= f.label :description %><br>
     <%= f.text_area :description %>
-  </div>
-  <div class="field">
-    <%= f.label :percentage_completion %><br>
-    <%= f.number_field :percentage_completion %>
   </div>
   <div class="field">
     <%= f.label :date_confirmed %><br>
