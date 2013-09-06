@@ -57,8 +57,6 @@ Dar::Application.routes.draw do
 
   resources :loan_access_typologies
 
-  resources :post_harvest_facility_typologies
-
   resources :bridge_project_typologies
 
   resources :fmr_project_typologies
