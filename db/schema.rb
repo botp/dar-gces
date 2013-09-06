@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130906092626) do
+ActiveRecord::Schema.define(version: 20130906094402) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -267,6 +267,18 @@ ActiveRecord::Schema.define(version: 20130906092626) do
     t.integer  "non_arb_female"
     t.integer  "arb_household"
     t.integer  "non_arb_household"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "barangay_postharvest_equipment_and_machinery_projects", force: true do |t|
+    t.integer  "barangay_id"
+    t.string   "tag"
+    t.string   "name"
+    t.text     "description"
+    t.integer  "postharvest_equipment_and_machinery_typology_id"
+    t.integer  "count_of_units_provided"
+    t.boolean  "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

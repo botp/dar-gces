@@ -1,0 +1,2 @@
+class BarangayPostharvestEquipmentAndMachineryProject < ActiveRecord::Base
+end
