@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130905060555) do
+ActiveRecord::Schema.define(version: 20130906050530) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -126,6 +126,27 @@ ActiveRecord::Schema.define(version: 20130905060555) do
     t.decimal  "distance_from_town_proper"
     t.string   "means_of_transportation"
     t.integer  "barangay_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "barangay_irrigation_projects", force: true do |t|
+    t.integer  "barangay_id"
+    t.integer  "irrigation_project_typology_id"
+    t.string   "tag"
+    t.string   "name_of_irrigation_project"
+    t.string   "location"
+    t.decimal  "project_service_area"
+    t.decimal  "service_area_provided"
+    t.date     "date_project_started"
+    t.date     "date_project_ended"
+    t.date     "date_actually_completed"
+    t.boolean  "project_status"
+    t.integer  "beneficiaries_count_male_arb"
+    t.integer  "beneficiaries_count_male_non_arb"
+    t.integer  "beneficiaries_count_female_arb"
+    t.integer  "beneficiaries_count_female_non_arb"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -478,6 +499,11 @@ ActiveRecord::Schema.define(version: 20130905060555) do
     t.datetime "updated_at"
   end
 
+  create_table "test_models", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "water_system_typologies", force: true do |t|
     t.string   "name"

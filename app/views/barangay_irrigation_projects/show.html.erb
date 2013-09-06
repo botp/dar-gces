@@ -1,0 +1,84 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Barangay:</strong>
+  <%= @barangay_irrigation_project.barangay_id %>
+</p>
+
+<p>
+  <strong>Irrigation project typology:</strong>
+  <%= @barangay_irrigation_project.irrigation_project_typology_id %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @barangay_irrigation_project.tag %>
+</p>
+
+<p>
+  <strong>Name of irrigation project:</strong>
+  <%= @barangay_irrigation_project.name_of_irrigation_project %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @barangay_irrigation_project.location %>
+</p>
+
+<p>
+  <strong>Project service area:</strong>
+  <%= @barangay_irrigation_project.project_service_area %>
+</p>
+
+<p>
+  <strong>Service area provided:</strong>
+  <%= @barangay_irrigation_project.service_area_provided %>
+</p>
+
+<p>
+  <strong>Date project started:</strong>
+  <%= @barangay_irrigation_project.date_project_started %>
+</p>
+
+<p>
+  <strong>Date project ended:</strong>
+  <%= @barangay_irrigation_project.date_project_ended %>
+</p>
+
+<p>
+  <strong>Date actually completed:</strong>
+  <%= @barangay_irrigation_project.date_actually_completed %>
+</p>
+
+<p>
+  <strong>Project status:</strong>
+  <%= @barangay_irrigation_project.project_status %>
+</p>
+
+<p>
+  <strong>Beneficiaries count male arb:</strong>
+  <%= @barangay_irrigation_project.beneficiaries_count_male_arb %>
+</p>
+
+<p>
+  <strong>Beneficiaries count male non arb:</strong>
+  <%= @barangay_irrigation_project.beneficiaries_count_male_non_arb %>
+</p>
+
+<p>
+  <strong>Beneficiaries count female arb:</strong>
+  <%= @barangay_irrigation_project.beneficiaries_count_female_arb %>
+</p>
+
+<p>
+  <strong>Beneficiaries count female non arb:</strong>
+  <%= @barangay_irrigation_project.beneficiaries_count_female_non_arb %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @barangay_irrigation_project.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_barangay_irrigation_project_path(@barangay_irrigation_project) %> |
+<%= link_to 'Back', barangay_irrigation_projects_path %>

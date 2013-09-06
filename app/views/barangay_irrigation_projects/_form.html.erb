@@ -1,0 +1,81 @@
+<%= form_for(@barangay_irrigation_project) do |f| %>
+  <% if @barangay_irrigation_project.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@barangay_irrigation_project.errors.count, "error") %> prohibited this barangay_irrigation_project from being saved:</h2>
+
+      <ul>
+      <% @barangay_irrigation_project.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :barangay_id %><br>
+    <%= f.number_field :barangay_id %>
+  </div>
+  <div class="field">
+    <%= f.label :irrigation_project_typology_id %><br>
+    <%= f.number_field :irrigation_project_typology_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tag %><br>
+    <%= f.text_field :tag %>
+  </div>
+  <div class="field">
+    <%= f.label :name_of_irrigation_project %><br>
+    <%= f.text_field :name_of_irrigation_project %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br>
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :project_service_area %><br>
+    <%= f.text_field :project_service_area %>
+  </div>
+  <div class="field">
+    <%= f.label :service_area_provided %><br>
+    <%= f.text_field :service_area_provided %>
+  </div>
+  <div class="field">
+    <%= f.label :date_project_started %><br>
+    <%= f.date_select :date_project_started %>
+  </div>
+  <div class="field">
+    <%= f.label :date_project_ended %><br>
+    <%= f.date_select :date_project_ended %>
+  </div>
+  <div class="field">
+    <%= f.label :date_actually_completed %><br>
+    <%= f.date_select :date_actually_completed %>
+  </div>
+  <div class="field">
+    <%= f.label :project_status %><br>
+    <%= f.check_box :project_status %>
+  </div>
+  <div class="field">
+    <%= f.label :beneficiaries_count_male_arb %><br>
+    <%= f.number_field :beneficiaries_count_male_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :beneficiaries_count_male_non_arb %><br>
+    <%= f.number_field :beneficiaries_count_male_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :beneficiaries_count_female_arb %><br>
+    <%= f.number_field :beneficiaries_count_female_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :beneficiaries_count_female_non_arb %><br>
+    <%= f.number_field :beneficiaries_count_female_non_arb %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.number_field :user_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
