@@ -34,9 +34,10 @@
     <%= f.label :name_of_chairman %><br>
     <%= f.text_field :name_of_chairman %>
   </div>
+
   <div class="field">
     <%= f.label :year_organized %><br>
-    <%= f.number_field :year_organized %>
+    <%= select_year(Date.today, field_name: :year_organized, prefix: :barangay_organization, start_year: 5.years.ago.year, end_year: 5.years.from_now.year ) %>
   </div>
 
   <div class="field">
@@ -48,10 +49,12 @@
     <label for="barangay_organization_registering_agency_id">Registering Agency:</label>  <%= f.collection_select :registering_agency_id, RegisteringAgency.all, :id, :name, :prompt => "Select a Registering Agency" %>
   </div>
 
+
   <div class="field">
     <%= f.label :year_registered %><br>
-    <%= f.number_field :year_registered %>
+    <%= select_year(Date.today, field_name: :year_registered, prefix: :barangay_organization, start_year: 5.years.ago.year, end_year: 5.years.from_now.year ) %>
   </div>
+
   <div class="field">
     <%= f.label :registration_number %><br>
     <%= f.text_field :registration_number %>

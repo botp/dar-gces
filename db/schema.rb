@@ -478,11 +478,6 @@ ActiveRecord::Schema.define(version: 20130905060555) do
     t.datetime "updated_at"
   end
 
-  create_table "test_models", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
   create_table "water_system_typologies", force: true do |t|
     t.string   "name"
