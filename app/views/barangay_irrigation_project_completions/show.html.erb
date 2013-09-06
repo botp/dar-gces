@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Barangay irrigation project:</strong>
+  <%= @barangay_irrigation_project_completion.barangay_irrigation_project_id %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @barangay_irrigation_project_completion.tag %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @barangay_irrigation_project_completion.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @barangay_irrigation_project_completion.description %>
+</p>
+
+<p>
+  <strong>Percentage completion:</strong>
+  <%= @barangay_irrigation_project_completion.percentage_completion %>
+</p>
+
+<p>
+  <strong>Date confirmed:</strong>
+  <%= @barangay_irrigation_project_completion.date_confirmed %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @barangay_irrigation_project_completion.user_id %>
+</p>
+
+<p>
+  <strong>Datetime edited:</strong>
+  <%= @barangay_irrigation_project_completion.datetime_edited %>
+</p>
+
+<%= link_to 'Edit', edit_barangay_irrigation_project_completion_path(@barangay_irrigation_project_completion) %> |
+<%= link_to 'Back', barangay_irrigation_project_completions_path %>

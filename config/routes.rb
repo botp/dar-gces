@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :barangay_irrigation_project_completions
+
   resources :barangay_irrigation_projects
 
   resources :irrigation_project_typologies

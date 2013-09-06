@@ -1,0 +1,41 @@
+<h1>Listing barangay_irrigation_project_completions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Barangay irrigation project</th>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Percentage completion</th>
+      <th>Date confirmed</th>
+      <th>User</th>
+      <th>Datetime edited</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangay_irrigation_project_completions.each do |barangay_irrigation_project_completion| %>
+      <tr>
+        <td><%= barangay_irrigation_project_completion.barangay_irrigation_project_id %></td>
+        <td><%= barangay_irrigation_project_completion.tag %></td>
+        <td><%= barangay_irrigation_project_completion.name %></td>
+        <td><%= barangay_irrigation_project_completion.description %></td>
+        <td><%= barangay_irrigation_project_completion.percentage_completion %></td>
+        <td><%= barangay_irrigation_project_completion.date_confirmed %></td>
+        <td><%= barangay_irrigation_project_completion.user_id %></td>
+        <td><%= barangay_irrigation_project_completion.datetime_edited %></td>
+        <td><%= link_to 'Show', barangay_irrigation_project_completion %></td>
+        <td><%= link_to 'Edit', edit_barangay_irrigation_project_completion_path(barangay_irrigation_project_completion) %></td>
+        <td><%= link_to 'Destroy', barangay_irrigation_project_completion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Barangay irrigation project completion', new_barangay_irrigation_project_completion_path %>

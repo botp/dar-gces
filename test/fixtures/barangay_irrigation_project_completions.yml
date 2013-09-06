@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  barangay_irrigation_project_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  percentage_completion: 1
+  date_confirmed: 2013-09-06
+  user_id: 1
+  datetime_edited: 2013-09-06 13:31:37
+
+two:
+  barangay_irrigation_project_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  percentage_completion: 1
+  date_confirmed: 2013-09-06
+  user_id: 1
+  datetime_edited: 2013-09-06 13:31:37
