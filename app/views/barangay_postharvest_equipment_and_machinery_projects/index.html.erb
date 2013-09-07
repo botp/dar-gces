@@ -10,6 +10,7 @@
       <th>Postharvest equipment and machinery typology</th>
       <th>Count of units provided</th>
       <th>Status</th>
+      <th>Date Confirmed</th>
       <th></th>
       <th></th>
       <th></th>
@@ -19,13 +20,18 @@
   <tbody>
     <% @barangay_postharvest_equipment_and_machinery_projects.each do |barangay_postharvest_equipment_and_machinery_project| %>
       <tr>
-        <td><%= barangay_postharvest_equipment_and_machinery_project.barangay_id %></td>
+        <td><%= barangay_postharvest_equipment_and_machinery_project.barangay.name %></td>
         <td><%= barangay_postharvest_equipment_and_machinery_project.tag %></td>
         <td><%= barangay_postharvest_equipment_and_machinery_project.name %></td>
         <td><%= barangay_postharvest_equipment_and_machinery_project.description %></td>
         <td><%= barangay_postharvest_equipment_and_machinery_project.postharvest_equipment_and_machinery_typology_id %></td>
         <td><%= barangay_postharvest_equipment_and_machinery_project.count_of_units_provided %></td>
-        <td><%= barangay_postharvest_equipment_and_machinery_project.status %></td>
+        
+        <td><%= barangay_postharvest_equipment_and_machinery_project.status %>
+        </td>
+        <td><%= barangay_postharvest_equipment_and_machinery_project.date_confirmed %>
+        </td>
+
         <td><%= link_to 'Show', barangay_postharvest_equipment_and_machinery_project %></td>
         <td><%= link_to 'Edit', edit_barangay_postharvest_equipment_and_machinery_project_path(barangay_postharvest_equipment_and_machinery_project) %></td>
         <td><%= link_to 'Destroy', barangay_postharvest_equipment_and_machinery_project, method: :delete, data: { confirm: 'Are you sure?' } %></td>

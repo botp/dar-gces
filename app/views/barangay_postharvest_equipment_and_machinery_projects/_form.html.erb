@@ -16,6 +16,11 @@
     <label for="barangay_postharvest_equipment_and_machinery_project_barangay_id">Barangay:</label>  <%= f.collection_select :barangay_id, Barangay.all, :id, :name, :prompt => "Select a Barangay " %>
   </div>
 
+
+  <div class="field">
+    <label for="barangay_postharvest_equipment_and_machinery_project_postharvest_equipment_and_machinery_project_typology_id">Type of Postharvest Equipment and machinery Project:</label>  <%= f.collection_select :postharvest_equipment_and_machinery_typology_id, PostharvestEquipmentAndMachineryTypology.all, :id, :name, :prompt => "Select a Type of Postharvest Equipment and Machinery Project" %>
+  </div>
+
   <div class="field">
     <%= f.label :tag %><br>
     <%= f.text_field :tag %>
@@ -28,10 +33,7 @@
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
-  <div class="field">
-    <%= f.label :postharvest_equipment_and_machinery_typology_id %><br>
-    <%= f.number_field :postharvest_equipment_and_machinery_typology_id %>
-  </div>
+
   <div class="field">
     <%= f.label :count_of_units_provided %><br>
     <%= f.number_field :count_of_units_provided %>
@@ -40,6 +42,13 @@
     <%= f.label :status %><br>
     <%= f.check_box :status %>
   </div>
+  <div class="field">
+    <%= f.label :date_confirmed %><br>
+    <%= date_field f.object_name, :date_confirmed %>
+  </div>
+
+
+
   <div class="actions">
     <%= f.submit %>
   </div>

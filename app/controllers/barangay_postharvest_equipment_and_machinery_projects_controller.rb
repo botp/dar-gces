@@ -69,6 +69,6 @@ class BarangayPostharvestEquipmentAndMachineryProjectsController < ApplicationCo
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def barangay_postharvest_equipment_and_machinery_project_params
-      params.require(:barangay_postharvest_equipment_and_machinery_project).permit(:barangay_id, :tag, :name, :description, :postharvest_equipment_and_machinery_typology_id, :count_of_units_provided, :status)
+      params.require(:barangay_postharvest_equipment_and_machinery_project).permit(:barangay_id, :tag, :name, :description, :postharvest_equipment_and_machinery_typology_id, :count_of_units_provided, :status, :date_confirmed, :user_id)
     end
 end
