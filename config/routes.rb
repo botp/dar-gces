@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :users
+
   resources :barangay_postharvest_equipment_and_machinery_projects
 
   resources :postharvest_structure_and_facility_typologies
