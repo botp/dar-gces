@@ -6,7 +6,7 @@ class BarangayFmrProject < ActiveRecord::Base
 
   def get_project_completion
     v = barangay_fmr_project_completions.last
-    v && v.percentage_completion || 0
+    v && v.project_length_provided || 0
   end
   
 end
