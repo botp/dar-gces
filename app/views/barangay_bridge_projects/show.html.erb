@@ -30,15 +30,18 @@
   <%= @barangay_bridge_project.project_length %>
 </p>
 
-<p>
-  <strong>Project length provided:</strong>
-  <%= @barangay_bridge_project.project_length_provided %>
-</p>
 
 <p>
-  <strong>Percentage completion:</strong>
+  <strong>Latest Project length provided:</strong>
   <%= @barangay_bridge_project.get_project_completion %>
 </p>
+
+  <p>
+    <strong>Percentage Completion:</strong>
+    <%= (@barangay_bridge_project.get_project_completion / @barangay_bridge_project.project_length * 100).round(1) %>
+    
+  </p>
+
 
 <p>
   <strong>Date project started:</strong>
