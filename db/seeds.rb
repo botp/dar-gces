@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+require 'csv'
+
+CSV.foreach("/botp/rails_projects/dar/docx/Region X Brgys_Partial.csv", headers:true) do |row|
+  p row
+  p row["ARC_TAG"]
+  gets
+end
+
