@@ -8,13 +8,13 @@ gem 'rails', '4.0.0'
 gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+#gem 'sass-rails', '~> 4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails' , '~> 4.0.0'
+#gem 'coffee-rails' , '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -46,13 +46,12 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # gem 'debugger', group: [:development, :test]
 
 # botps
-# group :production do
-  gem 'rails_12factor'
+group :production do
   gem "rails_serve_static_assets"
-# end
+end
 
 #gem "thin"
 
-# group :development do
-gem "schema_to_scaffold"
-#end
+group :development do
+  gem "schema_to_scaffold"
+end

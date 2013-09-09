@@ -1,0 +1,37 @@
+<h1>Reporter#selector</h1>
+<p>Find me in app/views/reporter/selector.html.erb</p>
+
+<div>
+<%= collection_select(nil, :region_id,  @regions,  :id, :name, {:prompt   => "Select a Region"}, {:id => 'regions_select'}) %>
+</div>
+
+<div>
+<%= collection_select(nil, :province_id, @provinces, :id, :name, {:prompt   => "Select a Province"}, {:id => 'provinces_select'}) %>
+</div>
+
+<div>
+<%= collection_select(nil, :district_id, @districts, :id, :name, {:prompt   => "Select a District"}, {:id => 'districts_select'}) %>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('#regions_select').change(function() {
+      $.ajax({
+        url: "<%= reporter_update_provinces_path %>",
+        data: {
+          region_id : $('#regions_select').val()
+        },
+        dataType: "script"
+      });
+    });
+    $('#provinces_select').change(function() {
+      $.ajax({
+        url: "<%= reporter_update_districts_path %>",
+        data: {
+          province_id : $('#provinces_select').val()
+        },
+        dataType: "script"
+      });
+    });
+  });
+</script>

@@ -10,6 +10,7 @@
       <th>Location</th>
       <th>Project service area</th>
       <th>Service area provided</th>
+      <th>Percentage Completion</th>
       <th>Date project started</th>
       <th>Date project ended</th>
       <th>Date actually completed</th>
@@ -34,7 +35,12 @@
         <td><%= barangay_irrigation_project.name_of_irrigation_project %></td>
         <td><%= barangay_irrigation_project.location %></td>
         <td><%= barangay_irrigation_project.project_service_area %></td>
-        <td><%= barangay_irrigation_project.service_area_provided %></td>
+
+        <td><%= barangay_irrigation_project.get_project_completion %>
+        </td>
+        <td><%= (barangay_irrigation_project.get_project_completion/barangay_irrigation_project.project_service_area * 100).round(1) %>
+        </td>
+
         <td><%= barangay_irrigation_project.date_project_started %></td>
         <td><%= barangay_irrigation_project.date_project_ended %></td>
         <td><%= barangay_irrigation_project.date_actually_completed %></td>

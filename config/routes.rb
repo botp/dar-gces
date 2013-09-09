@@ -1,4 +1,8 @@
 Dar::Application.routes.draw do
+  get "reporter/selector"
+  get "reporter/update_provinces"
+  get "reporter/update_districts"
+
   resources :users
 
   resources :barangay_postharvest_equipment_and_machinery_projects

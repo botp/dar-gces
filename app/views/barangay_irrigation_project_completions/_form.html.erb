@@ -17,7 +17,8 @@
   </div>
 
   <div class="field">
-    <label for="barangay_irrigation_project_irrigation_project_typology_id">Type of Irrigation Project:</label>  <%= f.collection_select :irrigation_project_typology_id, IrrigationProjectTypology.all, :id, :name, :prompt => "Select a Type of Irrigation Project" %>
+    <%= f.label :service_area_provided %><br>
+    <%= f.number_field :service_area_provided %>
   </div>
 
   <div class="field">
@@ -32,6 +33,7 @@
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
+
   <div class="field">
     <%= f.label :date_confirmed %><br>
     <%= f.date_select :date_confirmed %>
