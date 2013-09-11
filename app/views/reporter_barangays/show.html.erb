@@ -5,7 +5,7 @@
     <tr>
       <th>Tag</th>
       <th>Name</th>
-      <th>Description</th>
+      <th>ARC</th>
       <th>Municipality</th>
       <th>District</th>
       <th>Province</th>
@@ -20,12 +20,30 @@
       <tr>
         <td><%= barangay.tag %></td>
         <td><%= barangay.name %></td>
-        <td><%= barangay.description %></td>
+
+        <% if barangay.arc %>
+        <td><%= barangay.arc.name %></td>
+        <% else %>
+        <td><%= "non-ARC" %></td>
+        <% end %>
+
         <td><%= barangay.municipality.name %></td>
         <td><%= barangay.municipality.district.name %></td>
         <td><%= barangay.municipality.district.province.name %></td>
-        
       </tr>
+
+      <% if @reports_selection %>
+        <tr>
+        <% @reports_selection.each do |report| %>
+          <tr>
+          <td><%= report %></td>
+          <td><%= @reports_program_hash[report] %></td>
+          </tr>
+        <% end %>
+        </tr>
+      <% end %>
+      
+
     <% end %>
   </tbody>
 </table>

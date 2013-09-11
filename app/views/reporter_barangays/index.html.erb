@@ -1,5 +1,7 @@
-<h1>Barangay Selection:</h1>
+<h1>Barangay Query:</h1>
 <br>
+
+<h2>Select one or more Barangays:</h2>
 
 <%= form_tag do  %>
   <div class="select">
@@ -8,11 +10,25 @@
    <%= select_tag("search", options_from_collection_for_select(@barangays, "id", "name"), multiple:true)
    %>
   </div>
+  (hold the Ctrl key to select multiple barangays)
   <br>
 
- <div class="actions">
+ 
+  <br>
+  <h2>Select Type of Information:</h2>
+
+
+  <ul>
+    <% @reports.each do |report| %>
+        <li>
+          <%= check_box_tag 'reports[]', report -%>
+          <%= h report -%>
+        </li>
+    <% end %>
+  </ul>
+
+<div class="actions">
     <%= submit_tag("Show") %>
   </div>
-
 
 <% end %>
