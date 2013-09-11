@@ -1,0 +1,33 @@
+<h1>Barangay info:</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Municipality</th>
+      <th>District</th>
+      <th>Province</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @barangays.each do |barangay| %>
+      <tr>
+        <td><%= barangay.tag %></td>
+        <td><%= barangay.name %></td>
+        <td><%= barangay.description %></td>
+        <td><%= barangay.municipality.name %></td>
+        <td><%= barangay.municipality.district.name %></td>
+        <td><%= barangay.municipality.district.province.name %></td>
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>

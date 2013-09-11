@@ -12,4 +12,10 @@ class Barangay < ActiveRecord::Base
   has_many :barangay_irrigation_projects
   has_many :barangay_postharvest_equipment_and_machinery_projects
 
+
+  def self.search(query_ids)
+    find query_ids     
+  end
+
+
 end

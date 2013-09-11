@@ -1,0 +1,18 @@
+<h1>Barangay Selection:</h1>
+<br>
+
+<%= form_tag do  %>
+  <div class="select">
+    <label for="report_barangay_select">Barangay: </label>
+
+   <%= select_tag("search", options_from_collection_for_select(@barangays, "id", "name"), multiple:true)
+   %>
+  </div>
+  <br>
+
+ <div class="actions">
+    <%= submit_tag("Show") %>
+  </div>
+
+
+<% end %>
