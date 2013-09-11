@@ -3,7 +3,7 @@
 
 <%= form_tag do  %>
   <div class="select">
-    <label for="report_barangay_select">Barangay: </label>
+    <label for="reporter_barangay_select">Barangay: </label>
 
    <%= select_tag("search", options_from_collection_for_select(@barangays, "id", "name"), multiple:true)
    %>

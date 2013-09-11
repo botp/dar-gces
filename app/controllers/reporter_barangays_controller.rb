@@ -1,4 +1,5 @@
-class ReporterBarangayController < ApplicationController
+
+class ReporterBarangaysController < ApplicationController
   def index
     @barangays=Barangay.all  
    end

@@ -4,8 +4,8 @@ Dar::Application.routes.draw do
   # get "reporter/selector"
   # get "reporter/update_provinces"
   # get "reporter/update_districts"
-  get "reporter_barangay", controller: "reporter_barangay", action:"index"
-  post "reporter_barangay", controller: "reporter_barangay", action:"show"
+  get "reporter_barangays", controller: "reporter_barangays", action:"index"
+  post "reporter_barangays", controller: "reporter_barangays", action:"show"
 
   resources :users
 
