@@ -69,6 +69,6 @@ class BarangayBridgeProjectsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def barangay_bridge_project_params
-      params.require(:barangay_bridge_project).permit(:tag, :barangay_id, :name_of_bridge_project, :location, :type_of_project, :project_length, :project_length_provided, :percentage_completion, :date_project_started, :date_project_ended, :date_completed, :project_status)
+      params.require(:barangay_bridge_project).permit(:tag, :barangay_id, :name_of_bridge_project, :location, :type_of_project, :project_length, :project_length_provided, :date_project_started, :date_project_ended, :date_completed, :project_status)
     end
 end
