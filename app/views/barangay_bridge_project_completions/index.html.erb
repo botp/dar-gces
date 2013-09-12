@@ -1,9 +1,9 @@
-<h1>Listing barangay_bridge_project_completions</h1>
+<h1>List of Barangay Bridge Project Completions</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Barangay bridge project</th>
+      <th>Bridge Project Name</th>
       <th>Tag</th>
       <th>Name</th>
       <th>Description</th>
@@ -20,7 +20,7 @@
   <tbody>
     <% @barangay_bridge_project_completions.each do |barangay_bridge_project_completion| %>
       <tr>
-        <td><%= barangay_bridge_project_completion.barangay_bridge_project_id %></td>
+        <td><%= barangay_bridge_project_completion.barangay_bridge_project.name_of_bridge_project %></td>
         <td><%= barangay_bridge_project_completion.tag %></td>
         <td><%= barangay_bridge_project_completion.name %></td>
         <td><%= barangay_bridge_project_completion.description %></td>
