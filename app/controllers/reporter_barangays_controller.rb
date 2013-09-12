@@ -7,9 +7,10 @@ class ReporterBarangaysController < ApplicationController
       "Barangay Officials" => "barangay_politicals",
       "LTI Status" => "barangay_lti_statuses",
       "Barangay Organizations" => "barangay_organizations",
-      "Barangay Organizations Memberships" => "barangay_organization_memberships",
+      "Organizations Memberships" => "barangay_organization_memberships",
+      "FMR Projects" => "barangay_fmr_projects"
     }
-    
+
     @reports = @reports_program_hash.keys
 
     # @reports = [

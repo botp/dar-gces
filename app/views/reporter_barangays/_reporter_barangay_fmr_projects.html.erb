@@ -1,0 +1,43 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name of FMR Project</th>
+      <th>Location</th>
+      <th>Type of project</th>
+      <th>Project length</th>
+      <th>Project length provided</th>
+      <th>Percentage completion</th>
+      <th>Date project started</th>
+      <th>Date project ended</th>
+      <th>Date completed</th>
+      <th>Project status</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% barangay.barangay_fmr_projects.each do |barangay_fmr_project| %>
+      <tr>
+        <td><%= barangay_fmr_project.name_of_fmr_project %></td>
+        <td><%= barangay_fmr_project.location %></td>
+        <td><%= barangay_fmr_project.fmr_project_typology.name %></td>
+
+        <td><%= barangay_fmr_project.project_length %>
+        </td>
+        <td><%= barangay_fmr_project.get_project_completion %>
+        </td>
+        <td><%= (barangay_fmr_project.get_project_completion/barangay_fmr_project.project_length * 100).round(1) %>
+        </td>
+
+
+        <td><%= barangay_fmr_project.date_project_started %></td>
+        <td><%= barangay_fmr_project.date_project_ended %></td>
+        <td><%= barangay_fmr_project.date_completed %></td>
+        <td><%= barangay_fmr_project.project_status %></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
