@@ -12,6 +12,7 @@ class ReporterBarangaysController < ApplicationController
       "Bridge Projects" => "barangay_bridge_projects",
       "Irrigation Projects" => "barangay_irrigation_projects",
       "PostHarvest Equipment and Machinery Projects" => "barangay_postharvest_equipment_and_machinery_projects",
+      "PostHarvest Structure and Facility Projects" => "barangay_postharvest_structure_and_facility_projects",
     }
 
     @reports = @reports_program_hash.keys
