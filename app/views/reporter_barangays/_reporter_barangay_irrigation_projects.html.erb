@@ -1,0 +1,48 @@
+<table>
+  <thead>
+    <tr>
+      <th>Type of Irrigation</th>
+      <th>Name of Irrigation Project</th>
+      <th>Location</th>
+      <th>Project Service Area</th>
+      <th>Service Area Provided</th>
+      <th>Percentage Completion</th>
+      <th>Date Project Started</th>
+      <th>Date Project Ended</th>
+      <th>Date actually completed</th>
+      <th>Project Status</th>
+      <th>Beneficiaries count male arb</th>
+      <th>Beneficiaries count male non arb</th>
+      <th>Beneficiaries count female arb</th>
+      <th>Beneficiaries count female non arb</th>
+      <th>User</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% barangay.barangay_irrigation_projects.each do |barangay_irrigation_project| %>
+      <tr>
+        <td><%= barangay_irrigation_project.irrigation_project_typology.name %></td>
+        <td><%= barangay_irrigation_project.name_of_irrigation_project %></td>
+        <td><%= barangay_irrigation_project.location %></td>
+        <td><%= barangay_irrigation_project.project_service_area %></td>
+
+        <td><%= barangay_irrigation_project.get_project_completion %>
+        </td>
+        <td><%= (barangay_irrigation_project.get_project_completion/barangay_irrigation_project.project_service_area * 100).round(1) %>
+        </td>
+
+        <td><%= barangay_irrigation_project.date_project_started %></td>
+        <td><%= barangay_irrigation_project.date_project_ended %></td>
+        <td><%= barangay_irrigation_project.date_actually_completed %></td>
+        <td><%= barangay_irrigation_project.project_status %></td>
+        <td><%= barangay_irrigation_project.beneficiaries_count_male_arb %></td>
+        <td><%= barangay_irrigation_project.beneficiaries_count_male_non_arb %></td>
+        <td><%= barangay_irrigation_project.beneficiaries_count_female_arb %></td>
+        <td><%= barangay_irrigation_project.beneficiaries_count_female_non_arb %></td>
+        <td><%= barangay_irrigation_project.user_id %></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
