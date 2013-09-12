@@ -7,7 +7,7 @@
   <div class="select">
     <label for="reporter_barangay_select">Barangay: </label>
 
-   <%= select_tag("search", options_from_collection_for_select(@barangays, "id", "name"), multiple:true)
+   <%= select_tag("search", options_from_collection_for_select(@barangays, "id", "long_name"), multiple:true)
    %>
   </div>
   (hold the Ctrl key to select multiple barangays)

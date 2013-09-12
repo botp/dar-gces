@@ -18,5 +18,14 @@ class Barangay < ActiveRecord::Base
     find query_ids     
   end
 
+  def long_name
+    [ 
+      name ,
+      (arc ? arc.name : "non-ARC") ,
+      municipality.name ,
+      municipality.district.name ,
+      municipality.district.province.name ,
+    ].join(", ")
+  end
 
 end
