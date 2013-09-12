@@ -1,4 +1,6 @@
 Dar::Application.routes.draw do
+  resources :barangay_postharvest_structure_and_facility_projects
+
   # get "reporter_barangay/select"
   # get "reporter_barangay/report"
   # get "reporter/selector"

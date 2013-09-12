@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  barangay_id: 1
+  postharvest_structure_and_facility_typology_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  count_of_units_provided: 1
+  status: false
+  date_confirmed: 2013-09-12
+  user_id: 1
+
+two:
+  barangay_id: 1
+  postharvest_structure_and_facility_typology_id: 1
+  tag: MyString
+  name: MyString
+  description: MyText
+  count_of_units_provided: 1
+  status: false
+  date_confirmed: 2013-09-12
+  user_id: 1
