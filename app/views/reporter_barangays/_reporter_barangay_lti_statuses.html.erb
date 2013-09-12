@@ -1,0 +1,41 @@
+<table>
+  <thead>
+    <tr>
+      <th>Lad scope</th>
+      <th>Working scope</th>
+      <th>Vos</th>
+      <th>Ca</th>
+      <th>Vlt</th>
+      <th>Gol</th>
+      <th>Remarks</th>
+      <th>Lad male arb</th>
+      <th>Lad female arb</th>
+      <th>Leasehold scope</th>
+      <th>Leasehold accomplishment</th>
+      <th>Remarks2</th>
+      <th>Lh male arb</th>
+      <th>Lh female arb</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% barangay.barangay_lti_statuses.each do |barangay_lti_status| %>
+      <tr>
+        <td><%= barangay_lti_status.lad_scope %></td>
+        <td><%= barangay_lti_status.working_scope %></td>
+        <td><%= barangay_lti_status.vos %></td>
+        <td><%= barangay_lti_status.ca %></td>
+        <td><%= barangay_lti_status.vlt %></td>
+        <td><%= barangay_lti_status.gol %></td>
+        <td><%= barangay_lti_status.remarks %></td>
+        <td><%= barangay_lti_status.lad_male_arb %></td>
+        <td><%= barangay_lti_status.lad_female_arb %></td>
+        <td><%= barangay_lti_status.leasehold_scope %></td>
+        <td><%= barangay_lti_status.leasehold_accomplishment %></td>
+        <td><%= barangay_lti_status.remarks2 %></td>
+        <td><%= barangay_lti_status.lh_male_arb %></td>
+        <td><%= barangay_lti_status.lh_female_arb %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

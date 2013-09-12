@@ -5,6 +5,7 @@ class ReporterBarangaysController < ApplicationController
       "Geographics" => "barangay_geographicals" ,
       "Population" => "barangay_populations" ,
       "Barangay Officials" => "barangay_politicals",
+      "LTI Status" => "barangay_lti_statuses",
     }
     @reports = @reports_program_hash.keys
 
