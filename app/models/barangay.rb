@@ -2,6 +2,8 @@ class Barangay < ActiveRecord::Base
   belongs_to :municipality
   has_one :arc_barangay
   has_one :arc, :through => :arc_barangay
+  has_one :district, :through => :municipality
+  has_one :province, :through => :district
   has_many :barangay_geographicals
   has_many :barangay_politicals
   has_many :barangay_populations
@@ -18,13 +20,24 @@ class Barangay < ActiveRecord::Base
     find query_ids     
   end
 
-  def long_name
+  def long_namex
     [ 
       name ,
       (arc ? arc.name : "non-ARC") ,
       municipality.name ,
       municipality.district.name ,
       municipality.district.province.name ,
+    ].join(", ")
+  end
+
+
+  def long_name
+    [ 
+      name ,
+      (arc ? arc.name : "non-ARC") ,
+      municipality.name ,
+      district.name ,
+      province.name ,
     ].join(", ")
   end
 
