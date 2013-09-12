@@ -12,22 +12,13 @@ class Barangay < ActiveRecord::Base
   has_many :barangay_fmr_projects
   has_many :barangay_bridge_projects
   has_many :barangay_organizations
+  has_many  :barangay_organization_memberships, :through => :barangay_organizations
   has_many :barangay_irrigation_projects
   has_many :barangay_postharvest_equipment_and_machinery_projects
 
 
   def self.search(query_ids)
     find query_ids     
-  end
-
-  def long_namex
-    [ 
-      name ,
-      (arc ? arc.name : "non-ARC") ,
-      municipality.name ,
-      municipality.district.name ,
-      municipality.district.province.name ,
-    ].join(", ")
   end
 
 
