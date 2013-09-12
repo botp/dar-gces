@@ -1,13 +1,7 @@
 <h1>Barangay info:</h1>
-<% if @reports_selection %>
-    <h2><%= @reports_selection.join(", ") %></h2>
-<% end %>
-      
 
-<% @barangays.each do |barangay| %>
-    <table>
-
-    <thead>
+<table>
+  <thead>
     <tr>
       <th>Name</th>
       <th>ARC</th>
@@ -17,12 +11,11 @@
       <th></th>
       <th></th>
       <th></th>
-      <th></th>
-      <th></th>
     </tr>
-    </thead>
+  </thead>
 
-    <tbody>
+  <tbody>
+    <% @barangays.each do |barangay| %>
       <tr>
         <td><%= barangay.name %></td>
 
@@ -36,31 +29,31 @@
         <td><%= barangay.municipality.district.name %></td>
         <td><%= barangay.municipality.district.province.name %></td>
       </tr>
-    </tbody>
-    </table>
+    
+    <% end %>
+  </tbody>
+</table>
+<br>
 
+<div>
+<div style="margin-left:50px">
+<% @barangays.each do |barangay| %>
 
-    <div>
-    <div style="margin-left:50px">
+  <% if @reports_selection %>
+  
+    <% @reports_selection.each do |report| %>
 
-      <% if @reports_selection %>
+      <div>
+      <%= render partial:"reporter_"+@reports_program_hash[report] , :locals => {:barangay => barangay} %>
+      </div>
       
-        <% @reports_selection.each do |report| %>
+    <% end %>
 
-          <div>
-          <%= render partial:"reporter_"+@reports_program_hash[report] , :locals => {:barangay => barangay} %>
-          </div>
-          
-        <% end %>
-
-      <% end %>
-      
-
-    </div>
-    </div>
-
-    <br>
-
-
+  <% end %>
+  
 <% end %>
+</div>
+</div>
 
+
+<br>

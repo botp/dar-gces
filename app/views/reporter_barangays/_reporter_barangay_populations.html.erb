@@ -1,0 +1,31 @@
+
+<table>
+  <thead>
+    <tr>
+      <th>Arb male</th>
+      <th>Arb female</th>
+      <th>Non arb male</th>
+      <th>Non arb female</th>
+      <th>Arb household</th>
+      <th>Non arb household</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% barangay.barangay_populations.each do |barangay_population| %>
+      <tr>
+        <td><%= barangay_population.arb_male %></td>
+        <td><%= barangay_population.arb_female %></td>
+        <td><%= barangay_population.non_arb_male %></td>
+        <td><%= barangay_population.non_arb_female %></td>
+        <td><%= barangay_population.arb_household %></td>
+        <td><%= barangay_population.non_arb_household %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+

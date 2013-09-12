@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Barangay chairman</th>
+      <th>BARC chairman</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% barangay.barangay_politicals.each do |barangay_political| %>
+      <tr>
+        <td><%= barangay_political.barangay_chairman %></td>
+        <td><%= barangay_political.barc_chairman %></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>

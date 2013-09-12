@@ -4,6 +4,7 @@ class ReporterBarangaysController < ApplicationController
     @reports_program_hash = {
       "Geographics" => "barangay_geographicals" ,
       "Population" => "barangay_populations" ,
+      "Barangay Officials" => "barangay_politicals",
     }
     @reports = @reports_program_hash.keys
 

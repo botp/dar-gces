@@ -1,0 +1,28 @@
+
+<table>
+  <thead>
+    <tr>
+      <th>Land area</th>
+      <th>Agricultural area</th>
+      <th>Terrain</th>
+      <th>Ecosystem</th>
+      <th>Distance from town proper</th>
+      <th>Means of transportation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% barangay.barangay_geographicals.each do |barangay_geographical| %>
+      <tr>
+        <td><%= barangay_geographical.land_area %></td>
+        <td><%= barangay_geographical.agricultural_area %></td>
+        <td><%= barangay_geographical.terrain %></td>
+        <td><%= barangay_geographical.ecosystem %></td>
+        <td><%= barangay_geographical.distance_from_town_proper %></td>
+        <td><%= barangay_geographical.means_of_transportation %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>
+
+

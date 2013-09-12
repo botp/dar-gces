@@ -21,8 +21,8 @@
   <ul>
     <% @reports.each do |report| %>
         <li>
-          <%= check_box_tag 'reports[]', report -%>
-          <%= h report -%>
+          <%= check_box_tag 'reports[]', report %>
+          <%= h report %>
         </li>
     <% end %>
   </ul>
