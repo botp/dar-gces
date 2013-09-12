@@ -1,0 +1,28 @@
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Type of Equipment/Machinery</th>
+      <th>Number of Units provided</th>
+      <th>Status</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% barangay.barangay_postharvest_equipment_and_machinery_projects.each do |barangay_postharvest_equipment_and_machinery_project| %>
+      <tr>
+        <td><%= barangay_postharvest_equipment_and_machinery_project.name %></td>
+        <td><%= barangay_postharvest_equipment_and_machinery_project.postharvest_equipment_and_machinery_typology.name %></td>
+        <td><%= barangay_postharvest_equipment_and_machinery_project.count_of_units_provided %></td>
+        
+        <td><%= barangay_postharvest_equipment_and_machinery_project.status %>
+        </td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>

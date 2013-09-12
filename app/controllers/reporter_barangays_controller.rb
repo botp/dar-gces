@@ -10,16 +10,11 @@ class ReporterBarangaysController < ApplicationController
       "Organizations Memberships" => "barangay_organization_memberships",
       "FMR Projects" => "barangay_fmr_projects",
       "Bridge Projects" => "barangay_bridge_projects",
-
+      "Irrigation Projects" => "barangay_irrigation_projects",
+      "PostHarvest Equipment and Machinery Projects" => "barangay_postharvest_equipment_and_machinery_projects",
     }
 
     @reports = @reports_program_hash.keys
-
-    # @reports = [
-    #   "Geographics", 
-    #   "Population", 
-    # ]
-
 
     @barangays = Barangay.none
     @reports_selection = []
