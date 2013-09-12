@@ -1,0 +1,42 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name of bridge project</th>
+      <th>Location</th>
+      <th>Type of project</th>
+      <th>Project length</th>
+      <th>Project length provided</th>
+      <th>Percentage completion</th>
+      <th>Date project started</th>
+      <th>Date project ended</th>
+      <th>Date completed</th>
+      <th>Project status</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% barangay.barangay_bridge_projects.each do |barangay_bridge_project| %>
+      <tr>
+        <td><%= barangay_bridge_project.name_of_bridge_project %></td>
+        <td><%= barangay_bridge_project.location %></td>
+        <td><%= barangay_bridge_project.bridge_project_typology.name %></td>
+        
+        <td><%= barangay_bridge_project.project_length %></td>
+        
+        <td><%= barangay_bridge_project.get_project_completion %></td>
+
+        <td><%= (barangay_bridge_project.get_project_completion / barangay_bridge_project.project_length * 100).round(1) %></td>
+
+
+        <td><%= barangay_bridge_project.date_project_started %></td>
+        <td><%= barangay_bridge_project.date_project_ended %></td>
+        <td><%= barangay_bridge_project.date_completed %></td>
+        <td><%= barangay_bridge_project.project_status %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+

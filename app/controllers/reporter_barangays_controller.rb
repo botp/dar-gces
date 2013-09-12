@@ -8,7 +8,9 @@ class ReporterBarangaysController < ApplicationController
       "LTI Status" => "barangay_lti_statuses",
       "Barangay Organizations" => "barangay_organizations",
       "Organizations Memberships" => "barangay_organization_memberships",
-      "FMR Projects" => "barangay_fmr_projects"
+      "FMR Projects" => "barangay_fmr_projects",
+      "Bridge Projects" => "barangay_bridge_projects",
+
     }
 
     @reports = @reports_program_hash.keys
