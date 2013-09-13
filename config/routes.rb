@@ -9,6 +9,8 @@ Dar::Application.routes.draw do
   get "reporter_barangays", controller: "reporter_barangays", action:"index"
   post "reporter_barangays", controller: "reporter_barangays", action:"show"
 
+  get "data_entry", controller: "data_entry", action:"index"
+
   resources :users
 
   resources :barangay_postharvest_equipment_and_machinery_projects
@@ -117,7 +119,7 @@ Dar::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
