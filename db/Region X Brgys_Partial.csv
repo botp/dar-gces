@@ -1,0 +1,691 @@
+ARC_TAG, ARC_NAME ,ARC YEAR,PROVINCE,CONGRESSIONAL DISTRICT,MUNICIPALITY,BARANGAY,BARANGAY CLASSIFICATION
+1001-001, Bismartz ,1993,Bukidnon,3rd,Don Carlos,Bismartz,ARC Barangay
+1001-002, Cawayan-Impalutao ,1993,Bukidnon,2nd,Impasug-ong,Cawayan,ARC Barangay
+1001-002, Cawayan-Impalutao ,1993,Bukidnon,2nd,Impasug-ong,Impalutao,ARC Barangay
+1001-003, Maraymaray ,1993,Bukidnon,3rd,Don Carlos,Maray- Maray,ARC Barangay
+1001-004, Silae-Dalacutan ,1993,Bukidnon,2nd,Malaybalay,Silae,ARC Barangay
+1001-004, Silae-Dalacutan ,1993,Bukidnon,2nd,Cabanglasan,Dalacutan,ARC Barangay
+1001-005, South Pangantucan ,1993,Bukidnon,1st,Pangantucan,Payad,ARC Barangay
+1001-005, South Pangantucan ,1993,Bukidnon,1st,Pangantucan,Kipaducan,ARC Barangay
+1001-005, South Pangantucan ,1993,Bukidnon,1st,Pangantucan,Bangahan,ARC Barangay
+1001-005, South Pangantucan ,1993,Bukidnon,1st,Pangantucan,Kimanaet,ARC Barangay
+1001-005, South Pangantucan ,1993,Bukidnon,1st,Pangantucan,Langcataon,ARC Barangay
+1001-005, South Pangantucan ,1993,Bukidnon,1st,Pangantucan,Malipayon,ARC Barangay
+1001-006, Cabadiangan ,1994,Bukidnon,3rd,Kadingilan,Cabadiangan,ARC Barangay
+1001-007, Cabanglasan ,1994,Bukidnon,2nd,Cabanglasan,Poblacion,ARC Barangay
+1001-007, Cabanglasan ,1994,Bukidnon,2nd,Cabanglasan,Capinonan,ARC Barangay
+1001-007, Cabanglasan ,1994,Bukidnon,2nd,Cabanglasan,Anlogan,ARC Barangay
+1001-007, Cabanglasan ,1994,Bukidnon,2nd,Cabanglasan,Cabulohan,ARC Barangay
+1001-007, Cabanglasan ,1994,Bukidnon,2nd,Cabanglasan,Paradise,ARC Barangay
+1001-007, Cabanglasan ,1994,Bukidnon,2nd,Cabanglasan,Iba,ARC Barangay
+1001-007, Cabanglasan ,1994,Bukidnon,2nd,Cabanglasan,Mandaing,ARC Barangay
+,,,Bukidnon,2nd,Cabanglasan,Canangaan,Non-ARC Barangay
+,,,Bukidnon,2nd,Cabanglasan,Freedom,Non-ARC Barangay
+,,,Bukidnon,2nd,Cabanglasan,Imbatug,Non-ARC Barangay
+,,,Bukidnon,2nd,Cabanglasan,Jasaan,Non-ARC Barangay
+,,,Bukidnon,2nd,Cabanglasan,Lambangan,Non-ARC Barangay
+,,,Bukidnon,2nd,Cabanglasan,Mandahikan,Non-ARC Barangay
+,,,Bukidnon,2nd,Cabanglasan,Mauswagon,Non-ARC Barangay
+1001-008, GREENFIELDS ,1994,Bukidnon,2nd,Valencia,Tongan- Tongan,ARC Barangay
+1001-008, GREENFIELDS ,1994,Bukidnon,2nd,Valencia,Kahaponan,ARC Barangay
+1001-009, Lower Kulaman ,1994,Bukidnon,1st,Sumilao,Poblacion,ARC Barangay
+1001-009, Lower Kulaman ,1994,Bukidnon,1st,Sumilao,Kisolon,ARC Barangay
+1001-009, Lower Kulaman ,1994,Bukidnon,1st,Sumilao,Lupiagan,ARC Barangay
+1001-009, Lower Kulaman ,1994,Bukidnon,1st,Sumilao,San Vicente,ARC Barangay
+1001-010, MAMAKIPO Expansion ,1994,Bukidnon,3rd,Damulog,Pocopoco,ARC Barangay
+1001-010, MAMAKIPO Expansion ,1994,Bukidnon,3rd,Damulog,Maican,ARC Barangay
+1001-010, MAMAKIPO Expansion ,1994,Bukidnon,3rd,Damulog,Macapari,ARC Barangay
+1001-010, MAMAKIPO Expansion ,1994,Bukidnon,3rd,Damulog,Kinapat,ARC Barangay
+1001-010, MAMAKIPO Expansion ,1994,Bukidnon,3rd,Damulog,Omonay,ARC Barangay
+,,,Bukidnon,3rd,Damulog,Aludas,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,Angga-an,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,Kiraon,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,Kitingting,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,Lagandang,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,Migcawayan,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,New Compostela,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,Old Damulog,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,Poblacion (New Damulog),Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,San Isidro,Non-ARC Barangay
+,,,Bukidnon,3rd,Damulog,Tangkulan (Jose Rizal),Non-ARC Barangay
+1001-011, POMIKKO ,1994,Bukidnon,1st,Malitbog,Poblacion,ARC Barangay
+1001-011, POMIKKO ,1994,Bukidnon,1st,Malitbog,Omagling,ARC Barangay
+1001-011, POMIKKO ,1994,Bukidnon,1st,Malitbog,Mindagat,ARC Barangay
+1001-011, POMIKKO ,1994,Bukidnon,1st,Malitbog,Kiabo,ARC Barangay
+1001-011, POMIKKO ,1994,Bukidnon,1st,Malitbog,Kalingking,ARC Barangay
+1001-012, Bacusanon ,1996,Bukidnon,1st,Pangantucan,Bacusanon,ARC Barangay
+1001-013, GTARC ,1996,Bukidnon,2nd,Malaybalay,Managok,ARC Barangay
+1001-013, GTARC ,1996,Bukidnon,2nd,Malaybalay,Linabo,ARC Barangay
+1001-013, GTARC ,1996,Bukidnon,2nd,Malaybalay,Apo Macote,ARC Barangay
+1001-013, GTARC ,1996,Bukidnon,2nd,Malaybalay,Simaya,ARC Barangay
+1001-013, GTARC ,1996,Bukidnon,2nd,Valencia,Nabag-o,ARC Barangay
+1001-013, GTARC ,1996,Bukidnon,2nd,Malaybalay,Sinanglanan,ARC Barangay
+1001-013, GTARC ,1996,Bukidnon,2nd,Malaybalay,Sto. Nino,ARC Barangay
+1001-013, GTARC ,1996,Bukidnon,2nd,Malaybalay,San Martin,ARC Barangay
+1001-014, KALINDA ,1996,Bukidnon,1st,Manolo Fortich,Kalugmanan,ARC Barangay
+1001-014, KALINDA ,1996,Bukidnon,1st,Manolo Fortich,Lindaban,ARC Barangay
+1001-014, KALINDA ,1996,Bukidnon,1st,Manolo Fortich,Dahilayan,ARC Barangay
+1001-015, North Poblacion ,1996,Bukidnon,3rd,Maramag,North Poblacion,ARC Barangay
+1001-016, Kalilangan ,1996,Bukidnon,1st,Kalilangan,Macaopao,ARC Barangay
+1001-016, Kalilangan ,1996,Bukidnon,1st,Kalilangan,Kinura,ARC Barangay
+1001-016, Kalilangan ,1996,Bukidnon,1st,Kalilangan,Central Poblacion,ARC Barangay
+1001-016, Kalilangan ,1996,Bukidnon,1st,Kalilangan,West Poblacion,ARC Barangay
+1001-016, Kalilangan ,1996,Bukidnon,1st,Kalilangan,Ninoy Aquino,ARC Barangay
+1001-017, Salawagan ,1996,Bukidnon,3rd,Quezon,Salawagan,ARC Barangay
+1001-018, Barobo ,1999,Bukidnon,2nd,Valencia,Barobo,ARC Barangay
+1001-019, Base Camp ,1998,Bukidnon,3rd,Maramag,Base Camp,ARC Barangay
+1001-020, Kaatuan ,1999,Bukidnon,2nd,Lantapan,Kaatuan,ARC Barangay
+1001-021, Lucky 5 ,1998,Bukidnon,3rd,Dangcagan,Miaray,ARC Barangay
+1001-021, Lucky 5 ,1998,Bukidnon,3rd,Dangcagan,Migcuya,ARC Barangay
+1001-021, Lucky 5 ,1998,Bukidnon,3rd,Dangcagan,Dolorosa,ARC Barangay
+1001-021, Lucky 5 ,1998,Bukidnon,3rd,Dangcagan,Kianggat,ARC Barangay
+1001-021, Lucky 5 ,1998,Bukidnon,3rd,Dangcagan,San Vicente,ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,Barongcot,Non-ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,Bugwak,Non-ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,Kapalaran,Non-ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,Lourdes,Non-ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,Mac Arthur,Non-ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,New Visayas,Non-ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,Osmeña,Non-ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,Poblacion,Non-ARC Barangay
+,,,Bukidnon,3rd,Dangcagan,Sagbayan,Non-ARC Barangay
+1001-022, MISAD ,1999,Bukidnon,1st,Baungon,Mabunga,ARC Barangay
+1001-022, MISAD ,1999,Bukidnon,1st,Baungon,Imbatug,ARC Barangay
+1001-022, MISAD ,1999,Bukidnon,1st,Baungon,Salimbalan,ARC Barangay
+1001-022, MISAD ,1999,Bukidnon,1st,Baungon,Danatag,ARC Barangay
+1001-022, MISAD ,1999,Bukidnon,1st,Baungon,Lingating,ARC Barangay
+1001-022, MISAD ,1999,Bukidnon,1st,Baungon,Liboran,ARC Barangay
+,,,Bukidnon,1st,Baungon,Balintad,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,Buenavista,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,Kalilangan,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,Lacolac,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,Langaon,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,Mabuhay,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,Mabunga,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,Nicdao,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,Pualas,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,San Miguel,Non-ARC Barangay
+,,,Bukidnon,1st,Baungon,San Vicente,Non-ARC Barangay
+1001-023, Sani-Sina ,1998,Bukidnon,3rd,Don Carlos,Sinangguyan,ARC Barangay
+1001-023, Sani-Sina ,1998,Bukidnon,3rd,Don Carlos,San Nicolas,ARC Barangay
+1001-024, TALABMA ,1998,Bukidnon,3rd,Kibawe,Talahiron,ARC Barangay
+1001-024, TALABMA ,1998,Bukidnon,3rd,Kibawe,Labuagon,ARC Barangay
+1001-024, TALABMA ,1998,Bukidnon,3rd,Kibawe,Marapange,ARC Barangay
+1001-025, West Kitaotao ,1998,Bukidnon,3rd,Kitaotao,Bershiba,ARC Barangay
+1001-025, West Kitaotao ,1998,Bukidnon,3rd,Kitaotao,Bobong,ARC Barangay
+1001-025, West Kitaotao ,1998,Bukidnon,3rd,Kitaotao,Kauyonan,ARC Barangay
+1001-025, West Kitaotao ,1998,Bukidnon,3rd,Kitaotao,Malobalo,ARC Barangay
+1001-025, West Kitaotao ,1998,Bukidnon,3rd,Kitaotao,Sto. Rosario,ARC Barangay
+1001-025, West Kitaotao ,1998,Bukidnon,3rd,Kitaotao,Kalumihan,ARC Barangay
+1001-026, GKK ,2000,Bukidnon,1st,Libona,Gango,ARC Barangay
+1001-026, GKK ,2000,Bukidnon,1st,Libona,Kinawe,ARC Barangay
+1001-026, GKK ,2000,Bukidnon,1st,Libona,Kiliog,ARC Barangay
+1001-027, Sampagar ,1999,Bukidnon,3rd,Damulog,Sampagar,ARC Barangay
+1001-028, DASS-5 ARC ,2000,Bukidnon,1st,Talakag,San Isidro,ARC Barangay
+1001-028, DASS-5 ARC ,2000,Bukidnon,1st,Talakag,Dagumbaan,ARC Barangay
+1001-028, DASS-5 ARC ,2000,Bukidnon,1st,Talakag,Sto. Niño,ARC Barangay
+1001-028, DASS-5 ARC ,2000,Bukidnon,1st,Talakag,Brgy 5,ARC Barangay
+1001-029, Sunrise ,2000,Bukidnon,1st,Manolo Fortich,Lunocan,ARC Barangay
+1001-029, Sunrise ,2000,Bukidnon,1st,Manolo Fortich,Mantibugao,ARC Barangay
+1001-029, Sunrise ,2000,Bukidnon,1st,Manolo Fortich,Sto. Nino,ARC Barangay
+1001-029, Sunrise ,2000,Bukidnon,1st,Manolo Fortich,Diclum,ARC Barangay
+1001-029, Sunrise ,2000,Bukidnon,1st,Manolo Fortich,Minsoro,ARC Barangay
+1001-030, SMS ,2002,Bukidnon,1st,Libona,San Jose,ARC Barangay
+1001-030, SMS ,2002,Bukidnon,1st,Libona,Maambong,ARC Barangay
+1001-030, SMS ,2002,Bukidnon,1st,Libona,Sil-ipon,ARC Barangay
+1001-031, NAMLUGSAD ,2002,Bukidnon,2nd,San Fernando,Namnam,ARC Barangay
+1001-031, NAMLUGSAD ,2002,Bukidnon,2nd,San Fernando,Iglugsad,ARC Barangay
+1001-032, North Kadingilan ,2002,Bukidnon,3rd,Kadingilan,Poblacion,ARC Barangay
+1001-032, North Kadingilan ,2002,Bukidnon,3rd,Kadingilan,Pay-as,ARC Barangay
+1001-032, North Kadingilan ,2002,Bukidnon,3rd,Kadingilan,Salvacion,ARC Barangay
+1001-032, North Kadingilan ,2002,Bukidnon,3rd,Kadingilan,Baroy,ARC Barangay
+1001-033, LULIMBO ,2003,Bukidnon,2nd,Valencia,Lurogan,ARC Barangay
+1001-033, LULIMBO ,2003,Bukidnon,2nd,Valencia,Lilingayon,ARC Barangay
+1001-033, LULIMBO ,2003,Bukidnon,2nd,Valencia,Mt. Nebo,ARC Barangay
+1001-034, Green Terrain ,2003,Bukidnon,3rd,Kibawe,Old Kibawe,ARC Barangay
+1001-034, Green Terrain ,2003,Bukidnon,3rd,Kibawe,Romagooc,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,Balangigay,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,Cabalantian,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,Kitobo,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,Pagan,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,Sagundamon,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,San Lorenzo,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,Sinuda,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,Tandong,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,Tawas,ARC Barangay
+1001-035, Eastern Kitaotao Special ARC ,2006,Bukidnon,3rd,Kitaotao,White Kulaman,ARC Barangay
+1001-036, LB ,2006,Bukidnon,3rd,Quezon,Lumintao,ARC Barangay
+1001-036, LB ,2006,Bukidnon,3rd,Quezon,Butong,ARC Barangay
+1001-037, SALIDA ,2006,Bukidnon,1st,Talakag,Sagaran,ARC Barangay
+1001-037, SALIDA ,2006,Bukidnon,1st,Talakag,Liguron,ARC Barangay
+1001-037, SALIDA ,2006,Bukidnon,1st,Talakag,Dagondalahon,ARC Barangay
+1001-038, KBARC ,2007,Bukidnon,2nd,Lantapan,Kulasihan,ARC Barangay
+1001-038, KBARC ,2007,Bukidnon,2nd,Lantapan,Bantuanon,ARC Barangay
+1001-039, MBARC ,2007,Bukidnon,2nd,Valencia,Mabuhay,ARC Barangay
+1001-039, MBARC ,2007,Bukidnon,2nd,Valencia,Banlag,ARC Barangay
+1001-040, South Border ,2007,Bukidnon,3rd,Kadingilan,Bagongbayan,ARC Barangay
+1001-040, South Border ,2007,Bukidnon,3rd,Kadingilan,Balaoro,ARC Barangay
+1001-040, South Border ,2007,Bukidnon,3rd,Kadingilan,Mabuhay,ARC Barangay
+1001-040, South Border ,2007,Bukidnon,3rd,Kadingilan,Pinamanguhan,ARC Barangay
+1001-041, PVSO ,2008,Bukidnon,1st,Sumilao,Puntian,ARC Barangay
+1001-041, PVSO ,2008,Bukidnon,1st,Sumilao,Vista Villa,ARC Barangay
+1001-041, PVSO ,2008,Bukidnon,1st,Sumilao,San Roque,ARC Barangay
+1001-041, PVSO ,2008,Bukidnon,1st,Sumilao,Ocasion,ARC Barangay
+1001-042, NPC ,2008,Bukidnon,1st,Libona,Nangka,ARC Barangay
+1001-042, NPC ,2008,Bukidnon,1st,Libona,Pongol,ARC Barangay
+1001-042, NPC ,2008,Bukidnon,1st,Libona,Capihan,ARC Barangay
+1001-043, TRIPLE S ,2008,Bukidnon,1st,Malitbog,Sampiano,ARC Barangay
+1001-043, TRIPLE S ,2008,Bukidnon,1st,Malitbog,San Luis,ARC Barangay
+1001-043, TRIPLE S ,2008,Bukidnon,1st,Malitbog,Silo-o,ARC Barangay
+1001-044, DaLaR ,2008,Bukidnon,3rd,Maramag,Dagumba-an,ARC Barangay
+1001-044, DaLaR ,2008,Bukidnon,3rd,Maramag,La Roxas,ARC Barangay
+1001-045, KIMIN C ,2008,Bukidnon,3rd,Quezon,C-Handumanan,ARC Barangay
+1001-045, KIMIN C ,2008,Bukidnon,3rd,Quezon,Kiburiao,ARC Barangay
+1001-045, KIMIN C ,2008,Bukidnon,3rd,Quezon,Minsamongan,ARC Barangay
+1001-046, DAPAT-KA-KAPIT ,2010,Bukidnon,2nd,Malaybalay,Dalwangan,ARC Barangay
+1001-046, DAPAT-KA-KAPIT ,2010,Bukidnon,2nd,Malaybalay,Patpat,ARC Barangay
+1001-046, DAPAT-KA-KAPIT ,2010,Bukidnon,2nd,Malaybalay,Kalasungay,ARC Barangay
+1001-046, DAPAT-KA-KAPIT ,2010,Bukidnon,2nd,Malaybalay,Capetan Angel,ARC Barangay
+1001-047, HALIMATU ,2010,Bukidnon,2nd,San Fernando,Halapitan,ARC Barangay
+1001-047, HALIMATU ,2010,Bukidnon,2nd,San Fernando,Little baguio,ARC Barangay
+1001-047, HALIMATU ,2010,Bukidnon,2nd,San Fernando,Mabuhay,ARC Barangay
+1001-047, HALIMATU ,2010,Bukidnon,2nd,San Fernando,Tugop,ARC Barangay
+1002-001, TAGBANAY ,1993,Camiguin,Lone,Mambajao,Agoho,ARC Barangay
+1002-001, TAGBANAY ,1993,Camiguin,Lone,Mambajao,Tagdo,ARC Barangay
+1002-001, TAGBANAY ,1993,Camiguin,Lone,Mambajao,Bug-ong,ARC Barangay
+1002-001, TAGBANAY ,1993,Camiguin,Lone,Mambajao,Naasag,ARC Barangay
+1002-001, TAGBANAY ,1993,Camiguin,Lone,Mambajao,Yumbing,ARC Barangay
+1002-002, Tacangon Expanded ,1994,Camiguin,Lone,Mahinog,Poblacion,ARC Barangay
+1002-002, Tacangon Expanded ,1994,Camiguin,Lone,Mahinog,Binaliwan,ARC Barangay
+1002-002, Tacangon Expanded ,1994,Camiguin,Lone,Mahinog,Puntod,ARC Barangay
+1002-002, Tacangon Expanded ,1994,Camiguin,Lone,Mahinog,Tubod,ARC Barangay
+1002-002, Tacangon Expanded ,1994,Camiguin,Lone,Mahinog,Owakan,ARC Barangay
+1002-002, Tacangon Expanded ,1994,Camiguin,Lone,Mahinog,San Roque,ARC Barangay
+1002-002, Tacangon Expanded ,1994,Camiguin,Lone,Mahinog,San Miguel,ARC Barangay
+1002-002, Tacangon Expanded ,1994,Camiguin,Lone,Mahinog,San Jose,ARC Barangay
+,,,Camiguin,Lone,Mahinog,Benoni,Non-ARC Barangay
+1002-003, Bacnit Expanded ,1996,Camiguin,Lone,Sagay,Bacnit,ARC Barangay
+1002-003, Bacnit Expanded ,1996,Camiguin,Lone,Sagay,Bugang,ARC Barangay
+1002-003, Bacnit Expanded ,1996,Camiguin,Lone,Sagay,Mayana,ARC Barangay
+1002-003, Bacnit Expanded ,1996,Camiguin,Lone,Sagay,Poblacion,ARC Barangay
+1002-004, East Sagay Cluster ,2000,Camiguin,Lone,Sagay,Alangilan,ARC Barangay
+1002-004, East Sagay Cluster ,2000,Camiguin,Lone,Sagay,Balite,ARC Barangay
+1002-004, East Sagay Cluster ,2000,Camiguin,Lone,Sagay,Bonbon,ARC Barangay
+1002-004, East Sagay Cluster ,2000,Camiguin,Lone,Sagay,Cuña,ARC Barangay
+1002-004, East Sagay Cluster ,2000,Camiguin,Lone,Sagay,Manuyog,ARC Barangay
+1002-005, MACOPAS Expanded ,2000,Camiguin,Lone,Catarman,Mainit,ARC Barangay
+1002-005, MACOPAS Expanded ,2000,Camiguin,Lone,Catarman,Compol,ARC Barangay
+1002-005, MACOPAS Expanded ,2000,Camiguin,Lone,Catarman,Panghiawan,ARC Barangay
+1002-005, MACOPAS Expanded ,2000,Camiguin,Lone,Catarman,Sto. Niño,ARC Barangay
+1002-005, MACOPAS Expanded ,2000,Camiguin,Lone,Catarman,Bura,ARC Barangay
+1002-005, MACOPAS Expanded ,2000,Camiguin,Lone,Catarman,Bonbon,ARC Barangay
+1002-005, MACOPAS Expanded ,2000,Camiguin,Lone,Catarman,Catibac,ARC Barangay
+1002-005, MACOPAS Expanded ,2000,Camiguin,Lone,Catarman,Lawigan,ARC Barangay
+,,,Camiguin,Lone,Catarman,Alga,Non-ARC Barangay
+,,,Camiguin,Lone,Catarman,Liloan,Non-ARC Barangay
+,,,Camiguin,Lone,Catarman,Looc,Non-ARC Barangay
+,,,Camiguin,Lone,Catarman,Manduao,Non-ARC Barangay
+,,,Camiguin,Lone,Catarman,Poblacion,Non-ARC Barangay
+,,,Camiguin,Lone,Catarman,Tangaro,Non-ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Poblacion,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Pandan,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Kuguita,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Soro-soro,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Baylao,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Anito,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Balbagon,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Benhaan,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Magting,ARC Barangay
+1002-006, PPKSB Expanded ,2000,Camiguin,Lone,Mambajao,Tupsan,ARC Barangay
+1002-007, Guinsiliban ,2002,Camiguin,Lone,Guinsiliban,Butay,ARC Barangay
+1002-007, Guinsiliban ,2002,Camiguin,Lone,Guinsiliban,Cabuan,ARC Barangay
+1002-007, Guinsiliban ,2002,Camiguin,Lone,Guinsiliban,Cantaan,ARC Barangay
+1002-007, Guinsiliban ,2002,Camiguin,Lone,Guinsiliban,Liong,ARC Barangay
+1002-007, Guinsiliban ,2002,Camiguin,Lone,Guinsiliban,Maac,ARC Barangay
+1002-007, Guinsiliban ,2002,Camiguin,Lone,Guinsiliban,North Poblacion,ARC Barangay
+1002-007, Guinsiliban ,2002,Camiguin,Lone,Guinsiliban,South Poblacion,ARC Barangay
+1002-008, HubCaTS SARC ,2007,Camiguin,Lone,Mahinog,Hubangon,ARC Barangay
+1002-008, HubCaTS SARC ,2007,Camiguin,Lone,Mahinog,Catohugan,ARC Barangay
+1002-008, HubCaTS SARC ,2007,Camiguin,Lone,Mahinog,Tupsan Pequeño,ARC Barangay
+1002-008, HubCaTS SARC ,2007,Camiguin,Lone,Mahinog,San Isidro,ARC Barangay
+1003-001, Caniangan ,1993,Misamis Occidental,2nd,Tangub City,Caniangan,ARC Barangay
+1003-001, Caniangan ,1993,Misamis Occidental,2nd,Tangub City,Prenza,ARC Barangay
+1003-001, Caniangan ,1993,Misamis Occidental,2nd,Tangub City,Paiton,ARC Barangay
+1003-001, Caniangan ,1993,Misamis Occidental,2nd,Tangub City,Bintana,ARC Barangay
+1003-001, Caniangan ,1993,Misamis Occidental,2nd,Tangub City,Taguite,ARC Barangay
+1003-001, Caniangan ,1993,Misamis Occidental,2nd,Tangub City,Labuyo,ARC Barangay
+1003-002, KN-SATRIGUI ,1993,Misamis Occidental,2nd,Ozamis City,Kinuman Norte,ARC Barangay
+1003-002, KN-SATRIGUI ,1993,Misamis Occidental,2nd,Ozamis City,Stimson Abordo (Montol)**,ARC Barangay
+1003-002, KN-SATRIGUI ,1993,Misamis Occidental,2nd,Ozamis City,Trigos,ARC Barangay
+1003-002, KN-SATRIGUI ,1993,Misamis Occidental,2nd,Ozamis City,Guingona,ARC Barangay
+1003-002, KN-SATRIGUI ,1993,Misamis Occidental,2nd,Ozamis City,Guimad,ARC Barangay
+1003-003, Landing ,1993,Misamis Occidental,1st,Baliangao,Landing,ARC Barangay
+1003-004, Mamanga-Daku ,1993,Misamis Occidental,1st,Plaridel,Mamanga-Daku,ARC Barangay
+1003-005, LADULCASBAN ,1994,Misamis Occidental,1st,Aloran,Labo,ARC Barangay
+1003-005, LADULCASBAN ,1994,Misamis Occidental,1st,Aloran,Dullan,ARC Barangay
+1003-005, LADULCASBAN ,1994,Misamis Occidental,1st,Aloran,Casusan,ARC Barangay
+1003-005, LADULCASBAN ,1994,Misamis Occidental,1st,Aloran,Banisilon,ARC Barangay
+1003-006, TIALULIN ,1994,Misamis Occidental,2nd,Bonifacio,Tiaman,ARC Barangay
+1003-006, TIALULIN ,1994,Misamis Occidental,2nd,Bonifacio,Linconan,ARC Barangay
+1003-006, TIALULIN ,1994,Misamis Occidental,2nd,Bonifacio,Lower Usogan,ARC Barangay
+1003-006, TIALULIN ,1994,Misamis Occidental,2nd,Bonifacio,Liloan,ARC Barangay
+1003-006, TIALULIN ,1994,Misamis Occidental,2nd,Bonifacio,Lumapas,ARC Barangay
+1003-007, GADAKINSUR ,1996,Misamis Occidental,2nd,Clarin,Gata Daku,ARC Barangay
+1003-007, GADAKINSUR ,1996,Misamis Occidental,2nd,Clarin,Kinangay  Sur,ARC Barangay
+1003-007, GADAKINSUR ,1996,Misamis Occidental,2nd,Clarin,Cabungaan,ARC Barangay
+1003-007, GADAKINSUR ,1996,Misamis Occidental,2nd,Clarin,Segatic Daku,ARC Barangay
+1003-007, GADAKINSUR ,1996,Misamis Occidental,2nd,Clarin,Malibangcao,ARC Barangay
+1003-008, Siloy ,1996,Misamis Occidental,1st,Calamba,Siloy,ARC Barangay
+1003-008, Siloy ,1996,Misamis Occidental,1st,Calamba,Bonifacio,ARC Barangay
+1003-008, Siloy ,1996,Misamis Occidental,1st,Calamba,Mauswagon,ARC Barangay
+1003-008, Siloy ,1996,Misamis Occidental,1st,Calamba,Dapacan Alto,ARC Barangay
+1003-009, Sibula ,1998,Misamis Occidental,1st,Lopez Jaena,Sibula,ARC Barangay
+1003-009, Sibula ,1998,Misamis Occidental,1st,Lopez Jaena,Luzaran,ARC Barangay
+1003-009, Sibula ,1998,Misamis Occidental,1st,Lopez Jaena,Dampalan,ARC Barangay
+1003-009, Sibula ,1998,Misamis Occidental,1st,Lopez Jaena,Bonifacio,ARC Barangay
+1003-009, Sibula ,1998,Misamis Occidental,1st,Lopez Jaena,Sibugon,ARC Barangay
+1003-010, BUENACAMA ,1999,Misamis Occidental,2nd,Tudela,Buenavista,ARC Barangay
+1003-010, BUENACAMA ,1999,Misamis Occidental,2nd,Tudela,Camating,ARC Barangay
+1003-010, BUENACAMA ,1999,Misamis Occidental,2nd,Tudela,Cahayag,ARC Barangay
+1003-010, BUENACAMA ,1999,Misamis Occidental,2nd,Tudela,Bongabong,ARC Barangay
+1003-011, DULNOSUR ,1999,Misamis Occidental,1st,Oroqueta City,Dullan Norte,ARC Barangay
+1003-011, DULNOSUR ,1999,Misamis Occidental,1st,Oroqueta City,Dullan Sur,ARC Barangay
+1003-011, DULNOSUR ,1999,Misamis Occidental,1st,Oroqueta City,Malindang,ARC Barangay
+1003-012, LIASANISBA ,1999,Misamis Occidental,2nd,Sinacaban,Libertad Alto,ARC Barangay
+1003-012, LIASANISBA ,1999,Misamis Occidental,2nd,Sinacaban,San Isidro Alto,ARC Barangay
+1003-012, LIASANISBA ,1999,Misamis Occidental,2nd,Sinacaban,San Isidro Bajo,ARC Barangay
+1003-012, LIASANISBA ,1999,Misamis Occidental,2nd,Sinacaban,Katipunan,ARC Barangay
+1003-012, LIASANISBA ,1999,Misamis Occidental,2nd,Sinacaban,Señor,ARC Barangay
+1003-012, LIASANISBA ,1999,Misamis Occidental,2nd,Sinacaban,Libertad Bajo,ARC Barangay
+1003-013, MATALBA ,1999,Misamis Occidental,1st,Jimenez,Matugas Alto,ARC Barangay
+1003-013, MATALBA ,1999,Misamis Occidental,1st,Jimenez,Matugas Bajo,ARC Barangay
+1003-013, MATALBA ,1999,Misamis Occidental,1st,Jimenez,Carmen,ARC Barangay
+1003-014, DALICAPAN ,2000,Misamis Occidental,2nd,Ozamis City,Dalapang,ARC Barangay
+1003-014, DALICAPAN ,2000,Misamis Occidental,2nd,Ozamis City,Liposong,ARC Barangay
+1003-014, DALICAPAN ,2000,Misamis Occidental,2nd,Ozamis City,Capucao C,ARC Barangay
+1003-014, DALICAPAN ,2000,Misamis Occidental,2nd,Ozamis City,Capucao P.,ARC Barangay
+1003-014, DALICAPAN ,2000,Misamis Occidental,2nd,Ozamis City,Pantaon,ARC Barangay
+1003-015, LICAS ,2000,Misamis Occidental,1st,Sapang Dalaga,Libertad,ARC Barangay
+1003-015, LICAS ,2000,Misamis Occidental,1st,Sapang Dalaga,Casul,ARC Barangay
+1003-015, LICAS ,2000,Misamis Occidental,1st,Sapang Dalaga,Bitibut,ARC Barangay
+1003-015, LICAS ,2000,Misamis Occidental,1st,Sapang Dalaga,Boundary,ARC Barangay
+1003-015, LICAS ,2000,Misamis Occidental,1st,Sapang Dalaga,El Paraiso,ARC Barangay
+1003-016, SANJURO ,2000,Misamis Occidental,1st,Pana-on,San Juan,ARC Barangay
+1003-016, SANJURO ,2000,Misamis Occidental,1st,Pana-on,San Roque,ARC Barangay
+1003-016, SANJURO ,2000,Misamis Occidental,1st,Pana-on,Baga,ARC Barangay
+1003-016, SANJURO ,2000,Misamis Occidental,1st,Pana-on,San Andres,ARC Barangay
+1003-017, UNIDEBA ,2000,Misamis Occidental,1st,Plaridel,Unidos,ARC Barangay
+1003-017, UNIDEBA ,2000,Misamis Occidental,1st,Plaridel,Deboloc,ARC Barangay
+1003-017, UNIDEBA ,2000,Misamis Occidental,1st,Plaridel,Buena Voluntad,ARC Barangay
+1003-017, UNIDEBA ,2000,Misamis Occidental,1st,Plaridel,Agunod,ARC Barangay
+1003-018, BANIKANHON ,2001,Misamis Occidental,1st,Lopez Jaena,Rizal,ARC Barangay
+1003-018, BANIKANHON ,2001,Misamis Occidental,1st,Lopez Jaena,Dalacon,ARC Barangay
+1003-018, BANIKANHON ,2001,Misamis Occidental,1st,Lopez Jaena,Macalibre Alto,ARC Barangay
+1003-018, BANIKANHON ,2001,Misamis Occidental,1st,Lopez Jaena,Macalibre Bajo,ARC Barangay
+1003-019, LANGCA ,2001,Misamis Occidental,1st,Calamba,Langub,ARC Barangay
+1003-019, LANGCA ,2001,Misamis Occidental,1st,Calamba,Calaran,ARC Barangay
+1003-020, MAGSILLUM ,2001,Misamis Occidental,1st,Baliangao,Magsaysay,ARC Barangay
+1003-020, MAGSILLUM ,2001,Misamis Occidental,1st,Baliangao,Sinian,ARC Barangay
+1003-020, MAGSILLUM ,2001,Misamis Occidental,1st,Baliangao,Lusot,ARC Barangay
+1003-020, MAGSILLUM ,2001,Misamis Occidental,1st,Baliangao,Lumipac,ARC Barangay
+1003-021, BUENDREM ,2002,Misamis Occidental,2nd,Bonifacio,Buenavista,ARC Barangay
+1003-021, BUENDREM ,2002,Misamis Occidental,2nd,Bonifacio,Dimalco,ARC Barangay
+1003-021, BUENDREM ,2002,Misamis Occidental,2nd,Bonifacio,Remedios,ARC Barangay
+1003-022, VIBRANT ,2002,Misamis Occidental,2nd,Tangub City,Balatacan,ARC Barangay
+1003-022, VIBRANT ,2002,Misamis Occidental,2nd,Tangub City,San Vicente,ARC Barangay
+1003-022, VIBRANT ,2002,Misamis Occidental,2nd,Tangub City,Butacor,ARC Barangay
+1003-022, VIBRANT ,2002,Misamis Occidental,2nd,Tangub City,Tugas,ARC Barangay
+1003-022, VIBRANT ,2002,Misamis Occidental,2nd,Tangub City,Guinabot,ARC Barangay
+1003-022, VIBRANT ,2002,Misamis Occidental,2nd,Tangub City,Guinalaban,ARC Barangay
+1003-022, VIBRANT ,2002,Misamis Occidental,2nd,Tangub City,Silangit,ARC Barangay
+1003-023, Villa MTB ,2002,Misamis Occidental,1st,Oroqueta City,Villaflor,ARC Barangay
+1003-023, Villa MTB ,2002,Misamis Occidental,1st,Oroqueta City,Mialen,ARC Barangay
+1003-023, Villa MTB ,2002,Misamis Occidental,1st,Oroqueta City,Toliyok,ARC Barangay
+1003-023, Villa MTB ,2002,Misamis Occidental,1st,Oroqueta City,Bunga,ARC Barangay
+1003-024, CLURCIVICTA ,2005,Misamis Occidental,1st,Oroqueta City,Ciriaco Pastrano,ARC Barangay
+1003-024, CLURCIVICTA ,2005,Misamis Occidental,1st,Oroqueta City,Clarin Settlement,ARC Barangay
+1003-024, CLURCIVICTA ,2005,Misamis Occidental,1st,Oroqueta City,Lower Rizal,ARC Barangay
+1003-024, CLURCIVICTA ,2005,Misamis Occidental,1st,Oroqueta City,Tuyabang Alto,ARC Barangay
+1003-024, CLURCIVICTA ,2005,Misamis Occidental,1st,Oroqueta City,Upper Rizal,ARC Barangay
+1003-024, CLURCIVICTA ,2005,Misamis Occidental,1st,Oroqueta City,Victoria,ARC Barangay
+1003-025, COSIBA ,2005,Misamis Occidental,2nd,Tudela,Balon,ARC Barangay
+1003-025, COSIBA ,2005,Misamis Occidental,2nd,Tudela,Colambutan Bajo,ARC Barangay
+1003-025, COSIBA ,2005,Misamis Occidental,2nd,Tudela,Sinuza,ARC Barangay
+1003-026, KAUGMAON ,2005,Misamis Occidental,1st,Lopez Jaena,Alegria,ARC Barangay
+1003-026, KAUGMAON ,2005,Misamis Occidental,1st,Lopez Jaena,Burgos,ARC Barangay
+1003-026, KAUGMAON ,2005,Misamis Occidental,1st,Lopez Jaena,Don Andres Soriano,ARC Barangay
+1003-026, KAUGMAON ,2005,Misamis Occidental,1st,Lopez Jaena,Manguehan,ARC Barangay
+1003-027, MASSA VIBA ,2005,Misamis Occidental,1st,Pana-on,Bangko,ARC Barangay
+1003-027, MASSA VIBA ,2005,Misamis Occidental,1st,Pana-on,Magsaysay,ARC Barangay
+1003-027, MASSA VIBA ,2005,Misamis Occidental,1st,Pana-on,Salimpuno,ARC Barangay
+1003-027, MASSA VIBA ,2005,Misamis Occidental,1st,Pana-on,Sumasap,ARC Barangay
+1003-027, MASSA VIBA ,2005,Misamis Occidental,1st,Pana-on,Villalin,ARC Barangay
+1003-028, North Clarin ,2005,Misamis Occidental,2nd,Clarin,Canibungan Daku,ARC Barangay
+1003-028, North Clarin ,2005,Misamis Occidental,2nd,Clarin,Canibungan Putol,ARC Barangay
+1003-028, North Clarin ,2005,Misamis Occidental,2nd,Clarin,Dolores,ARC Barangay
+1003-028, North Clarin ,2005,Misamis Occidental,2nd,Clarin,Masabud,ARC Barangay
+1003-029, QUINECCKA ,2005,Misamis Occidental,1st,Plaridel,Cartagena Proper,ARC Barangay
+1003-029, QUINECCKA ,2005,Misamis Occidental,1st,Plaridel,Cebulin,ARC Barangay
+1003-029, QUINECCKA ,2005,Misamis Occidental,1st,Plaridel,Katipunan,ARC Barangay
+1003-029, QUINECCKA ,2005,Misamis Occidental,1st,Plaridel,New Cartagena,ARC Barangay
+1003-029, QUINECCKA ,2005,Misamis Occidental,1st,Plaridel,Quirino,ARC Barangay
+1003-030, ZAMBACUPS ,2005,Misamis Occidental,1st,Aloran,Balintonga,ARC Barangay
+1003-030, ZAMBACUPS ,2005,Misamis Occidental,1st,Aloran,Culpan,ARC Barangay
+1003-030, ZAMBACUPS ,2005,Misamis Occidental,1st,Aloran,Pelong,ARC Barangay
+1003-030, ZAMBACUPS ,2005,Misamis Occidental,1st,Aloran,Sinampongan,ARC Barangay
+1003-030, ZAMBACUPS ,2005,Misamis Occidental,1st,Aloran,Zamora,ARC Barangay
+1003-031, Bayanihan ARC ,2005,Misamis Occidental,2nd,Tangub City,Kimat,ARC Barangay
+1003-031, Bayanihan ARC ,2005,Misamis Occidental,2nd,Tangub City,Sto. Nino,ARC Barangay
+1003-031, Bayanihan ARC ,2005,Misamis Occidental,2nd,Tangub City,Bongabong,ARC Barangay
+1003-031, Bayanihan ARC ,2005,Misamis Occidental,2nd,Tangub City,Catagan ,ARC Barangay
+1003-031, Bayanihan ARC ,2005,Misamis Occidental,2nd,Tangub City,Lumban,ARC Barangay
+1003-031, Bayanihan ARC ,2005,Misamis Occidental,2nd,Tangub City,Kauswagan,ARC Barangay
+1003-032, MAMSINSETI ARC ,2005,Misamis Occidental,1st,Jimenez,Macabayao,ARC Barangay
+1003-032, MAMSINSETI ARC ,2005,Misamis Occidental,1st,Jimenez,Mialen,ARC Barangay
+1003-032, MAMSINSETI ARC ,2005,Misamis Occidental,1st,Jimenez,Sinara Alto,ARC Barangay
+1003-032, MAMSINSETI ARC ,2005,Misamis Occidental,1st,Jimenez,Sinara Bajo,ARC Barangay
+1003-032, MAMSINSETI ARC ,2005,Misamis Occidental,1st,Jimenez,Seti,ARC Barangay
+1003-033, SANCAMTIDES ARC ,2005,Misamis Occidental,2nd,Sinacaban,San Vicente,ARC Barangay
+1003-033, SANCAMTIDES ARC ,2005,Misamis Occidental,2nd,Sinacaban,Camansi,ARC Barangay
+1003-033, SANCAMTIDES ARC ,2005,Misamis Occidental,2nd,Sinacaban,Tipan,ARC Barangay
+1003-033, SANCAMTIDES ARC ,2005,Misamis Occidental,2nd,Sinacaban,Dinas,ARC Barangay
+1003-033, SANCAMTIDES ARC ,2005,Misamis Occidental,2nd,Sinacaban,Estrella,ARC Barangay
+1003-034, CAMPUNEBA ,2006,Misamis Occidental,1st,Plaridel,Catarman,ARC Barangay
+1003-034, CAMPUNEBA ,2006,Misamis Occidental,1st,Plaridel,Mangidkid,ARC Barangay
+1003-034, CAMPUNEBA ,2006,Misamis Occidental,1st,Plaridel,Puntod,ARC Barangay
+1003-034, CAMPUNEBA ,2006,Misamis Occidental,1st,Plaridel,New Look ,ARC Barangay
+1003-034, CAMPUNEBA ,2006,Misamis Occidental,1st,Plaridel,Bato,ARC Barangay
+1003-035, DISIG ,2006,Misamis Occidental,1st,Jimenez,Dicoloc,ARC Barangay
+1003-035, DISIG ,2006,Misamis Occidental,1st,Jimenez,Sibaroc,ARC Barangay
+1003-035, DISIG ,2006,Misamis Occidental,1st,Jimenez,Guintomoyan,ARC Barangay
+1003-036, MONTE CAMM ,2006,Misamis Occidental,1st,Aloran,Monterico,ARC Barangay
+1003-036, MONTE CAMM ,2006,Misamis Occidental,1st,Aloran,Caputol,ARC Barangay
+1003-036, MONTE CAMM ,2006,Misamis Occidental,1st,Aloran,Matipaz,ARC Barangay
+1003-036, MONTE CAMM ,2006,Misamis Occidental,1st,Aloran,Maular,ARC Barangay
+1003-037, MASIDLAKON ARC ,2007,Misamis Occidental,1st,Aloran,Burgos,ARC Barangay
+1003-037, MASIDLAKON ARC ,2007,Misamis Occidental,1st,Aloran,Calube,ARC Barangay
+1003-037, MASIDLAKON ARC ,2007,Misamis Occidental,1st,Aloran,Makawa,ARC Barangay
+1003-037, MASIDLAKON ARC ,2007,Misamis Occidental,1st,Aloran,Mahon,ARC Barangay
+1003-037, MASIDLAKON ARC ,2007,Misamis Occidental,1st,Aloran,Taguanao,ARC Barangay
+1003-037, MASIDLAKON ARC ,2007,Misamis Occidental,1st,Aloran,Tugaya,ARC Barangay
+1003-038, SPARCC1 SARC ,2007,Misamis Occidental,1st,Concepcion,Poblacion,ARC Barangay
+1003-038, SPARCC1 SARC ,2007,Misamis Occidental,1st,Concepcion,Capule,ARC Barangay
+1003-038, SPARCC1 SARC ,2007,Misamis Occidental,1st,Concepcion,Maligubaan,ARC Barangay
+1003-038, SPARCC1 SARC ,2007,Misamis Occidental,1st,Concepcion,Mantukoy,ARC Barangay
+1003-039, SPARCC2 SARC ,2007,Misamis Occidental,1st,Concepcion,Pogan,ARC Barangay
+1003-039, SPARCC2 SARC ,2007,Misamis Occidental,1st,Concepcion,Lingatongan,ARC Barangay
+1003-039, SPARCC2 SARC ,2007,Misamis Occidental,1st,Concepcion,Soso-on,ARC Barangay
+1003-039, SPARCC2 SARC ,2007,Misamis Occidental,1st,Concepcion,Guiban,ARC Barangay
+1003-039, SPARCC2 SARC ,2007,Misamis Occidental,1st,Concepcion,Virayan,ARC Barangay
+1003-040, PAG-ASA ARC ,2008,Misamis Occidental,1st,Oroqueta City,Binuangan,ARC Barangay
+1003-040, PAG-ASA ARC ,2008,Misamis Occidental,1st,Oroqueta City,Burgos,ARC Barangay
+1003-040, PAG-ASA ARC ,2008,Misamis Occidental,1st,Oroqueta City,Paypayan,ARC Barangay
+1003-040, PAG-ASA ARC ,2008,Misamis Occidental,1st,Oroqueta City,Senote,ARC Barangay
+1003-040, PAG-ASA ARC ,2008,Misamis Occidental,1st,Oroqueta City,Tipan,ARC Barangay
+1003-041, SMART ARC ,2008,Misamis Occidental,2nd,Tudela,Canibungan Proper,ARC Barangay
+1003-041, SMART ARC ,2008,Misamis Occidental,2nd,Tudela,Casilak-San Agustin,ARC Barangay
+1003-041, SMART ARC ,2008,Misamis Occidental,2nd,Tudela,Locso-on,ARC Barangay
+1003-041, SMART ARC ,2008,Misamis Occidental,2nd,Tudela,Yahong,ARC Barangay
+1003-042, MONTIPIBURBA-BAY ARC ,2008,Misamis Occidental,2nd,Bonifacio,Pisa-an,ARC Barangay
+1003-042, MONTIPIBURBA-BAY ARC ,2008,Misamis Occidental,2nd,Bonifacio,Buracan,ARC Barangay
+1003-042, MONTIPIBURBA-BAY ARC ,2008,Misamis Occidental,2nd,Bonifacio,Bagumbang,ARC Barangay
+1003-042, MONTIPIBURBA-BAY ARC ,2008,Misamis Occidental,2nd,Bonifacio,Baybay,ARC Barangay
+1003-042, MONTIPIBURBA-BAY ARC ,2008,Misamis Occidental,2nd,Bonifacio,Montol,ARC Barangay
+1003-043, SMC ARC ,2008,Misamis Occidental,1st,Sapang Dalaga,Sipac,ARC Barangay
+1003-043, SMC ARC ,2008,Misamis Occidental,1st,Sapang Dalaga,"Sixto Velez, Sr.",ARC Barangay
+1003-043, SMC ARC ,2008,Misamis Occidental,1st,Sapang Dalaga,Medallo,ARC Barangay
+1003-043, SMC ARC ,2008,Misamis Occidental,1st,Sapang Dalaga,Capundag,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Bag-ong Anonang,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Calolot,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Dullan,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Kanaokanao,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Lodiong,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Mapurog,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Sibuyon,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Tangab,ARC Barangay
+1003-044, Mt. Malindang SARC ,2009,Misamis Occidental,2nd,Bonifacio,Upper Usogan,ARC Barangay
+1003-045, MAPE SARC ,2010,Misamis Occidental,2nd,Don Victoriano,Maramara,ARC Barangay
+1003-045, MAPE SARC ,2010,Misamis Occidental,2nd,Don Victoriano,Petianan,ARC Barangay
+1004-001, Indahag ,1993,Misamis Oriental,1st,Cagayan de Oro City,Indahag,ARC Barangay
+1004-002, Patrocenio-Punong ,1993,Misamis Oriental,2nd,Claveria,Patrocenio,ARC Barangay
+1004-002, Patrocenio-Punong ,1993,Misamis Oriental,2nd,Claveria,Punong,ARC Barangay
+1004-003, Tagpako ,1993,Misamis Oriental,1st,Gingoog City,Tagpako,ARC Barangay
+1004-004, Malanang-Patag (MAPA) ,1994,Misamis Oriental,2nd,Opol,Malanang,ARC Barangay
+1004-004, Malanang-Patag (MAPA) ,1994,Misamis Oriental,2nd,Opol,Patag,ARC Barangay
+1004-005, Pagalungan-Tagpangi (PT) ,1994,Misamis Oriental,1st,Cagayan de Oro City,Pagalungan,ARC Barangay
+1004-005, Pagalungan-Tagpangi (PT) ,1994,Misamis Oriental,1st,Cagayan de Oro City,Tagpangi,ARC Barangay
+1004-006, SAKICARC ,1994,Misamis Oriental,1st,Magsaysay,San Vicente,ARC Barangay
+1004-006, SAKICARC ,1994,Misamis Oriental,1st,Magsaysay,Kibungsod,ARC Barangay
+1004-006, SAKICARC ,1994,Misamis Oriental,1st,Magsaysay,Cabantian,ARC Barangay
+1004-007, Cabalantian-ARTCABAL ,1996,Misamis Oriental,2nd,Manticao,Cabalantian,ARC Barangay
+1004-007, Cabalantian-ARTCABAL ,1996,Misamis Oriental,2nd,Manticao,Argayoso,ARC Barangay
+1004-007, Cabalantian-ARTCABAL ,1996,Misamis Oriental,2nd,Manticao,Tuod,ARC Barangay
+1004-007, Cabalantian-ARTCABAL ,1996,Misamis Oriental,2nd,Manticao,Camanga,ARC Barangay
+1004-007, Cabalantian-ARTCABAL ,1996,Misamis Oriental,2nd,Manticao,Balintad,ARC Barangay
+1004-008, Don Pedro-Patag-Tagbalogo (DPPT) ,1996,Misamis Oriental,2nd,Naawan,Don Pedro,ARC Barangay
+1004-008, Don Pedro-Patag-Tagbalogo (DPPT) ,1996,Misamis Oriental,2nd,Naawan,Patag,ARC Barangay
+1004-008, Don Pedro-Patag-Tagbalogo (DPPT) ,1996,Misamis Oriental,2nd,Naawan,Tagbalogo,ARC Barangay
+1004-009, G. Pelaez-Ulab-Cogon ARC (GPUC) ,1996,Misamis Oriental,2nd,Gitagum,G. Pelaez (Lagutay),ARC Barangay
+1004-009, G. Pelaez-Ulab-Cogon ARC (GPUC) ,1996,Misamis Oriental,2nd,Gitagum,Ulab,ARC Barangay
+1004-009, G. Pelaez-Ulab-Cogon ARC (GPUC) ,1996,Misamis Oriental,2nd,Gitagum,Cogon,ARC Barangay
+1004-010, KASAHI ,1996,Misamis Oriental,2nd,El Salvador City,Kalabaylabay,ARC Barangay
+1004-010, KASAHI ,1996,Misamis Oriental,2nd,El Salvador City,Sambulawan,ARC Barangay
+1004-010, KASAHI ,1996,Misamis Oriental,2nd,El Salvador City,Hinigdaan,ARC Barangay
+1004-011, Linabu-BSJS ,1996,Misamis Oriental,1st,Balingasag,Linabu,ARC Barangay
+1004-011, Linabu-BSJS ,1996,Misamis Oriental,1st,Balingasag,Blanco,ARC Barangay
+1004-011, Linabu-BSJS ,1996,Misamis Oriental,1st,Balingasag,San Juan,ARC Barangay
+1004-011, Linabu-BSJS ,1996,Misamis Oriental,1st,Balingasag,Samay,ARC Barangay
+1004-012, Mambuaya ,1996,Misamis Oriental,1st,Cagayan de Oro City,Mambuaya,ARC Barangay
+1004-013, Sibantang ,1996,Misamis Oriental,1st,Talisayan,Sibantang,ARC Barangay
+1004-014, Sinalac ,1996,Misamis Oriental,2nd,Initao,Sinalac,ARC Barangay
+1004-015, Sungay-Tula (STARC) ,1996,Misamis Oriental,2nd,Alubijid,Sungay,ARC Barangay
+1004-015, Sungay-Tula (STARC) ,1996,Misamis Oriental,2nd,Alubijid,Tula,ARC Barangay
+1004-016, Taglimao ,1996,Misamis Oriental,1st,Cagayan de Oro City,Taglimao,ARC Barangay
+1004-017, Yungod-GSMM ,1996,Misamis Oriental,1st,Salay,Yungod,ARC Barangay
+1004-017, Yungod-GSMM ,1996,Misamis Oriental,1st,Salay,Guinalaban,ARC Barangay
+1004-017, Yungod-GSMM ,1996,Misamis Oriental,1st,Salay,Saray,ARC Barangay
+1004-017, Yungod-GSMM ,1996,Misamis Oriental,1st,Salay,Membuli,ARC Barangay
+1004-017, Yungod-GSMM ,1996,Misamis Oriental,1st,Salay,Matampa,ARC Barangay
+1004-018, PALS ARC ,1997,Misamis Oriental,2nd,Laguindingan,Poblacion,ARC Barangay
+1004-018, PALS ARC ,1997,Misamis Oriental,2nd,Laguindingan,Aromahon,ARC Barangay
+1004-018, PALS ARC ,1997,Misamis Oriental,2nd,Laguindingan,Lapad,ARC Barangay
+1004-018, PALS ARC ,1997,Misamis Oriental,2nd,Laguindingan,Sinai,ARC Barangay
+1004-019, Umagos-BG ,1997,Misamis Oriental,1st,Lagonglong,Umagos,ARC Barangay
+1004-019, Umagos-BG ,1997,Misamis Oriental,1st,Lagonglong,Banglay,ARC Barangay
+1004-019, Umagos-BG ,1997,Misamis Oriental,1st,Lagonglong,Gaston,ARC Barangay
+1004-020, Sta. Ana-Rosario (SANRO) ,1999,Misamis Oriental,2nd,Tagoloan,Sta. Ana,ARC Barangay
+1004-020, Sta. Ana-Rosario (SANRO) ,1999,Misamis Oriental,2nd,Tagoloan,Rosario,ARC Barangay
+1004-021, Dayawan-Kimaya (DKARC) ,2000,Misamis Oriental,2nd,Villanueva,Dayawan,ARC Barangay
+1004-021, Dayawan-Kimaya (DKARC) ,2000,Misamis Oriental,2nd,Villanueva,Kimaya,ARC Barangay
+1004-022, HAM ,2000,Misamis Oriental,2nd,Claveria,Hinaplanan,ARC Barangay
+1004-022, HAM ,2000,Misamis Oriental,2nd,Claveria,Ane-i,ARC Barangay
+1004-022, HAM ,2000,Misamis Oriental,2nd,Claveria,Madaguing,ARC Barangay
+1004-023, Kimaya-Natubo (KNARC) ,2000,Misamis Oriental,2nd,Jasaan,Kimaya,ARC Barangay
+1004-023, Kimaya-Natubo (KNARC) ,2000,Misamis Oriental,2nd,Jasaan,Natubo,ARC Barangay
+1004-024, KKAMP ,2000,Misamis Oriental,1st,Sugbongcogon,Kaulayan,ARC Barangay
+1004-024, KKAMP ,2000,Misamis Oriental,1st,Sugbongcogon,Kidampas,ARC Barangay
+1004-024, KKAMP ,2000,Misamis Oriental,1st,Sugbongcogon,Ampianga,ARC Barangay
+1004-024, KKAMP ,2000,Misamis Oriental,1st,Sugbongcogon,Mimbuahan,ARC Barangay
+1004-024, KKAMP ,2000,Misamis Oriental,1st,Sugbongcogon,Poblacion,ARC Barangay
+1004-025, LST ,2000,Misamis Oriental,2nd,Libertad,Lubluban,ARC Barangay
+1004-025, LST ,2000,Misamis Oriental,2nd,Libertad,Sto. Niño,ARC Barangay
+1004-025, LST ,2000,Misamis Oriental,2nd,Libertad,Tangcub,ARC Barangay
+1004-026, Mat-i ,2000,Misamis Oriental,2nd,Claveria,Mat-i,ARC Barangay
+1004-027, Medina ,2000,Misamis Oriental,1st,Medina,Dig-aguyan,ARC Barangay
+1004-027, Medina ,2000,Misamis Oriental,1st,Medina,Mananum Bag-o,ARC Barangay
+1004-027, Medina ,2000,Misamis Oriental,1st,Medina,Mananum Daan,ARC Barangay
+1004-028, TST ,2000,Misamis Oriental,2nd,Alubijid,Talaba,ARC Barangay
+1004-028, TST ,2000,Misamis Oriental,2nd,Alubijid,Sampatulog,ARC Barangay
+1004-028, TST ,2000,Misamis Oriental,2nd,Alubijid,Tugasnon,ARC Barangay
+1004-029, UPTA ,2000,Misamis Oriental,2nd,Lugait,Upper Talacogon,ARC Barangay
+1004-029, UPTA ,2000,Misamis Oriental,2nd,Lugait,Aya-aya,ARC Barangay
+1004-030, SIDARC ,2001,Misamis Oriental,2nd,Jasaan,San Antonio,ARC Barangay
+1004-030, SIDARC ,2001,Misamis Oriental,2nd,Jasaan,IS Cruz,ARC Barangay
+1004-030, SIDARC ,2001,Misamis Oriental,2nd,Jasaan,Danao,ARC Barangay
+1004-031, TRLLS ,2001,Misamis Oriental,2nd,Claveria,Tamboboan,ARC Barangay
+1004-031, TRLLS ,2001,Misamis Oriental,2nd,Claveria,Rizal,ARC Barangay
+1004-031, TRLLS ,2001,Misamis Oriental,2nd,Claveria,Luna,ARC Barangay
+1004-031, TRLLS ,2001,Misamis Oriental,2nd,Claveria,Lanise,ARC Barangay
+1004-031, TRLLS ,2001,Misamis Oriental,2nd,Claveria,Sta. Cruz,ARC Barangay
+1004-032, Binuangan ,2003,Misamis Oriental,1st,Binuangan,Kitambis,ARC Barangay
+1004-032, Binuangan ,2003,Misamis Oriental,1st,Binuangan,Kitamban,ARC Barangay
+1004-032, Binuangan ,2003,Misamis Oriental,1st,Binuangan,Mabini,ARC Barangay
+1004-032, Binuangan ,2003,Misamis Oriental,1st,Binuangan,Nabataan,ARC Barangay
+1004-032, Binuangan ,2003,Misamis Oriental,1st,Binuangan,Valdeconcha,ARC Barangay
+1004-033, KAMADA ,2003,Misamis Oriental,1st,Balingoan,Kabangasan,ARC Barangay
+1004-033, KAMADA ,2003,Misamis Oriental,1st,Balingoan,Mapua,ARC Barangay
+1004-033, KAMADA ,2003,Misamis Oriental,1st,Balingoan,Dahilig,ARC Barangay
+1004-034, KKSB ,2003,Misamis Oriental,1st,Kinoguitan,Kagumahan,ARC Barangay
+1004-034, KKSB ,2003,Misamis Oriental,1st,Kinoguitan,Kalitian,ARC Barangay
+1004-034, KKSB ,2003,Misamis Oriental,1st,Kinoguitan,Suarez,ARC Barangay
+1004-034, KKSB ,2003,Misamis Oriental,1st,Kinoguitan,Beray,ARC Barangay
+1004-035, LUM ARC ,2006,Misamis Oriental,2nd,Naawan,Lubilan,ARC Barangay
+1004-035, LUM ARC ,2006,Misamis Oriental,2nd,Naawan,Mat-i    ,ARC Barangay
+1004-036, BUILT-ALL ,2006,Misamis Oriental,1st,Salay,Bunal,ARC Barangay
+1004-036, BUILT-ALL ,2006,Misamis Oriental,1st,Salay,Ili-ilihon,ARC Barangay
+1004-036, BUILT-ALL ,2006,Misamis Oriental,1st,Salay,Tinagaan,ARC Barangay
+1004-036, BUILT-ALL ,2006,Misamis Oriental,1st,Salay,Alipuaton,ARC Barangay
+1004-036, BUILT-ALL ,2006,Misamis Oriental,1st,Salay,Looc,ARC Barangay
+1004-037, Kibanban-Lantad SARC (KLARC) ,2007,Misamis Oriental,1st,Balingasag,Kibanban,ARC Barangay
+1004-038, BACKKISMI ARC ,2007,Misamis Oriental,1st,Gingoog City,Binakalan,ARC Barangay
+1004-038, BACKKISMI ARC ,2007,Misamis Oriental,1st,Gingoog City,Alagatan,ARC Barangay
+1004-038, BACKKISMI ARC ,2007,Misamis Oriental,1st,Gingoog City,Capitulangan,ARC Barangay
+1004-038, BACKKISMI ARC ,2007,Misamis Oriental,1st,Gingoog City,Kalagonoy,ARC Barangay
+1004-038, BACKKISMI ARC ,2007,Misamis Oriental,1st,Gingoog City,Kipuntos,ARC Barangay
+1004-038, BACKKISMI ARC ,2007,Misamis Oriental,1st,Gingoog City,San Miguel,ARC Barangay
+1004-039, MINTAGUCAT ARC ,2008,Misamis Oriental,1st,Magsaysay,Mindulao,ARC Barangay
+1004-039, MINTAGUCAT ARC ,2008,Misamis Oriental,1st,Magsaysay,Tama,ARC Barangay
+1004-039, MINTAGUCAT ARC ,2008,Misamis Oriental,1st,Magsaysay,Gumabon,ARC Barangay
+1004-039, MINTAGUCAT ARC ,2008,Misamis Oriental,1st,Magsaysay,Cabalawan,ARC Barangay
+1004-039, MINTAGUCAT ARC ,2008,Misamis Oriental,1st,Magsaysay,Abunda,ARC Barangay
+1004-039, MINTAGUCAT ARC ,2008,Misamis Oriental,1st,Magsaysay,Tinaan,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Berwar,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Punod,ARC Barangay
+1005-001, BERPU ,2000,Lanao del Norte,2nd,Tangcal,Poblacion,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Poona Kapatagan,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Small Banisilon,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Big Banisilon,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Tangcal Proper,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Papan,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Bayabao,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Pilingkingan,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Somiorang,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Lindongan,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Small Miladok,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Big Miladok,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Linao,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Lamaosa,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Lincoan,ARC Barangay
+1005-001, BERPU ,1993,Lanao del Norte,2nd,Tangcal,Bubong,ARC Barangay
+1005-002, Digkilaan ,1993,Lanao del Norte,Lone,Iligan City,Digkilaan,ARC Barangay
+1005-003, LUMPOB ,1993,Lanao del Norte,2nd,Magsaysay,Poblacion (Bago-A-Ingud),ARC Barangay
+1005-003, LUMPOB ,1993,Lanao del Norte,2nd,Magsaysay,Lumbac,ARC Barangay
+1005-003, LUMPOB ,1993,Lanao del Norte,2nd,Magsaysay,Daan Campo,ARC Barangay
+1005-003, LUMPOB ,1993,Lanao del Norte,2nd,Magsaysay,Tombador,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Pinuyak,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,El Salvador,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Darumawang Ilaya,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Rebe,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Maranding,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Tenazas,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,San Manuel,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Cabasagan,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Magpatao,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,San Isidro Upper,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Lala Proper,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Raw-an,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Lanipao,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Simpak,ARC Barangay
+1005-005, PIELSADAI ,1993,Lanao del Norte,2nd,Lala,Pendolonan,ARC Barangay
+1005-006, POMAPU ,1993,Lanao del Norte,2nd,Munai,Poblacion,ARC Barangay
+1005-006, POMAPU ,1993,Lanao del Norte,2nd,Munai,Matampay,ARC Barangay
+1005-006, POMAPU ,1993,Lanao del Norte,2nd,Munai,Punong,ARC Barangay
+1005-006, POMAPU ,1993,Lanao del Norte,2nd,Munai,Ramain,ARC Barangay
+1005-006, POMAPU ,1993,Lanao del Norte,2nd,Munai,Tapurong,ARC Barangay
+1005-007, ADALSAAL ,1994,Lanao del Norte,2nd,Balo-i,Sarip-Alawi,ARC Barangay
+1005-007, ADALSAAL ,1994,Lanao del Norte,2nd,Balo-i,Adapun-Ali,ARC Barangay
+1005-007, ADALSAAL ,1994,Lanao del Norte,2nd,Balo-i,Angayen,ARC Barangay
+1005-007, ADALSAAL ,1994,Lanao del Norte,2nd,Balo-i,Lumbac,ARC Barangay
+1005-007, ADALSAAL ,1994,Lanao del Norte,2nd,Balo-i,Basagad,ARC Barangay
+1005-007, ADALSAAL ,1994,Lanao del Norte,2nd,Balo-i,Mama-anun,ARC Barangay
+1005-008, Caniogan ,1994,Lanao del Norte,1st,Tubod,Caniogan,ARC Barangay
+1005-008, Caniogan ,1994,Lanao del Norte,1st,Tubod,Candis,ARC Barangay
+1005-008, Caniogan ,1994,Lanao del Norte,1st,Tubod,Barakanas,ARC Barangay
+1005-009, Pugaan ,1994,Lanao del Norte,Lone,Iligan City,Pugaan,ARC Barangay
+1005-010, SBS ,1994,Lanao del Norte,2nd,Kapatagan,Sn. Vicente,ARC Barangay
+1005-010, SBS ,1994,Lanao del Norte,2nd,Kapatagan,Butadon,ARC Barangay
+1005-010, SBS ,1994,Lanao del Norte,2nd,Kapatagan,Sta. Cruz,ARC Barangay
+1005-011, BUGAS ,2002,Lanao del Norte,2nd,Sapad,Buriasan,ARC Barangay
+1005-011, BUGAS ,2002,Lanao del Norte,2nd,Sapad,Gamal,ARC Barangay
+1005-011, BUGAS ,2002,Lanao del Norte,2nd,Sapad,Lower Sapad,ARC Barangay
+1005-012, CABAN ,2002,Lanao del Norte,2nd,Pantao-Ragat,Cabasagan,ARC Barangay
+1005-012, CABAN ,2002,Lanao del Norte,2nd,Pantao-Ragat,Culubun,ARC Barangay
+1005-012, CABAN ,2002,Lanao del Norte,2nd,Pantao-Ragat,Banday,ARC Barangay
+1005-013, KBP ,2002,Lanao del Norte,1st,Tubod,Kakai-Renabor,ARC Barangay
+1005-013, KBP ,2002,Lanao del Norte,1st,Tubod,Bulod,ARC Barangay
+1005-013, KBP ,2002,Lanao del Norte,1st,Tubod,Pigcarangan,ARC Barangay
+1005-014, MBS ,2002,Lanao del Norte,1st,Maigo,Maliwanag,ARC Barangay
+1005-014, MBS ,2002,Lanao del Norte,1st,Maigo,Balagatasa,ARC Barangay
+1005-014, MBS ,2002,Lanao del Norte,1st,Maigo,Segapod,ARC Barangay
+1005-015, KALAMBUAN ,2003,Lanao del Norte,1st,Kolambugan,Rebucon,ARC Barangay
+1005-015, KALAMBUAN ,2003,Lanao del Norte,1st,Kolambugan,Muntay,ARC Barangay
+1005-015, KALAMBUAN ,2003,Lanao del Norte,1st,Kolambugan,Kulasihan,ARC Barangay
+1005-015, KALAMBUAN ,2003,Lanao del Norte,1st,Kolambugan,San Roque,ARC Barangay
+1005-015, KALAMBUAN ,2003,Lanao del Norte,1st,Kolambugan,Palao,ARC Barangay
+1005-015, KALAMBUAN ,2003,Lanao del Norte,1st,Kolambugan,Bubong,ARC Barangay
+1005-015, KALAMBUAN ,2003,Lanao del Norte,1st,Kolambugan,Matampay,ARC Barangay
+1005-015, KALAMBUAN ,2003,Lanao del Norte,1st,Kolambugan,Pantaon,ARC Barangay
+1005-016, PALAMBU ,2003,Lanao del Norte,1st,Tubod,Palao,ARC Barangay
+1005-016, PALAMBU ,2003,Lanao del Norte,1st,Tubod,Dalama,ARC Barangay
+1005-016, PALAMBU ,2003,Lanao del Norte,1st,Tubod,Bualan,ARC Barangay
+1005-017, RAKIM ,2003,Lanao del Norte,2nd,Sultan Naga Dimaporo,Ramain,ARC Barangay
+1005-017, RAKIM ,2003,Lanao del Norte,2nd,Sultan Naga Dimaporo,Kirapan,ARC Barangay
+1005-017, RAKIM ,2003,Lanao del Norte,2nd,Sultan Naga Dimaporo,Maguindanao,ARC Barangay
+1005-018, KAMPP ,2005,Lanao del Norte,2nd,Nunungan,Katubuan,ARC Barangay
+1005-018, KAMPP ,2005,Lanao del Norte,2nd,Nunungan,Abaga,ARC Barangay
+1005-018, KAMPP ,2005,Lanao del Norte,2nd,Nunungan,Masibay,ARC Barangay
+1005-018, KAMPP ,2005,Lanao del Norte,2nd,Nunungan,Paride,ARC Barangay
+1005-018, KAMPP ,2005,Lanao del Norte,2nd,Nunungan,Panganapan,ARC Barangay
+1005-019, DIMAPUKAN ,2005,Lanao del Norte,1st,Bacolod,Dimarao,ARC Barangay
+1005-019, DIMAPUKAN ,2005,Lanao del Norte,1st,Bacolod,Mate,ARC Barangay
+1005-019, DIMAPUKAN ,2005,Lanao del Norte,1st,Bacolod,Punod,ARC Barangay
+1005-019, DIMAPUKAN ,2005,Lanao del Norte,1st,Bacolod,Kahayag,ARC Barangay
+1005-019, DIMAPUKAN ,2005,Lanao del Norte,1st,Bacolod,Pagayawan,ARC Barangay
+1005-020, MAKATIN-AO ,2005,Lanao del Norte,2nd,Baroy,Maliwanag,ARC Barangay
+1005-020, MAKATIN-AO ,2005,Lanao del Norte,2nd,Baroy,Cabasagan,ARC Barangay
+1005-020, MAKATIN-AO ,2005,Lanao del Norte,2nd,Baroy,Tinubdan,ARC Barangay
+1005-020, MAKATIN-AO ,2005,Lanao del Norte,2nd,Baroy,Manan-ao,ARC Barangay
+1005-021, SULTANATE ,2005,Lanao del Norte,2nd,Pantar,Punod,ARC Barangay
+1005-021, SULTANATE ,2005,Lanao del Norte,2nd,Pantar,Poona-Punod,ARC Barangay
+1005-021, SULTANATE ,2005,Lanao del Norte,2nd,Pantar,Lumba-Punod,ARC Barangay
+1005-021, SULTANATE ,2005,Lanao del Norte,2nd,Pantar,Pantao-Ranao,ARC Barangay
+1005-021, SULTANATE ,2005,Lanao del Norte,2nd,Pantar,Bowi,ARC Barangay
+1005-022, BOTTLES ,2006,Lanao del Norte,2nd,Magsaysay,Baguiguicon,ARC Barangay
+1005-022, BOTTLES ,2006,Lanao del Norte,2nd,Magsaysay,Olango,ARC Barangay
+1005-022, BOTTLES ,2006,Lanao del Norte,2nd,Magsaysay,Tambacon,ARC Barangay
+1005-022, BOTTLES ,2006,Lanao del Norte,2nd,Magsaysay,Lemoncret,ARC Barangay
+1005-022, BOTTLES ,2006,Lanao del Norte,2nd,Magsaysay,Somiorang,ARC Barangay
+1005-022, BOTTLES ,2006,Lanao del Norte,2nd,Magsaysay,Tipaan,ARC Barangay
+1005-023, CPP ,2006,Lanao del Norte,2nd,Salvador,Camp 3,ARC Barangay
+1005-023, CPP ,2006,Lanao del Norte,2nd,Salvador,Padianan,ARC Barangay
+1005-023, CPP ,2006,Lanao del Norte,2nd,Salvador,Pagayawan,ARC Barangay
+1005-024, LABAN-PTT ,2006,Lanao del Norte,1st,Kapatagan,La Libertad,ARC Barangay
+1005-024, LABAN-PTT ,2006,Lanao del Norte,1st,Kapatagan,Bansarvil,ARC Barangay
+1005-024, LABAN-PTT ,2006,Lanao del Norte,1st,Kapatagan,Pulang Yuta,ARC Barangay
+1005-024, LABAN-PTT ,2006,Lanao del Norte,1st,Kapatagan,Tulatulahan,ARC Barangay
+1005-024, LABAN-PTT ,2006,Lanao del Norte,1st,Kapatagan,Tipolo,ARC Barangay
+1005-025, SCARLITS SARC ,2007,Lanao del Norte,1st,Kolambugan,Sto. Niño,ARC Barangay
+1005-025, SCARLITS SARC ,2007,Lanao del Norte,1st,Kolambugan,Caromatan,ARC Barangay
+1005-025, SCARLITS SARC ,2007,Lanao del Norte,1st,Kolambugan,Lumbac,ARC Barangay
+1005-025, SCARLITS SARC ,2007,Lanao del Norte,1st,Kolambugan,Inudaran,ARC Barangay
+1005-025, SCARLITS SARC ,2007,Lanao del Norte,1st,Kolambugan,Titunod,ARC Barangay
+1005-025, SCARLITS SARC ,2007,Lanao del Norte,1st,Kolambugan,Sucodan,ARC Barangay
+1005-026, PSP ,2008,Lanao del Norte,2nd,Matungao,Pangi,ARC Barangay
+1005-026, PSP ,2008,Lanao del Norte,2nd,Matungao,Sta. Cruz,ARC Barangay
+1005-026, PSP ,2008,Lanao del Norte,2nd,Matungao,Pasayanon,ARC Barangay
+1005-027, AMANA ,2008,Lanao del Norte,2nd,Balo-i,Abaga,ARC Barangay
+1005-027, AMANA ,2008,Lanao del Norte,2nd,Balo-i,Maria-Cristina,ARC Barangay
+1005-027, AMANA ,2008,Lanao del Norte,2nd,Balo-i,Nangka,ARC Barangay
+1005-028, REBAND ,2008,Lanao del Norte,2nd,Sultan Naga Dimaporo,Rebucon,ARC Barangay
+1005-028, REBAND ,2008,Lanao del Norte,2nd,Sultan Naga Dimaporo,Bangco,ARC Barangay
+1005-028, REBAND ,2008,Lanao del Norte,2nd,Sultan Naga Dimaporo,Dalama,ARC Barangay

@@ -13,7 +13,7 @@ require 'csv'
 region = Region.find_or_create_by(name:"Region X")
 
 # province > district > municipality/arc > barangay 
-CSV.foreach("./docx/Region X Brgys_Partial.csv", headers:true) do |row|
+CSV.foreach(Rails.root.join("db/Region X Brgys_Partial.csv"), headers:true) do |row|
   p row
   p row["ARC_TAG"]
 
