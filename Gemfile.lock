@@ -75,6 +75,11 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    sass (3.2.10)
+    sass-rails (4.0.0)
+      railties (>= 4.0.0.beta, < 5.0)
+      sass (>= 3.1.10)
+      sprockets-rails (~> 2.0.0)
     schema_to_scaffold (0.4.2)
       activesupport (>= 3.2.1)
     sdoc (0.3.20)
@@ -113,6 +118,7 @@ DEPENDENCIES
   pg
   rails (= 4.0.0)
   rails_serve_static_assets
+  sass-rails (~> 4.0.0)
   schema_to_scaffold
   sdoc
   turbolinks
