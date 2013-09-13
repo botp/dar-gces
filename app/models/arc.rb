@@ -1,5 +1,5 @@
 class Arc < ActiveRecord::Base
-  has_many :arc_barangays
+  has_one :arc_barangay
   has_many :barangays, :through => :arc_barangays
 
 end
