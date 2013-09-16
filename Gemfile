@@ -55,3 +55,6 @@ end
 group :development do
   gem "schema_to_scaffold"
 end
+
+# bootstrap
+gem 'bootstrap-sass'

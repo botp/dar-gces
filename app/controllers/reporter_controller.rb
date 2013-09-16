@@ -14,7 +14,6 @@ class ReporterController < ApplicationController
     region = Region.find(params[:region_id])
     # map to name and id for use in our options_for_select
     @provinces = region.provinces.map{|a| [a.name, a.id]}.insert(0, "Select a Province")
-    # @songs   = genre.songs.map{|s| [s.title, s.id]}.insert(0, "Select a Song")
   end
 
   def update_districts
@@ -22,7 +21,6 @@ class ReporterController < ApplicationController
     province = Province.find(params[:province_id])
     # map to name and id for use in our options_for_select
     @provinces = province.districts.map{|a| [a.name, a.id]}.insert(0, "Select a District")
-    # @songs   = genre.songs.map{|s| [s.title, s.id]}.insert(0, "Select a Song")
   end
 
 end

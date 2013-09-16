@@ -23,6 +23,7 @@ class ReporterBarangaysController < ApplicationController
 
   def index
     @barangays=Barangay.all  
+    render :index, layout: "layouts/application"
   end
 
 
@@ -30,6 +31,7 @@ class ReporterBarangaysController < ApplicationController
     if params[:search]
       @barangays = Barangay.search(params[:search])
       @reports_selection = params[:reports]
+      render :show, layout: "layouts/application"
     else
       redirect_to action: 'index'
     end

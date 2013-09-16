@@ -1,0 +1,25 @@
+
+mkdir -p bootstrap_download
+
+cd bootstrap_download
+
+wget https://github.com/twbs/bootstrap/releases/download/v3.0.0/bootstrap-3.0.0-dist.zip
+
+unzip bootstrap-3.0.0-dist.zip
+
+cd ..
+
+cp bootstrap_download/dist/css/bootstrap.css vendor/assets/stylesheets/
+
+cp bootstrap_download/dist/css/bootstrap.min.css vendor/assets/stylesheets/
+
+
+cp bootstrap_download/dist/js/bootstrap.js vendor/assets/javascripts/
+
+cp bootstrap_download/dist/js/bootstrap.min.js vendor/assets/javascripts/
+
+echo *= require bootstrap >> app/assets/stylesheets/application.css
+
+echo //= require bootstrap >> app/assets/javascripts/application.js
+
+

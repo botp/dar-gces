@@ -6,10 +6,13 @@ Dar::Application.routes.draw do
   # get "reporter/selector"
   # get "reporter/update_provinces"
   # get "reporter/update_districts"
-  get "reporter_barangays", controller: "reporter_barangays", action:"index"
-  post "reporter_barangays", controller: "reporter_barangays", action:"show"
+  get   "reporter_barangays", controller: "reporter_barangays", action:"index"
+  post  "reporter_barangays", controller: "reporter_barangays", action:"show"
 
   get "data_entry", controller: "data_entry", action:"index"
+
+  get "about",    controller: "welcome", action:"about"
+  get "contacts", controller: "welcome", action:"contacts"
 
   resources :users
 
