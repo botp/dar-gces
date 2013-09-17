@@ -1,12 +1,12 @@
-<h1>Listing provinces</h1>
+<h1>Listing Provinces</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Tag</th>
       <th>Name</th>
       <th>Description</th>
-      <th>Region ID</th>
+      <th>Region</th>
 
       <th></th>
       <th></th>
@@ -20,7 +20,7 @@
         <td><%= province.tag %></td>
         <td><%= province.name %></td>
         <td><%= province.description %></td>
-        <td><%= province.region.region_tag %></td>
+        <td><%= province.region.name %></td>
         <td><%= link_to 'Show', province %></td>
         <td><%= link_to 'Edit', edit_province_path(province) %></td>
         <td><%= link_to 'Destroy', province, method: :delete, data: { confirm: 'Are you sure?' } %></td>
