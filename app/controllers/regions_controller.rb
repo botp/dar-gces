@@ -1,9 +1,13 @@
 class RegionsController < ApplicationController
   before_action :set_region, only: [:show, :edit, :update, :destroy]
-    
+  # def initialize
+  #   @back_url=nil
+  # end
+
   # GET /regions
   # GET /regions.json
   def index
+    @back_url = params[:back_url]
     @regions = Region.all
   end
 

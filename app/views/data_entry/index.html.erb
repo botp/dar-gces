@@ -1,11 +1,14 @@
 <h1>DAR-GCES Data Entries</h1>
 
 <h3>Main Tables</h3>
-<br><a href="/regions">Regions </a>
-<br><a href="/provinces">Provinces </a>
+<!-- <br><a href="/regions">Regions </a>
+ -->
+ <br><%= link_to "Regions", controller:"regions", action:"index", back_url: @back_url %>
+ <!-- <br><a href="/provinces">Provinces </a> -->
+ <br><%= link_to "Provinces","provinces", {back_url: @back_url} %>
 <br><a href="/districts">Districts </a>
 <br><a href="/municipalities">Municipalities </a>
-<br><a href="/arcs">ARC's </a>
+<br><a href="/arcs">ARCs </a>
 <br><a href="/arc_barangays"> ARC Barangays</a>
 <br><a href="/barangays">Barangays </a>
 

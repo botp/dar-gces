@@ -25,3 +25,10 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
+
+table {
+  @extend .table-striped;
+  @extend .table-hover;
+  @extend .table;
+
+}
