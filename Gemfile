@@ -58,3 +58,6 @@ end
 
 # bootstrap
 gem 'bootstrap-sass'
+
+# thin
+# gem "thin"
