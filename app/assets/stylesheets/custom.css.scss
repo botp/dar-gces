@@ -26,9 +26,21 @@ textarea {
   margin-bottom: 10px;
 }
 
-table {
+
+/* extensions of botp */
+
+.my_dar_table{
   @extend .table-striped;
   @extend .table-hover;
   @extend .table;
-
 }
+
+table {
+  @extend .my_dar_table
+}
+
+.my-track-subheader{
+  @extend .navbar;
+  margin-left: 5px;
+}
+

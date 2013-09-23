@@ -7,7 +7,7 @@ class RegionsController < ApplicationController
   # GET /regions
   # GET /regions.json
   def index
-    @back_url = params[:back_url]
+    # @back_url = params[:back_url]
     @regions = Region.all
   end
 
