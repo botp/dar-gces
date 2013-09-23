@@ -1,19 +1,29 @@
-<h1>DAR-GCES Data Entries</h1>
+<h1><%= backlink_to "Data Entries","/" %>
+</h1>
 
-<h3>Main Tables</h3>
-<!-- <br><a href="/regions">Regions </a>
- -->
- <br><%= link_to "Regions", controller:"regions", action:"index", back_url: @back_url %>
- <!-- <br><a href="/provinces">Provinces </a> -->
- <br><%= link_to "Provinces","provinces", {back_url: @back_url} %>
+
+<header class="my_dar_subheader">
+<h3>
+Main Tables
+</h3>
+</header>
+
+<%= link_to "Regions", controller:"regions", action:"index", back_url: @back_url %>
+<br><%= link_to "Provinces","provinces", {back_url: @back_url} %>
 <br><a href="/districts">Districts </a>
 <br><a href="/municipalities">Municipalities </a>
 <br><a href="/arcs">ARCs </a>
 <br><a href="/arc_barangays"> ARC Barangays</a>
 <br><a href="/barangays">Barangays </a>
 
-<h3>Data Tables</h3>
-<br><a href="/barangay_postharvest_equipment_and_machinery_projects">Barangay Postharvest Equipment and Machinery Projects </a>
+
+<header class="my_dar_subheader">
+<h3>
+Data Tables
+</h3>
+</header>
+
+<a href="/barangay_postharvest_equipment_and_machinery_projects">Barangay Postharvest Equipment and Machinery Projects </a>
 <br><a href="/barangay_irrigation_project_completions">Barangay Irrigation Project Completions</a>
 <br><a href="/barangay_irrigation_projects">Barangay Irrigation Projects</a>
 <br><a href="/barangay_bridge_project_completions">Barangay Bridge Project Completions </a>
@@ -33,8 +43,15 @@
 j<br><a href="/barangay_lti_statuses">Barangay LTI Statuses </a>
 <br><a href="/barangay_populations">Barangay Populations</a>
 
-<h3>Lookup Tables</h3>
-<br><a href="/faps_coverages">FAPS Coverages</a>
+
+
+<header class="my_dar_subheader">
+<h3>
+Lookup Tables
+</h3>
+</header>
+
+<a href="/faps_coverages">FAPS Coverages</a>
 <br><a href="/arc_types">ARC Types</a>
 <br><a href="/organization_typologies">Organization Typologies </a>
 <br><a href="/loan_access_typologies">Loan Access Typologies </a>

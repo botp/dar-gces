@@ -39,8 +39,16 @@ table {
   @extend .my_dar_table
 }
 
-.my-track-subheader{
-  @extend .navbar;
-  margin-left: 5px;
+
+.my_dar_subheader{
+  h3,h2,h1{background-color:LightGray;}
 }
 
+.my_a{
+  @extend .btn;
+  @extend .btn-primary;
+}
+
+.my_dar_a{
+  @extend .my_a;
+}
