@@ -6,6 +6,6 @@ module ApplicationHelper
 
   # create a link of type button
   def buttonlink_to text, path, klass={}
-    link_to text, path, klass.merge(class: "btn btn-primary")
+    link_to text, path, klass.merge(class: "my_dar_button")
   end  
 end

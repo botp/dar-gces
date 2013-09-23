@@ -44,11 +44,17 @@ table {
   h3,h2,h1{background-color:LightGray;}
 }
 
-.my_a{
+.my_dar_button{
   @extend .btn;
   @extend .btn-primary;
+  background-color:green;
 }
 
-.my_dar_a{
-  @extend .my_a;
+
+form input[type="submit"]{
+  @extend .my_dar_button;
+}
+
+.my_a {
+  @extend .my_dar_button; 
 }
