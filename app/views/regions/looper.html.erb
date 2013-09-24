@@ -1,0 +1,36 @@
+<h1>
+  <%=backlink_to backlink[:display], backlink[:link]
+  %>
+</h1>
+
+<table>
+  <thead>
+    <tr>
+      <% headers.each do |header|
+        <th>header</th>
+      <%>
+
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% objects.each do |object| %>
+      <tr>
+        <% columns.each do |column|
+          <td><%= object[column] %></td>
+
+          <td><%= link_to 'Show', object %></td>
+          <td><%= link_to 'Edit', edit_#{object.model_name.sigular}_path(object) %></td>
+          <td><%= link_to 'Destroy', object, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          %>
+        </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= buttonlink_to 'New Region', new_#{objects.model_name.singular}_path %>
