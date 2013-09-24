@@ -22,6 +22,7 @@ class ReporterBarangaysController < ApplicationController
   end
 
   def index
+    flash[:notice] = "Setting up Barangay list..."
     @barangays=Barangay.all  
     render :index, layout: "layouts/application"
   end
@@ -29,6 +30,7 @@ class ReporterBarangaysController < ApplicationController
 
   def show
     if params[:search]
+      flash[:notice] = "Querying Barangay Database..."
       @barangays = Barangay.search(params[:search])
       @reports_selection = params[:reports]
       render :show, layout: "layouts/application"

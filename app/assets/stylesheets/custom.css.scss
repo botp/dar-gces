@@ -47,13 +47,13 @@ table {
 
 
 .my_dar_subheader{
-  h3,h2,h1{background-color:LightGray;}
+  h3,h2,h1{background-color:yellowgreen;}
 }
 
 .my_dar_button{
   @extend .btn;
   @extend .btn-primary;
-  background-color:green;
+  /*background-color:green;*/
 }
 
 
@@ -68,4 +68,15 @@ form input[type="submit"]{
 .my_no_margins{
   margin: 0; 
   padding: 0;
+}
+
+a:hover, a:focus {
+  color: green;
+  text-decoration:none;
+  background-color:yellow;
+}
+
+.my_dar_button:hover {
+  background-color:yellow;
+  color:green;
 }

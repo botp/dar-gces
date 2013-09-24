@@ -1,11 +1,11 @@
 
 <div>
 
-  <div class="row jumbotron">
+  <div class="row jumbotron center" style="margin-bottom:10px; background-color:yellowgreen;">
     <h1>Welcome to DAR-GCES</h1>
   </div>
 
-  <div class="row">
+  <div class="row" >
     <%= image_tag("riceFarm2.jpg" , class:"img-rounded") %>
   </div>
 
@@ -14,21 +14,23 @@
       <h2>
       <%= link_to "Query/Report", "/reporter_barangays" %>
       </h2>
-      <p>Query detail data from regional down to barangay level
+      <p>Query detail data from Regional down to Barangay Level..
       </p>
     </div>
 
     <div class="col-md-4">
       <h2>
       <%= link_to "Data Entry", "/data_entry" %>
-      </h2> 
+      </h2>
+      <p>Enter data at Barangay Level including Projects, LTI Status..
+      </p>
     </div>
 
     <div class="col-md-4">
       <h2>
       <%= link_to "MFO", "/reporter_Mfo" %>
       </h2>
-      <p>Get performance and indicator comparison.
+      <p>Get performance and indicator comparison from Municipal to Regional..
       </p>
     </div>
   </div>
