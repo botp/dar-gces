@@ -65,4 +65,7 @@ form input[type="submit"]{
   @extend .my_dar_button; 
 }
 
-
+.my_no_margins{
+  margin: 0; 
+  padding: 0;
+}
