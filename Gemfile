@@ -62,7 +62,7 @@ gem 'bootstrap-sass'
 # thin
 # gem "thin"
 
-group :assets do
-  gem 'less'
-  gem "therubyracer"
-end
+# group :assets do
+  # gem 'less'
+  # gem "therubyracer"
+# end
