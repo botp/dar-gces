@@ -90,5 +90,7 @@ a:hover, a:focus {
        image-url("glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
   }
 
-  
-  
+[class^="icon-"], [class*=" icon-"] {
+  background-image: url(/assets/glyphicons-halflings.png)
+}
+
