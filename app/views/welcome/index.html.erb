@@ -1,28 +1,28 @@
 
 <div>
 
-  <div class="row jumbotron center" style="margin-bottom:10px; background-color:yellowgreen;">
-    <h1>Welcome to DAR-GCES</h1>
+  <div class="row jumbotron center" style="margin-top:-6px; margin-bottom:3px; background-color:yellowgreen;border:1px solid black;">
+    <h1>D A R - G C E S</h1>
   </div>
 
-  <div class="row" >
-    <%= image_tag("riceFarm2.jpg" , class:"img-rounded") %>
+  <div class="row" style="border:1px solid black; border-radius:6px;" >
+    <%= image_tag("riceFarm2.jpg" ,  style:"border-radius:5px;") %>
   </div>
 
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4" >
       <h2>
       <%= link_to "Query/Report", "/reporter_barangays" %>
       </h2>
-      <p>Query detail data from Regional down to Barangay Level..
+      <p>Query detail data from Barangay Level to summarized info at Regional Level..
       </p>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4" >
       <h2>
       <%= link_to "Data Entry", "/data_entry" %>
       </h2>
-      <p>Enter data at Barangay Level including Projects, LTI Status..
+      <p>Input data for Master Tables: fr regions to barangays. Setup lookup tables. Enter data at Barangay Level including Projects, LTI Status..
       </p>
     </div>
 
