@@ -22,6 +22,8 @@ module Dar
 
     # added by botp for bootstrap
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    # for awesome-fonts
+    config.assets.precompile += %w(*.svg *.eot *.woff *.ttf)
 
   end
 end
