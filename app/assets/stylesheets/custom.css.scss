@@ -74,11 +74,14 @@ a:hover, a:focus {
   color: green;
   text-decoration:none;
   background-color:yellow;
+
 }
 
 .my_dar_button:hover {
   background-color:yellow;
   color:green;
+  border-style: solid;
+  border-width: 3px;
 }
 
 @font-face {
