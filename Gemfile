@@ -48,6 +48,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # botps
 group :production do
   gem "rails_serve_static_assets"
+  gem "rails_12factor"
 end
 
 #gem "thin"
@@ -66,3 +67,4 @@ gem 'bootstrap-sass'
   # gem 'less'
   # gem "therubyracer"
 # end
+
