@@ -46,9 +46,9 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # gem 'debugger', group: [:development, :test]
 
 # botps
-group :production do
-  gem "rails_serve_static_assets"
-end
+# group :production do
+#   gem "rails_serve_static_assets"
+# end
 
 #gem "thin"
 
